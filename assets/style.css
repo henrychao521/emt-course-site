@@ -471,6 +471,45 @@ blockquote.law footer { font-family: var(--sans); font-size: .8rem; color: var(-
   cursor: pointer;
 }
 
+.quiz-meta { color: var(--ink-3); font-size: .9rem; margin: 0 0 8px; }
+.q-meta { margin: 0 0 4px; font-size: .8rem; color: var(--ink-3); letter-spacing: .05em; }
+.order-hint { margin: 0 0 8px; font-size: .88rem; color: var(--ink-2); }
+.order-opt { display: flex; align-items: flex-start; gap: 10px; }
+.order-opt .num-badge {
+  flex: 0 0 1.7em; height: 1.7em; line-height: 1.7em; text-align: center;
+  border: 1px solid var(--rule); border-radius: 50%; font-weight: 700; font-size: .85rem;
+}
+.order-opt.picked { border-color: var(--accent); }
+.order-opt.picked .num-badge { background: var(--accent); color: var(--paper); border-color: var(--accent); }
+.order-opt.right .num-badge { background: var(--ok); color: var(--paper); border-color: var(--ok); }
+.order-opt.wrong .num-badge { background: var(--warn); color: var(--paper); border-color: var(--warn); }
+.order-ctl { margin: 8px 0 0; }
+.btn-ghost { background: transparent; color: var(--accent); border: 1px solid var(--accent); }
+.btn[disabled] { opacity: .45; cursor: default; }
+.verdict { font-weight: 700; }
+.verdict.ok { color: var(--ok); }
+.verdict.ng { color: var(--warn); }
+.order-answer-h { font-weight: 600; }
+.order-answer { margin: 0 0 8px; padding-left: 1.6em; }
+.explain .cites .cite { margin-right: 6px; }
+.teacher-link { font-size: .9rem; margin: 16px 0 0; }
+.score-btns { display: flex; gap: 8px; }
+/* 教師版 */
+.teacher-mode #bank-all[hidden] { display: block; }
+.bank-head { border-bottom: 2px solid var(--ink); margin-bottom: 8px; }
+.bank-head h2 { font-family: var(--serif); margin: 0 0 6px; }
+.bank-head p { margin: 0 0 8px; font-size: .93rem; }
+.bank-ch { font-family: var(--serif); color: var(--accent); margin: 28px 0 4px; font-size: 1.15rem; }
+.qa { border-top: 1px solid var(--rule); padding: 12px 0 14px; break-inside: avoid; }
+.qa h4 { margin: 0 0 4px; font-size: 1rem; line-height: 1.6; }
+.qa .qid { font-family: ui-monospace, Menlo, monospace; font-size: .78rem; color: var(--ink-3); margin-right: 8px; font-weight: 400; }
+.qa-meta { margin: 0 0 6px; font-size: .8rem; color: var(--ink-3); }
+.qa-opts, .qa-order { margin: 0 0 6px; padding-left: 1.8em; }
+.qa-opts li, .qa-order li { margin: 2px 0; }
+.qa-opts .is-ans { color: var(--ok); }
+.qa-ans { margin: 0 0 4px; }
+.qa .explain { margin-top: 6px; }
+
 /* 資料來源 */
 ol.refs { padding-left: 2.2em; margin: 0; }
 ol.refs li { margin: 0 0 12px; font-size: .93rem; line-height: 1.65; }
@@ -526,4 +565,7 @@ ol.refs .meta { display: block; color: var(--ink-3); font-size: .8rem; }
 @media print {
   .masthead .theme-btn, .toc, .score .btn { display: none; }
   body { background: #fff; color: #000; }
+  .bank-actions, .notice, .pager, .chapter-head .lede, .skip { display: none; }
+  .qa .explain { background: none; border-left-width: 2px; }
+  .qa .cite { color: #000; }
 }

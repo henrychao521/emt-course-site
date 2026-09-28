@@ -4,6 +4,7 @@
 用法：python3 tools/build.py
 """
 import html
+import json
 import re
 import sys
 from pathlib import Path
@@ -19,7 +20,7 @@ PAGES = [
     ("where.html", "二", "哪裡上課", "哪裡上 EMT 課", "在台灣可以查詢與報名初級救護技術員訓練的官方管道"),
     ("units.html", "三", "課程單元", "EMT-1 課程單元", "依救護技術員管理辦法附表一整理的初級救護技術員訓練課程模組與時數"),
     ("first-aid.html", "四", "工場傷害處置", "工場傷害處置", "割傷出血、燙傷、夾壓傷、異物入眼、觸電、昏倒的第一時間處置"),
-    ("quiz.html", "五", "小測驗", "EMT 觀念測驗", "十題觀念測驗，每題附解說與出處"),
+    ("quiz.html", "五", "小測驗", "EMT 觀念測驗", "從題庫依章節與難度平衡隨機抽十題的觀念測驗，每題附解說與出處；另有教師版全部題目"),
     ("sources.html", "六", "資料來源", "資料來源", "本站引用的全部法規、指引與官方資料，含存取日期"),
 ]
 
@@ -27,7 +28,10 @@ CITE_RE = re.compile(r"\{\{c:([A-Z0-9]+)(?:\|([^}]*))?\}\}")
 
 
 def cite(m):
-    sid, text = m.group(1), m.group(2)
+    return cite_html(m.group(1), m.group(2))
+
+
+def cite_html(sid, text=None):
     if sid not in SOURCES:
         raise SystemExit(f"未登錄的出處代碼：{sid}")
     short, full, org, url, _ = SOURCES[sid]
@@ -119,10 +123,76 @@ def pager_html(i):
     return f'<nav class="pager" aria-label="上下頁">{left}{right}</nav>'
 
 
+CH_NAME = {"ch1": "第一章 EMT 是什麼", "ch2": "第二章 哪裡上課", "ch3": "第三章 課程單元", "ch4": "第四章 工場傷害處置"}
+TYPE_NAME = {"single": "單選", "tf": "是非", "scenario": "情境判斷", "order": "排序"}
+DIFF_NAME = {1: "基礎", 2: "進階", 3: "挑戰"}
+
+
+def load_bank():
+    p = ROOT / "assets" / "quiz-bank.json"
+    return json.loads(p.read_text(encoding="utf-8")) if p.exists() else {"questions": []}
+
+
+def quiz_all_html(bank):
+    """教師版：全部題目靜態輸出（免 JavaScript 也能看、能列印）。"""
+    esc = html.escape
+    out = []
+    for ch, name in CH_NAME.items():
+        qs = [q for q in bank["questions"] if q["chapter"] == ch]
+        if not qs:
+            continue
+        out.append(f'<h3 class="bank-ch">{esc(name)}（{len(qs)} 題）</h3>')
+        for q in qs:
+            meta = f'{TYPE_NAME[q["type"]]}｜{DIFF_NAME[q["difficulty"]]}（難度 {q["difficulty"]}）'
+            out.append(f'<article class="qa" id="{esc(q["id"])}"><h4><span class="qid">{esc(q["id"])}</span>{esc(q["stem"])}</h4>'
+                       f'<p class="qa-meta">{esc(meta)}</p>')
+            if q["type"] == "order":
+                out.append('<p class="qa-ans">正確順序：</p><ol class="qa-order">'
+                           + "".join(f"<li>{esc(x)}</li>" for x in q["items"]) + "</ol>")
+            elif q["type"] == "tf":
+                out.append(f'<p class="qa-ans">答案：<strong>{esc(q["answer"])}</strong></p>')
+            else:
+                lis = []
+                for o in q["options"]:
+                    if o == q["answer"]:
+                        lis.append(f'<li class="is-ans"><strong>{esc(o)}</strong>（答案）</li>')
+                    else:
+                        lis.append(f"<li>{esc(o)}</li>")
+                out.append('<ol class="qa-opts" type="A">' + "".join(lis) + "</ol>")
+            cites = "".join(cite_html(s) for s in q["sources"])
+            out.append(f'<div class="explain"><p>{esc(q["explain"])}</p><p>{cites}</p></div></article>')
+    return "\n".join(out)
+
+
+def quiz_stats(bank):
+    from collections import Counter
+    qs = bank["questions"]
+    c = Counter(q["type"] for q in qs)
+    d = Counter(q["difficulty"] for q in qs)
+    return ("題型：" + "、".join(f"{TYPE_NAME[t]} {c[t]}" for t in TYPE_NAME if c[t])
+            + "；難度：" + "、".join(f"{DIFF_NAME[k]} {d[k]}" for k in (1, 2, 3) if d[k]) + "。")
+
+
+def quiz_data(bank):
+    used = sorted({s for q in bank["questions"] for s in q["sources"]})
+    for s in used:
+        if s not in SOURCES:
+            raise SystemExit(f"題庫用了未登錄的出處代碼：{s}")
+    data = {"questions": [{k: q[k] for k in ("id", "chapter", "type", "difficulty", "kp", "stem", "options", "answer",
+                                                "items", "explain", "sources") if k in q} for q in bank["questions"]],
+            "sources": {s: [SOURCES[s][0], SOURCES[s][3], SOURCES[s][1]] for s in used}}
+    txt = json.dumps(data, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
+    return f'<script type="application/json" id="quiz-bank">{txt}</script>'
+
+
 def main():
+    bank = load_bank()
     for i, (fn, no, short, title, desc) in enumerate(PAGES):
         body = (ROOT / "src" / fn).read_text(encoding="utf-8")
         body = body.replace("{{refs}}", refs_html())
+        if fn == "quiz.html":
+            body = (body.replace("{{quizall}}", quiz_all_html(bank)).replace("{{quizdata}}", quiz_data(bank))
+                    .replace("{{quizcount}}", str(len(bank["questions"]))).replace("{{quizstats}}", quiz_stats(bank)))
         body = CITE_RE.sub(cite, body)
         if "{{" in body:
             raise SystemExit(f"{fn} 有未展開的樣板標記")
