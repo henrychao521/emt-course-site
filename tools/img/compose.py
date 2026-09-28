@@ -146,7 +146,7 @@ def f_shock_broom(im, d):
     band(im, "先切斷電源；非高壓電又切不斷時，才這樣做", AMBER, where="top")
     callout(d, 1, (60, 650), (470, 565), "站在乾燥木板上", AMBER)
     callout(d, 2, (780, 150), (625, 190), "只握乾的木柄", AMBER)
-    callout(d, 3, (820, 700), (1050, 590), "把手移離電源", AMBER)
+    callout(d, 3, (820, 700), (1050, 590), "把傷者的手移離電源", AMBER)
 
 
 def f_cpr_posture(im, d):

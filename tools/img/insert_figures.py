@@ -59,7 +59,7 @@ F = {
 }
 
 t = open(SRC, encoding="utf-8").read()
-t = re.sub(r"<!--fig:[a-z_]+-->.*?<!--/fig:[a-z_]+-->\n", "", t, flags=re.S)
+t = re.sub(r"\n*<!--fig:[a-z_]+-->.*?<!--/fig:[a-z_]+-->\n", "", t, flags=re.S)
 
 def after(anchor, block):
     global t
