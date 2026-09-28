@@ -24,9 +24,9 @@ EYE = f'''<svg viewBox="0 0 400 250" role="img" aria-labelledby="eye-t eye-d" xm
 <text class="t s" x="330" y="184" text-anchor="middle">水從這裡流走</text>
 </svg>'''
 
-CPR = f'''<svg viewBox="0 0 400 440" role="img" aria-labelledby="cpr-t cpr-d" xmlns="http://www.w3.org/2000/svg">
+CPR = f'''<svg viewBox="0 0 400 766" role="img" aria-labelledby="cpr-t cpr-d" xmlns="http://www.w3.org/2000/svg">
 <title id="cpr-t">CPR 按壓位置與手勢</title>
-<desc id="cpr-d">上圖：掌根放在兩乳頭連線中央，也就是胸骨下半段。下圖側面：兩手重疊十指交扣，下方手的手指翹起不碰胸部，只有掌根接觸，手臂打直垂直下壓。</desc>
+<desc id="cpr-d">A 正面：掌根放在兩乳頭連線中央，也就是胸骨下半段。B 側面：手臂打直，下方手只有掌根貼在胸部，手指往上翹起、和胸部之間留有空隙；上方手疊在下方手的手背上。C 由上往下看：上方手的手指插進下方手的手指之間，十指交扣。</desc>
 <defs>{marker("cpr-r", "ahr")}{marker("cpr-g", "ahg")}</defs>
 <text class="t b" x="12" y="22">A　按壓位置（正面）</text>
 <path class="skin" d="M125,44 Q200,30 275,44 L292,70 L284,196 L116,196 L108,70 Z"/>
@@ -40,21 +40,40 @@ CPR = f'''<svg viewBox="0 0 400 440" role="img" aria-labelledby="cpr-t cpr-d" xm
 <text class="t b" x="200" y="222" text-anchor="middle">● 掌根放在兩乳頭連線中央</text>
 <text class="t s" x="200" y="240" text-anchor="middle">（胸骨下半段）</text>
 <line class="ln" x1="0" y1="258" x2="400" y2="258" style="stroke:var(--rule)"/>
+
 <text class="t b" x="12" y="282">B　手勢（側面）</text>
-<path class="ln" d="M20,402 Q200,392 380,402" style="stroke:var(--ink-2);stroke-width:3"/>
-<text class="t s" x="24" y="428">胸部</text>
-<rect class="hand" x="150" y="292" width="22" height="66" rx="6"/>
-<rect class="hand2" x="178" y="292" width="22" height="66" rx="6"/>
-<path class="hand" d="M150,358 Q148,392 168,396 L196,396 Q214,390 236,372 L288,356 Q296,352 292,344 L286,340 L232,352 L204,352 Z"/>
-<path class="hand2" d="M174,344 Q170,366 196,366 L240,354 L276,326 Q282,318 274,314 L234,330 L206,338 Z"/>
-<path class="ln" d="M226,348 L236,338 M246,350 L256,334 M262,350 L270,332" style="stroke:var(--ink-2)"/>
-<path class="ln" d="M300,396 L300,356" marker-start="url(#cpr-g)" marker-end="url(#cpr-g)"/>
-<text class="t s" x="306" y="372">手指翹起</text><text class="t s" x="306" y="388">不碰胸部</text>
-<text class="t s" x="236" y="306">十指交扣</text><path class="ln" d="M240,310 L236,332"/>
-<text class="t s" x="60" y="420">只有掌根接觸</text><path class="ln" d="M110,410 L160,398"/>
-<path class="ln red" d="M70,346 L70,392" marker-end="url(#cpr-r)"/>
-<text class="t red" x="24" y="316">垂直下壓</text><text class="t red" x="24" y="334">5–6 公分</text>
-<text class="t s" x="206" y="286">手臂打直</text>
+<rect class="hand" x="150" y="292" width="28" height="104" rx="8"/>
+<rect class="hand2" x="176" y="292" width="28" height="100" rx="8"/>
+<text class="t s" x="214" y="312">手臂打直</text>
+<path class="hand" d="M148,392 L150,436 Q152,456 172,458 L194,458 Q206,456 214,446 L262,428 L330,402 Q340,398 336,390 Q332,384 322,386 L262,398 L206,396 Z"/>
+<path class="hand2" d="M174,384 L206,386 L262,390 L318,378 Q328,376 330,384 Q330,390 322,392 L268,404 L214,414 Q178,418 172,402 Z"/>
+<path class="ln" d="M16,460 Q200,452 384,460" style="stroke:var(--ink-2);stroke-width:4"/>
+<text class="t s" x="16" y="484">胸部</text>
+<ellipse cx="182" cy="459" rx="24" ry="6" class="dot" style="opacity:.8"/>
+<text class="t red" x="100" y="500">只有掌根接觸</text><path class="ln red" d="M166,486 L176,466" style="stroke-width:2"/>
+<path class="ln" d="M346,398 L346,452" marker-start="url(#cpr-g)" marker-end="url(#cpr-g)"/>
+<text class="t b" x="392" y="488" text-anchor="end">手指翹起</text><text class="t s" x="392" y="506" text-anchor="end">不碰胸部（留空隙）</text><path class="ln" d="M352,472 L346,456" style="stroke-width:1.5"/>
+<text class="t s" x="214" y="344">上方手疊在下方手的手背上</text><path class="ln" d="M290,350 L290,380" style="stroke-width:1.5"/>
+<path class="ln red" d="M70,300 L70,440" marker-end="url(#cpr-r)"/>
+<text class="t red" x="80" y="344">垂直</text><text class="t red" x="80" y="362">下壓</text>
+<line class="ln" x1="0" y1="522" x2="400" y2="522" style="stroke:var(--rule)"/>
+
+<text class="t b" x="12" y="540">C　十指交扣（由上往下看）</text>
+<rect class="hand" x="96" y="566" width="120" height="132" rx="26"/>
+<rect class="hand" x="206" y="566" width="104" height="20" rx="10"/>
+<rect class="hand" x="206" y="604" width="116" height="20" rx="10"/>
+<rect class="hand" x="206" y="642" width="110" height="20" rx="10"/>
+<rect class="hand" x="206" y="680" width="92" height="18" rx="9"/>
+<rect class="hand2" x="120" y="560" width="112" height="140" rx="26"/>
+<rect class="hand2" x="222" y="585" width="96" height="18" rx="9"/>
+<rect class="hand2" x="222" y="623" width="104" height="18" rx="9"/>
+<rect class="hand2" x="222" y="661" width="98" height="18" rx="9"/>
+<rect class="hand2" x="222" y="547" width="84" height="18" rx="9"/>
+<text class="t s" x="176" y="636" text-anchor="middle">上方手</text>
+<rect class="hand" x="40" y="720" width="18" height="14" rx="3"/><text class="t s" x="64" y="732">下方手（掌根貼胸）</text><rect class="hand2" x="210" y="720" width="18" height="14" rx="3"/><text class="t s" x="234" y="732">上方手</text>
+<text class="t s" x="40" y="752">兩手手指交錯扣住（B、C 圖同色）</text>
+<path class="ln" d="M340,595 L324,595 M340,633 L330,633 M340,671 L324,671" style="stroke-width:1.5"/>
+<text class="t s" x="344" y="636">交錯</text>
 </svg>'''
 
 ROLES = f'''<svg viewBox="0 0 400 620" role="img" aria-labelledby="roles-t roles-d" xmlns="http://www.w3.org/2000/svg">
