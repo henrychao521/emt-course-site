@@ -1,0 +1,39 @@
+{
+ "conv": "5e13516f-873c-46b5-ad47-ed623cc8a66d",
+ "status": "SUCCESS",
+ "secs": 28,
+ "agy_response_ignored": "DONE\n",
+ "items": {
+  "cpr_hands": {
+   "ok": true,
+   "file": "/Volumes/Work/emt-images/tools/img/../../images/ai-raw/cpr_hands_030048.jpg",
+   "size": [
+    1376,
+    768
+   ],
+   "aspect_ok": true,
+   "prompt_verbatim_512": true
+  }
+ },
+ "quota": null,
+ "steps": [
+  {
+   "tool": "generate_image",
+   "state": "ACTIVE",
+   "params": {
+    "ImageName": "cpr_hands",
+    "Prompt": "Wide 16:9 landscape side close-up at chest height: CPR on a plain beige adult CPR manikin torso, no head. Heel of one hand on the center of the chest; the other hand on top, fingers interlaced and pulled upward, so the lower hand's fingers are lifted with a clear gap above the chest surface. Only the palm heel touches. Photorealistic instructional photo, soft daylight, crisp focus. Generic unbranded objects. Absolutely no text, no letters, no numbers, no labels, no logos, no watermark."
+   },
+   "error": null
+  },
+  {
+   "tool": "generate_image",
+   "state": "DONE",
+   "params": {
+    "ImageName": "cpr_hands",
+    "Prompt": "Wide 16:9 landscape side close-up at chest height: CPR on a plain beige adult CPR manikin torso, no head. Heel of one hand on the center of the chest; the other hand on top, fingers interlaced and pulled upward, so the lower hand's fingers are lifted with a clear gap above the chest surface. Only the palm heel touches. Photorealistic instructional photo, soft daylight, crisp focus. Generic unbranded objects. Absolutely no text, no letters, no numbers, no labels, no logos, no watermark."
+   },
+   "error": null
+  }
+ ]
+}

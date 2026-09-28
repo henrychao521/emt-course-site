@@ -1,0 +1,67 @@
+{
+ "conv": "27dec372-8918-4c73-9154-2e67c906f8e0",
+ "status": "SUCCESS",
+ "secs": 45,
+ "agy_response_ignored": "DONE\n",
+ "items": {
+  "cpr_hands": {
+   "ok": true,
+   "file": "/Volumes/Work/emt-images/tools/img/../../images/ai-raw/cpr_hands.jpg",
+   "size": [
+    1376,
+    768
+   ],
+   "aspect_ok": true,
+   "prompt_verbatim_512": true
+  },
+  "aed_pads": {
+   "ok": true,
+   "file": "/Volumes/Work/emt-images/tools/img/../../images/ai-raw/aed_pads.jpg",
+   "size": [
+    1376,
+    768
+   ],
+   "aspect_ok": true,
+   "prompt_verbatim_512": true
+  }
+ },
+ "quota": null,
+ "steps": [
+  {
+   "tool": "generate_image",
+   "state": "ACTIVE",
+   "params": {
+    "ImageName": "cpr_hands",
+    "Prompt": "Wide 16:9 landscape top-down close-up: CPR on a plain beige adult CPR manikin torso on a blue mat, no head. Two hands stacked, fingers interlaced, lower hand's fingers lifted off the chest. Only the heel of the lower hand touches the chest, at the center of the chest on the lower half of the breastbone. Photorealistic instructional photo, soft daylight, crisp focus. Generic unbranded objects. Absolutely no text, no letters, no numbers, no labels, no logos, no watermark."
+   },
+   "error": null
+  },
+  {
+   "tool": "generate_image",
+   "state": "DONE",
+   "params": {
+    "ImageName": "cpr_hands",
+    "Prompt": "Wide 16:9 landscape top-down close-up: CPR on a plain beige adult CPR manikin torso on a blue mat, no head. Two hands stacked, fingers interlaced, lower hand's fingers lifted off the chest. Only the heel of the lower hand touches the chest, at the center of the chest on the lower half of the breastbone. Photorealistic instructional photo, soft daylight, crisp focus. Generic unbranded objects. Absolutely no text, no letters, no numbers, no labels, no logos, no watermark."
+   },
+   "error": null
+  },
+  {
+   "tool": "generate_image",
+   "state": "ACTIVE",
+   "params": {
+    "ImageName": "aed_pads",
+    "Prompt": "Wide 16:9 landscape top-down: beige adult CPR manikin torso face up, neck at top edge, no head. Two white AED pads with grey wires on its chest. Pad 1: just below the manikin's right collarbone, image LEFT. Pad 2: manikin's left lower chest, on the side ribs below the armpit, image RIGHT. Wires to a plain grey AED box. Photorealistic instructional photo, soft daylight, crisp focus. Generic unbranded objects. Absolutely no text, no letters, no numbers, no labels, no logos, no watermark."
+   },
+   "error": null
+  },
+  {
+   "tool": "generate_image",
+   "state": "DONE",
+   "params": {
+    "ImageName": "aed_pads",
+    "Prompt": "Wide 16:9 landscape top-down: beige adult CPR manikin torso face up, neck at top edge, no head. Two white AED pads with grey wires on its chest. Pad 1: just below the manikin's right collarbone, image LEFT. Pad 2: manikin's left lower chest, on the side ribs below the armpit, image RIGHT. Wires to a plain grey AED box. Photorealistic instructional photo, soft daylight, crisp focus. Generic unbranded objects. Absolutely no text, no letters, no numbers, no labels, no logos, no watermark."
+   },
+   "error": null
+  }
+ ]
+}
