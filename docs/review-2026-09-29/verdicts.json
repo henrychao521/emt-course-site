@@ -1,0 +1,465 @@
+[
+ {
+  "id": "V01",
+  "models": [
+   "gemini-3.8-flash-high"
+  ],
+  "severity": "高",
+  "title": "AED 分析心律與電擊時沒有「不要碰觸病人」的警告",
+  "file": "src/first-aid.html",
+  "quote": "AED 貼上後，不要自行判斷，照機器語音指示做。",
+  "verdict": "修正",
+  "evidence": "https://ebook.nfa.gov.tw/1140527/files/basic-html/page125.html 消防署教科書頁 123：語音說不要碰觸病人時，CPR 者應立即中斷；聽到建議電擊時「應口喊離開並確定無人接觸到病人」才按電擊鈕。",
+  "change": "first-aid.html D 電擊步驟加子項與「不要做」加一條，出處新增 TB123（sources.py）。"
+ },
+ {
+  "id": "V02",
+  "models": [
+   "gemini-3.8-flash-high"
+  ],
+  "severity": "高",
+  "title": "AED 步驟寫成先貼片後開機",
+  "file": "src/first-aid.html",
+  "quote": "AED 到達後，黏上貼片、打開機器，聽從 AED 語音指示操作",
+  "verdict": "修正",
+  "evidence": "https://dep.mohw.gov.tw/DOMA/dl-13882-22bd0839-e9ad-45b6-8665-1bdd2344446a.html 衛福部摘要表流程圖原文為「黏上貼片，打開機器」；https://ebook.nfa.gov.tw/1140527/files/basic-html/page125.html 消防署教科書頁 123 步驟 2 為「打開去顫器的開關，依各廠牌機器設定與操作」。兩份官方資料順序不同，模型所稱「摘要表寫開貼插電」不實；但開機才有語音引導，改成教科書順序並兩者並列出處。",
+  "change": "改為「打開機器、黏上貼片，聽從 AED 語音指示操作」，出處 CPR21＋TB123。"
+ },
+ {
+  "id": "V03",
+  "models": [
+   "gemini-3.8-flash-high",
+   "claude-sonnet-4-6"
+  ],
+  "severity": "高",
+  "title": "眼睛沖洗時間寫「依授課單位規定」",
+  "file": "src/first-aid.html",
+  "quote": "沖洗時間的長短，<strong>依授課單位規定</strong>與醫護人員指示",
+  "verdict": "修正",
+  "evidence": "https://ebook.nfa.gov.tw/1140527/files/basic-html/page185.html 消防署教科書頁 183：「建議立即進行沖洗眼睛操作，持續沖洗並儘速送醫」。查無台灣權威來源給民眾明確分鐘數，模型所稱「衛福部、消防署規定 15 至 30 分鐘」查無原文，故不寫分鐘數，改寫官方原則。",
+  "change": "改為「不要自己決定沖多久就停：持續沖洗並儘速送醫，之後聽從醫護人員指示」（TB183）；sources.html 取材原則刪去「眼睛沖洗時間」。"
+ },
+ {
+  "id": "V04",
+  "models": [
+   "gemini-3.8-flash-high"
+  ],
+  "severity": "高",
+  "title": "眼球穿刺／嵌入異物時不可沖洗、不可撐開眼瞼",
+  "file": "src/first-aid.html",
+  "quote": "<h2>異物入眼：沖洗，插入物不要拔</h2>",
+  "verdict": "待決定",
+  "evidence": "https://ebook.nfa.gov.tw/1140527/files/basic-html/page276.html 教科書頁 274：「如有異物插入組織不可強行移除，應於固定及止血後儘速送醫」；https://ebook.nfa.gov.tw/1140527/files/basic-html/page185.html 頁 183 則是「眼睛內有無法移除之異物或汙染物」時建議沖洗。消防署教材未寫「穿刺時禁止沖洗」，其他權威來源本次未查到。",
+  "change": "未改。是否加「插入物時不要沖洗、不要壓眼、用杯子罩住」需找到台灣權威出處或由授課教師決定。"
+ },
+ {
+  "id": "V05",
+  "models": [
+   "gemini-3.1-pro-high",
+   "gemini-3.8-flash-high",
+   "claude-sonnet-4-6"
+  ],
+  "severity": "高",
+  "title": "觸電：教學生站在報紙等絕緣物上用木椅拖離傷者，工場有二次觸電風險",
+  "file": "src/first-aid.html",
+  "quote": "可站在木箱、塑膠管、橡皮墊或報紙等<strong>乾燥絕緣體</strong>上",
+  "verdict": "待決定",
+  "evidence": "https://ebook.nfa.gov.tw/1140527/files/basic-html/page372.html 教科書頁 370 原文：「若非高壓電時……如無法切開電源，可站在木箱、塑膠管、橡皮墊或報紙等乾燥絕緣體上，用乾的掃把、竹竿或木椅將病人的肢體拖離電源」。本站文字與原文一致，並已先寫「先切斷電源」、高壓電不可接近。",
+  "change": "內容非錯誤，未改。要不要對高中生教「拖離電源」、要不要刪「報紙」屬教學取捨。"
+ },
+ {
+  "id": "V06",
+  "models": [
+   "gemini-3.8-flash-high"
+  ],
+  "severity": "中",
+  "title": "小測驗第 9 題沒有排除「拔插頭」，正解易被質疑",
+  "file": "src/quiz.html",
+  "quote": "一時找不到開關，你應該？",
+  "verdict": "修正",
+  "evidence": "https://ebook.nfa.gov.tw/1140527/files/basic-html/page372.html 教科書頁 370：拖離電源的前提是「如無法切開電源」。題幹只說找不到開關，延長線可以拔插頭，會讓學生以為可跳過斷電。",
+  "change": "題幹改為「一時找不到開關、也拔不到插頭」，解說補「能關電源或拔插頭時一定先斷電」。答案（B）不變，未增題。"
+ },
+ {
+  "id": "V07",
+  "models": [
+   "gemini-3.8-flash-high",
+   "claude-opus-5-5"
+  ],
+  "severity": "高",
+  "title": "燙傷「以保鮮膜環繞包覆」可能在腫脹時束緊肢體",
+  "file": "src/first-aid.html",
+  "quote": "或以乾淨保鮮膜環繞包覆",
+  "verdict": "待決定",
+  "evidence": "https://www.disasterlearning.gov.taipei/tw/Knowledge/ugC_Knowledge_Detail.aspx?ID=120&TID=6 臺北市消防局原文：「使用乾淨或無菌紗布覆蓋在患處上或以乾淨保鮮膜環繞包覆」。模型引用的英國燒傷學會等不在本站權威來源清單，台灣權威來源本次未查到反對說法。",
+  "change": "未改。是否加註「不要纏緊」由授課教師決定。"
+ },
+ {
+  "id": "V08",
+  "models": [
+   "claude-sonnet-4-6",
+   "gemini-3.8-flash-high"
+  ],
+  "severity": "高",
+  "title": "燙傷「沖」20–30 分鐘再「泡」30 分鐘，時間疊加、恐失溫",
+  "file": "src/first-aid.html",
+  "quote": "<strong>沖</strong>：用乾淨的冷水輕輕沖洗或浸泡 <span class=\"num\">20 至 30 分鐘</span>",
+  "verdict": "駁回",
+  "evidence": "https://www.disasterlearning.gov.taipei/tw/Knowledge/ugC_Knowledge_Detail.aspx?ID=120&TID=6 原文：「沖：用乾淨的冷水輕輕沖洗或浸泡20至30分鐘」「泡：持續浸泡冷水30分鐘」，本站逐字相符（測驗第 7 題解說亦同）。模型稱消防署教科書頁 264–265 建議 10–20 分鐘，https://ebook.nfa.gov.tw/1140527/files/basic-html/page266.html、page267.html 查無此句。",
+  "change": "不改。"
+ },
+ {
+  "id": "V09",
+  "models": [
+   "gemini-3.1-pro-high"
+  ],
+  "severity": "高",
+  "title": "大面積燙傷失溫警告太弱",
+  "file": "src/first-aid.html",
+  "quote": "大面積燙傷不要泡到全身發冷：大面積灼燙傷會使皮膚無法保持體溫。",
+  "verdict": "駁回",
+  "evidence": "https://ebook.nfa.gov.tw/1140527/files/basic-html/page266.html 教科書頁 264：「大面積灼燙傷造成皮膚無法保持體溫」，本站已據此提醒並寫「泡水時注意傷者保暖」。模型建議的「10% 以上不可泡水」查無台灣權威出處。",
+  "change": "不改。"
+ },
+ {
+  "id": "V10",
+  "models": [
+   "gemini-3.8-flash-high"
+  ],
+  "severity": "高",
+  "title": "初級救護項目誤植心電圖與血糖監測",
+  "file": "src/units.html",
+  "quote": "<li>使用心電圖監視器或十二導程心電圖</li>",
+  "verdict": "駁回",
+  "evidence": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=L0020141 救護技術員管理辦法第 13 條第 13 款「使用心電圖監視器或十二導程心電圖」、第 16 款「血糖監測及給予口服葡萄糖」都在初級項目內；附表一 6.1 內容亦含血糖監測與心電圖。",
+  "change": "不改。"
+ },
+ {
+  "id": "V11",
+  "models": [
+   "gemini-3.1-pro-high",
+   "gemini-3.8-flash-high"
+  ],
+  "severity": "高",
+  "title": "特殊事由展延申請期限（3 個月前）錯誤",
+  "file": "src/emt.html",
+  "quote": "可在證書效期屆滿 <span class=\"num\">3 個月</span>前申請展延",
+  "verdict": "駁回",
+  "evidence": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=L0020141 第 11 條原文：「得於證書效期屆滿三個月前，檢具證書影本、書面理由及相關證明文件……申請展延證書有效期限；其展延期間為一年」。本站正確；gemini-3.1-pro 的「六個月內」與 gemini-3.8-flash 的「屆滿前、無三個月限制」都不是原文。",
+  "change": "不改。"
+ },
+ {
+  "id": "V12",
+  "models": [
+   "claude-sonnet-4-6"
+  ],
+  "severity": "高",
+  "title": "民眾施救免責條號（第 14-2 條）需查證",
+  "file": "src/first-aid.html",
+  "quote": "適用民法、刑法緊急避難免責之規定。{{c:EMSA142}}",
+  "verdict": "駁回",
+  "evidence": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=L0020045 第 14-2 條第 1 項原文：「救護人員以外之人，為免除他人生命之急迫危險，使用緊急救護設備或施予急救措施者，適用民法、刑法緊急避難免責之規定。」條號與文字皆正確。",
+  "change": "不改。"
+ },
+ {
+  "id": "V13",
+  "models": [
+   "gemini-3.1-pro-high",
+   "claude-sonnet-4-6"
+  ],
+  "severity": "中",
+  "title": "高級救護技術員報名資格敘述不精確／有歧義",
+  "file": "src/emt.html",
+  "quote": "從事中級救護技術員緊急救護連續四年以上；或專科以上學校畢業，並領有效期內中級證書一年以上",
+  "verdict": "駁回",
+  "evidence": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=L0020141 第 2 條第 3 款原文：「從事中級救護技術員緊急救護連續四年以上者；或專科以上學校畢業，並領有效期內之中級救護技術員證書一年以上者」，本站與原文一致；「領有中級證書四年以上」「高中畢業三年以上」皆非原文。",
+  "change": "不改。"
+ },
+ {
+  "id": "V14",
+  "models": [
+   "gemini-3.8-flash-high"
+  ],
+  "severity": "中",
+  "title": "高級證書應由衛福部核發而非甄試機構",
+  "file": "src/emt.html",
+  "quote": "訓練完成後送指定的甄試機構，甄試通過才發證",
+  "verdict": "駁回",
+  "evidence": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=L0020141 第 8 條第 2 項：「送醫事專業法人、團體甄試通過後，由該專業法人、團體（以下併稱甄試機構）發給證書」。本站正確，模型引用的條文不存在。",
+  "change": "不改。"
+ },
+ {
+  "id": "V15",
+  "models": [
+   "gemini-3.8-flash-high"
+  ],
+  "severity": "中",
+  "title": "初級繼續教育漏掉「模組二、四、六各達 4 小時」",
+  "file": "src/emt.html",
+  "quote": "其中 <span class=\"num\">12 小時</span>以上必須是模組二（基本生命急救術）",
+  "verdict": "駁回",
+  "evidence": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=L0020141 第 10 條第 1 項第 1 款：「完成附表一所列科目達二十四小時以上，且其中十二小時以上為模組二、四及六之科目」，無「各達四小時」。本站與測驗第 4 題正確。",
+  "change": "不改。"
+ },
+ {
+  "id": "V16",
+  "models": [
+   "gemini-3.1-pro-high"
+  ],
+  "severity": "中",
+  "title": "成人二度燒燙傷 >25% 才算重度標準過寬",
+  "file": "src/first-aid.html",
+  "quote": "成人二度灼燙傷超過 <span class=\"num\">25%</span> 即屬重度。",
+  "verdict": "駁回",
+  "evidence": "https://ebook.nfa.gov.tw/1140527/files/basic-html/page265.html 教科書頁 263 表 8-1：二度灼燙傷面積成人 >25% 為重度（15–25% 中度）。本站數字正確，且已寫「拿不準嚴重程度，就打 119」。",
+  "change": "不改。"
+ },
+ {
+  "id": "V17",
+  "models": [
+   "gemini-3.1-pro-high"
+  ],
+  "severity": "低",
+  "title": "抬高患肢止血已不被強調",
+  "file": "src/first-aid.html",
+  "quote": "患肢如沒有骨折，可考慮抬高。",
+  "verdict": "駁回",
+  "evidence": "https://www.disasterlearning.gov.taipei/tw/Knowledge/ugC_Knowledge_Detail.aspx?ID=122&TID=6 臺北市消防局原文：「抬高患肢：患肢如沒有骨折時，可考慮抬高」。本站排在直接加壓之後，符合台灣權威來源。",
+  "change": "不改。"
+ },
+ {
+  "id": "V18",
+  "models": [
+   "gemini-3.8-flash-high"
+  ],
+  "severity": "中",
+  "title": "測驗第 8 題解說引 TB140 與內容不符",
+  "file": "src/quiz.html",
+  "quote": "{{c:TPBLEED}}{{c:TB140}}",
+  "verdict": "駁回",
+  "evidence": "https://ebook.nfa.gov.tw/1140527/files/basic-html/page142.html 教科書頁 140 原文：「若仍繼續出血，絕不要移除原有紗布及敷料，應在其上方加上更多紗布直接加壓」。TB140 正好支持解說。",
+  "change": "不改。"
+ },
+ {
+  "id": "V19",
+  "models": [
+   "gemini-3.8-flash-high"
+  ],
+  "severity": "中",
+  "title": "壓傷未提擠壓症候群、不可貿然移開重物",
+  "file": "src/first-aid.html",
+  "quote": "冰敷每次 <span class=\"num\">15 至 20 分鐘</span>後休息約",
+  "verdict": "待決定",
+  "evidence": "https://ebook.nfa.gov.tw/1140527/files/basic-html/ 消防署 2025 教科書全文（電子書逐頁文字）檢索「擠壓症候群」「橫紋肌溶解」無結果；本站冰敷句已標明是臺北市消防局扭傷建議（TPSPRAIN）且教科書頁 287 也有「視情況適度抬高患肢或冰敷」。",
+  "change": "未改。要補擠壓症候群需先找到台灣權威出處。"
+ },
+ {
+  "id": "V20",
+  "models": [
+   "gemini-3.8-flash-high"
+  ],
+  "severity": "低",
+  "title": "確認呼吸應寫「沒有正常呼吸（瀕死呼吸）」",
+  "file": "src/first-aid.html",
+  "quote": "沒有呼吸或幾乎沒有呼吸，就開始胸外按壓",
+  "verdict": "駁回",
+  "evidence": "https://dep.mohw.gov.tw/DOMA/dl-13882-22bd0839-e9ad-45b6-8665-1bdd2344446a.html 摘要表與流程圖原文：「確認呼吸狀況：没有呼吸或幾乎沒有呼吸」。本站逐字相符。",
+  "change": "不改。"
+ },
+ {
+  "id": "V21",
+  "models": [
+   "gemini-3.8-flash-high",
+   "claude-sonnet-4-6"
+  ],
+  "severity": "中",
+  "title": "緊急醫療救護法修正日期（102 年）可能過時",
+  "file": "tools/sources.py",
+  "quote": "緊急醫療救護法（全文，修正日期民國 102 年 1 月 16 日）",
+  "verdict": "駁回",
+  "evidence": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=L0020045 全國法規資料庫（整編至 115-09-18）顯示「修正日期：民國 102 年 01 月 16 日」。模型所稱 112 年修正第 42 條查無。",
+  "change": "不改。"
+ },
+ {
+  "id": "V22",
+  "models": [
+   "claude-sonnet-4-6"
+  ],
+  "severity": "中",
+  "title": "中級、高級時數括號只列部分實習，加總對不上",
+  "file": "src/emt.html",
+  "quote": "（含醫院實習 40 小時、救護車出勤實習 96 小時）",
+  "verdict": "修正",
+  "evidence": "https://law.moj.gov.tw/LawClass/LawGetFile.ashx?FileId=0000368759&lan=C 附表二模組八：醫院實習 40、救護車出勤實習 96、測試 5＋8＝13，合計 149；https://law.moj.gov.tw/LawClass/LawGetFile.ashx?FileId=0000368760&lan=C 附表三：醫院急診實習 480、救護車實習 240、救護指揮中心實習 8、綜合演練及測試 14，總時數 1296。",
+  "change": "emt.html 中級補「測試 13 小時」，高級補「救護指揮中心實習 8 小時、綜合演練及測試 14 小時，其餘為八個課程模組」。"
+ },
+ {
+  "id": "V23",
+  "models": [
+   "claude-sonnet-4-6"
+  ],
+  "severity": "中",
+  "title": "「黃金 4 分鐘」出處不是衛福部摘要表",
+  "file": "src/first-aid.html",
+  "quote": "心跳停止後，要儘快在黃金 <span class=\"num\">4 分鐘</span>內",
+  "verdict": "駁回",
+  "evidence": "https://www.disasterlearning.gov.taipei/tw/Knowledge/ugC_Knowledge_Detail.aspx?ID=124&TID=6 臺北市消防局原文：「儘快在黃金4分鐘內，透過胸外按壓，維持血液循環」。本站已標 TPCPR 出處，數字與原文相符。",
+  "change": "不改。"
+ },
+ {
+  "id": "V24",
+  "models": [
+   "claude-sonnet-4-6"
+  ],
+  "severity": "低",
+  "title": "EMSA142 書目摘要與正文措辭不一",
+  "file": "tools/sources.py",
+  "quote": "緊急醫療救護法 第 14-2 條（民眾施救適用緊急避難免責）",
+  "verdict": "駁回",
+  "evidence": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=L0020045 第 14-2 條原文與 first-aid.html 正文逐字相符，書目括號只是短標。",
+  "change": "不改。"
+ },
+ {
+  "id": "V25",
+  "models": [
+   "claude-sonnet-4-6"
+  ],
+  "severity": "低",
+  "title": "冰敷出處 TB287 是斷肢頁、不對應",
+  "file": "src/first-aid.html",
+  "quote": "可視情況適度抬高患肢或冰敷，減緩疼痛及軟組織腫脹。{{c:TB287}}",
+  "verdict": "駁回",
+  "evidence": "https://ebook.nfa.gov.tw/1140527/files/basic-html/page289.html 教科書頁 287 骨折固定原則 (11)：「視情況適度的抬高患肢或冰敷以減緩疼痛及軟組織腫脹」。出處正確。",
+  "change": "不改。"
+ },
+ {
+  "id": "V26",
+  "models": [
+   "claude-sonnet-4-6"
+  ],
+  "severity": "低",
+  "title": "「腔室症候群」未附白話說明",
+  "file": "src/first-aid.html",
+  "quote": "（可能是腔室症候群）",
+  "verdict": "駁回",
+  "evidence": "https://ebook.nfa.gov.tw/1140527/files/basic-html/page290.html 教科書頁 288 以症狀描述腔室症候群；本站同句已列出脈搏異常、冰冷、蒼白、感覺運動異常等可觀察症狀，學生不需懂術語即可判斷。",
+  "change": "不改。"
+ },
+ {
+  "id": "V27",
+  "models": [
+   "claude-sonnet-4-6"
+  ],
+  "severity": "低",
+  "title": "模組六 6.1 時數 7 小時偏高需加註",
+  "file": "src/units.html",
+  "quote": "6.1 常見急症的處置（意識不清、呼吸困難、休克、中風、胸痛等）",
+  "verdict": "駁回",
+  "evidence": "https://law.moj.gov.tw/LawClass/LawGetFile.ashx?FileId=0000368758&lan=C 附表一 6.1 時數 7，模組六合計 16。模型自己也確認無誤。",
+  "change": "不改。"
+ },
+ {
+  "id": "V28",
+  "models": [
+   "claude-opus-5-5"
+  ],
+  "severity": "中",
+  "title": "異物入眼「何時叫 119」誤用教科書的沖洗時機",
+  "file": "src/first-aid.html",
+  "quote": "沖洗後仍無法移除異物、情況加劇無法改善",
+  "verdict": "修正",
+  "evidence": "https://ebook.nfa.gov.tw/1140527/files/basic-html/page185.html 教科書頁 183：「當病人眼睛內有無法移除之異物或汙染物時，且嚴重情況加劇無法改善時，建議立即進行沖洗眼睛操作，持續沖洗並儘速送醫」——是開始沖洗且同時送醫的時機，不是「沖洗後」。",
+  "change": "改為「眼睛內的異物或污染物無法移除、情況加劇無法改善：持續沖洗，同時儘速送醫」。"
+ },
+ {
+  "id": "V29",
+  "models": [
+   "claude-opus-5-5"
+  ],
+  "severity": "低",
+  "title": "高壓電 10 公尺一句主詞不明",
+  "file": "src/first-aid.html",
+  "quote": "高壓電：要離開至少 <span class=\"num\">10 公尺</span>才能接近",
+  "verdict": "修正",
+  "evidence": "https://ebook.nfa.gov.tw/1140527/files/basic-html/page372.html 教科書頁 370：「高壓電線需移開至少 10 公尺方能接近病人」。",
+  "change": "改為「電線要移開至少 10 公尺才能接近傷者；未斷電前……」。"
+ },
+ {
+  "id": "V30",
+  "models": [
+   "claude-opus-5-5"
+  ],
+  "severity": "中",
+  "title": "學校緊急傷病處理準則適用範圍說得太滿",
+  "file": "src/index.html",
+  "quote": "學校應協助教職員工及學生定期接受基本救命術訓練課程",
+  "verdict": "修正",
+  "evidence": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=H0020053 第 2 條：「本準則適用於教育部主管之各級學校」；第 5 條：「學校應協助教職員工及學生定期接受基本救命術訓練課程至少四小時及緊急救護情境演習」。",
+  "change": "標題改「學校被要求讓師生學基本救命術」，句中加「（本準則適用於教育部主管的各級學校）」並新增出處 SCH2。"
+ },
+ {
+  "id": "V31",
+  "models": [
+   "claude-opus-5-5"
+  ],
+  "severity": "中",
+  "title": "化學粉末刷除漏掉施救者自身防護",
+  "file": "src/first-aid.html",
+  "quote": "沾有化學性粉末時，先用乾淨毛刷刷除污染物，再用大量清水沖洗",
+  "verdict": "修正",
+  "evidence": "https://ebook.nfa.gov.tw/1140527/files/basic-html/page267.html 教科書頁 265：「因化學、輻射所造成灼傷，處置人員應該穿戴足夠的安全防護除汙……若傷口沾有化學性粉末時，應用乾淨毛刷先刷除污染物，再用大量清水沖洗」。",
+  "change": "前面加「施救者要先做好自身防護（消防署教材要求處置人員穿戴足夠的防護再除汙）」。"
+ },
+ {
+  "id": "V32",
+  "models": [
+   "claude-opus-5-5"
+  ],
+  "severity": "中",
+  "title": "斷肢止血與教科書「優先考慮止血帶」的差異沒交代",
+  "file": "src/first-aid.html",
+  "quote": "有出血，照「割傷出血」直接加壓。",
+  "verdict": "待決定",
+  "evidence": "https://ebook.nfa.gov.tw/1140527/files/basic-html/page289.html 教科書頁 287：四肢截（斷）肢「就算沒有大量出血，也應優先考量使用止血帶止血」。本站止血帶段已寫「沒受過訓練，先做直接加壓」。",
+  "change": "未改。是否在斷肢段說明專業做法與未受訓者做法的差異，由授課教師決定。"
+ },
+ {
+  "id": "V33",
+  "models": [
+   "claude-opus-5-5"
+  ],
+  "severity": "低",
+  "title": "附表一模組七科目名稱寫成內容",
+  "file": "src/units.html",
+  "quote": "7.1 筆試與技術測驗",
+  "verdict": "修正",
+  "evidence": "https://law.moj.gov.tw/LawClass/LawGetFile.ashx?FileId=0000368758&lan=C 附表一模組七：科目別「7.1測試」、內容「筆試與技術測驗」、4 小時。",
+  "change": "改為「7.1 測試（筆試與技術測驗）」。"
+ },
+ {
+  "id": "V34",
+  "models": [
+   "claude-opus-5-5"
+  ],
+  "severity": "低",
+  "title": "夾傷「何時叫 119」條件標成 TB287 出處但原文沒有",
+  "file": "src/first-aid.html",
+  "quote": "有斷肢、大量出血、明顯變形。",
+  "verdict": "修正",
+  "evidence": "https://ebook.nfa.gov.tw/1140527/files/basic-html/page289.html 頁 287 沒有列求救條件；https://ebook.nfa.gov.tw/1140527/files/basic-html/page290.html 頁 288：斷肢要「連同該名外傷病人一起運送到最近能處理的醫療機構」。",
+  "change": "改為「有斷肢、大量出血或明顯變形（本站建議）；斷肢要連同傷者一起送醫」，出處改 TB288。"
+ },
+ {
+  "id": "V35",
+  "models": [
+   "claude-opus-5-5"
+  ],
+  "severity": "中",
+  "title": "止血步驟沒提醒避免直接接觸血液",
+  "file": "src/first-aid.html",
+  "quote": "用無菌紗布（或乾淨的布料）放在出血處",
+  "verdict": "待決定",
+  "evidence": "https://ebook.nfa.gov.tw/1140527/files/basic-html/page250.html 教科書（外傷處置）要求救護技術員做傳染病防護（戴口罩、手套）；民眾版權威來源（臺北市消防局包紮止血法 https://www.disasterlearning.gov.taipei/tw/Knowledge/ugC_Knowledge_Detail.aspx?ID=122&TID=6）未提手套。",
+  "change": "未改。是否加「有手套先戴」由授課單位決定。"
+ }
+]

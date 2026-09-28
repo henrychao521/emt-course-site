@@ -1,0 +1,52 @@
+{
+ "job": "emt-review-20260929",
+ "models": {
+  "gemini-3.1-pro-high": {
+   "model": "gemini-3.1-pro-high",
+   "ok": false,
+   "rounds": 3,
+   "status": "ERROR",
+   "error": "The stream was interrupted. Please continue the task you were working on.",
+   "seconds": 49
+  },
+  "gemini-3.8-flash-high": {
+   "model": "gemini-3.8-flash-high",
+   "ok": true,
+   "rounds": 2,
+   "status": "SUCCESS",
+   "findings": 16,
+   "conversation_id": "ea89597c-a9e8-44f4-aecb-f63bcfbbdd4d",
+   "seconds": 89,
+   "quota_5h_pct": 4.97,
+   "tokens": 157806
+  },
+  "claude-sonnet-4-6": {
+   "model": "claude-sonnet-4-6",
+   "ok": true,
+   "rounds": 2,
+   "status": "SUCCESS",
+   "findings": 15,
+   "conversation_id": "a19e6cab-da9d-425d-ab25-34994f5d6cbc",
+   "seconds": 148,
+   "quota_5h_pct": 26.01,
+   "tokens": 109832
+  },
+  "gpt-oss-120b-medium": {
+   "model": "gpt-oss-120b-medium",
+   "ok": false,
+   "status": "QUOTA_WAIT",
+   "error": "gpt-oss-120b-medium：Claude and GPT models weekly 額度剩 22%（保留線 30%）"
+  },
+  "gemini-3.1-pro-high_retry": {
+   "model": "gemini-3.1-pro-high",
+   "ok": true,
+   "rounds": 2,
+   "status": "SUCCESS",
+   "findings": 6,
+   "conversation_id": "b25fdb4f-13da-428b-9ed3-8e4eb20cb416",
+   "seconds": 30,
+   "quota_5h_pct": 2.03,
+   "tokens": 68602
+  }
+ }
+}
