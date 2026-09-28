@@ -1,0 +1,4 @@
+gemini-3.1-pro-high 第1回合：退回 合格 0/0；['JSON 解析失敗：Invalid control character at: line 92 column 25 (char 1844)']
+gemini-3.1-pro-high 第2回合：退回 合格 17/24；["第5題（就讀高一（16歲）的志明想報名初級救護技…）：出處 T1 不屬於知識點 ['E07'] 的出處 ['EMTR2']", '第10題（小華的初級救護技術員證書快到期了，他準備…）：chapter ch1 與知識點 U11 的章節 ch3 不符', '第20題（在生活科技工場中，有同學的手指不慎被運轉…）：chapter ch4 與知識點 U04 的章節 ch3 不符']
+gemini-3.1-pro-high 第3回合：退回 合格 0/0；['JSON 解析失敗：Invalid control character at: line 399 column 11 (char 8443)']
+gemini-3.8-flash-high 第1回合：通過 合格 24/24；[]

@@ -1,0 +1,72 @@
+{
+ "model": "gemini-3.1-pro-high",
+ "rounds": [
+  {
+   "round": 1,
+   "status": "ERROR",
+   "secs": 215,
+   "resp_chars": 12522,
+   "usage": {
+    "input_tokens": 37298,
+    "output_tokens": 30393,
+    "thinking_tokens": 23355,
+    "cache_read_tokens": 32596,
+    "total_tokens": 67691
+   },
+   "ok": false,
+   "n_items": 0,
+   "n_good": 0,
+   "errors": [
+    "JSON 解析失敗：Invalid control character at: line 92 column 25 (char 1844)"
+   ]
+  },
+  {
+   "round": 2,
+   "status": "ERROR",
+   "secs": 254,
+   "resp_chars": 16402,
+   "usage": {
+    "input_tokens": 40393,
+    "output_tokens": 35553,
+    "thinking_tokens": 25890,
+    "cache_read_tokens": 32609,
+    "total_tokens": 75946
+   },
+   "ok": false,
+   "n_items": 24,
+   "n_good": 17,
+   "errors": [
+    "第5題（就讀高一（16歲）的志明想報名初級救護技…）：出處 T1 不屬於知識點 ['E07'] 的出處 ['EMTR2']",
+    "第10題（小華的初級救護技術員證書快到期了，他準備…）：chapter ch1 與知識點 U11 的章節 ch3 不符",
+    "第20題（在生活科技工場中，有同學的手指不慎被運轉…）：chapter ch4 與知識點 U04 的章節 ch3 不符",
+    "第21題（在熱熔膠槍使用過程中，同學不慎被高溫的熱…）：chapter ch4 與知識點 U05 的章節 ch3 不符",
+    "第22題（在工場操作時發生意外，導致同學手指斷離。…）：chapter ch4 與知識點 U08 的章節 ch3 不符",
+    "第23題（在處理腐蝕性漆料時，同學的眼睛不慎被化學…）：chapter ch4 與知識點 E16 的章節 ch1 不符；出處 TB183 不屬於知識點 ['Y01', 'Y04', 'Y05', 'E16'] 的出處 ['EMTR13', 'TB274']",
+    "第24題（在工場中，一名同學不慎觸摸到漏電的110…）：chapter ch4 與知識點 U03 的章節 ch3 不符",
+    "合格題數 17 少於要求 24",
+    "order 題型合格 0 題，少於要求 3"
+   ]
+  },
+  {
+   "round": 3,
+   "status": "ERROR",
+   "secs": 124,
+   "resp_chars": 12360,
+   "usage": {
+    "input_tokens": 41853,
+    "output_tokens": 15817,
+    "thinking_tokens": 8789,
+    "cache_read_tokens": 32614,
+    "total_tokens": 57670
+   },
+   "ok": false,
+   "n_items": 0,
+   "n_good": 0,
+   "errors": [
+    "JSON 解析失敗：Invalid control character at: line 399 column 11 (char 8443)"
+   ]
+  }
+ ],
+ "started": "2026-09-29T02:52:28.608345+08:00",
+ "n_final": 17
+}
