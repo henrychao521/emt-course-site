@@ -39,7 +39,7 @@ def cite(m):
 def refs_html():
     groups = [
         ("法規與課程基準（全國法規資料庫）", lambda k: k.startswith(("EMSA", "EMTR", "T", "SCH")) and not k.startswith(("TB", "TP"))),
-        ("衛生福利部", lambda k: k in ("CPR21", "DOMA", "EMS", "AEDNET", "VID")),
+        ("衛生福利部", lambda k: k in ("CPR21", "DOMA", "EMS", "AEDNET", "AEDEDU", "VID")),
         ("內政部消防署（2025 救護技術員教科書）", lambda k: k.startswith(("NFA", "TB"))),
         ("縣市消防局", lambda k: k.startswith(("TP", "KH"))),
         ("中華民國紅十字會", lambda k: k.startswith("RC")),

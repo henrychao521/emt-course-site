@@ -1,0 +1,39 @@
+{
+ "conv": "b92f2421-0a4b-43ee-8e57-ae59b23d6a55",
+ "status": "SUCCESS",
+ "secs": 22,
+ "agy_response_ignored": "DONE\n",
+ "items": {
+  "bleed_press": {
+   "ok": true,
+   "file": "/Volumes/Work/emt-images/tools/img/../../images/ai-raw/bleed_press.jpg",
+   "size": [
+    1376,
+    768
+   ],
+   "aspect_ok": true,
+   "prompt_verbatim_512": true
+  }
+ },
+ "quota": null,
+ "steps": [
+  {
+   "tool": "generate_image",
+   "state": "ACTIVE",
+   "params": {
+    "ImageName": "bleed_press",
+    "Prompt": "Wide 16:9 landscape close-up: first aid on a forearm resting on a light wood workbench. A folded white gauze pad covers a small injury on the forearm. A helper's hand in a blue nitrile glove presses its flat palm firmly straight down onto the gauze. Only hands and forearms, no face. A faint red tint at the gauze edge. Photorealistic instructional photo, soft daylight, crisp focus. Generic unbranded objects. Absolutely no text, no letters, no numbers, no labels, no logos, no watermark."
+   },
+   "error": null
+  },
+  {
+   "tool": "generate_image",
+   "state": "DONE",
+   "params": {
+    "ImageName": "bleed_press",
+    "Prompt": "Wide 16:9 landscape close-up: first aid on a forearm resting on a light wood workbench. A folded white gauze pad covers a small injury on the forearm. A helper's hand in a blue nitrile glove presses its flat palm firmly straight down onto the gauze. Only hands and forearms, no face. A faint red tint at the gauze edge. Photorealistic instructional photo, soft daylight, crisp focus. Generic unbranded objects. Absolutely no text, no letters, no numbers, no labels, no logos, no watermark."
+   },
+   "error": null
+  }
+ ]
+}

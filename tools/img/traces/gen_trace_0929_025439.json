@@ -1,0 +1,26 @@
+{
+ "conv": "2e635d82-0374-47eb-b070-975f290b0cc9",
+ "status": "SUCCESS",
+ "secs": 8,
+ "agy_response_ignored": "The prompt could not be submitted. The prompt contains sensitive words that violate Google's [Generative AI Prohibited Use policy](https://policies.google.com/terms/generative-ai/use-policy). Try reph",
+ "items": {
+  "bleed_press": {
+   "ok": false,
+   "why": "沒有任何最終狀態的 generate_image 呼叫"
+  },
+  "burn_cool": {
+   "ok": false,
+   "why": "沒有任何最終狀態的 generate_image 呼叫"
+  },
+  "cpr_hands": {
+   "ok": false,
+   "why": "沒有任何最終狀態的 generate_image 呼叫"
+  },
+  "aed_pads": {
+   "ok": false,
+   "why": "沒有任何最終狀態的 generate_image 呼叫"
+  }
+ },
+ "quota": null,
+ "steps": []
+}

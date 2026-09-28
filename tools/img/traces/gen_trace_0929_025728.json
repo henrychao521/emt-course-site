@@ -1,0 +1,67 @@
+{
+ "conv": "784592e3-cf5a-44d3-83a9-508a7fe5b69e",
+ "status": "SUCCESS",
+ "secs": 41,
+ "agy_response_ignored": "DONE\n",
+ "items": {
+  "cpr_posture": {
+   "ok": true,
+   "file": "/Volumes/Work/emt-images/tools/img/../../images/ai-raw/cpr_posture_025728.jpg",
+   "size": [
+    1376,
+    768
+   ],
+   "aspect_ok": true,
+   "prompt_verbatim_512": true
+  },
+  "shock_broom": {
+   "ok": true,
+   "file": "/Volumes/Work/emt-images/tools/img/../../images/ai-raw/shock_broom_025728.jpg",
+   "size": [
+    1376,
+    768
+   ],
+   "aspect_ok": true,
+   "prompt_verbatim_512": true
+  }
+ },
+ "quota": null,
+ "steps": [
+  {
+   "tool": "generate_image",
+   "state": "ACTIVE",
+   "params": {
+    "ImageName": "cpr_posture",
+    "Prompt": "Wide 16:9 landscape side view: a rescuer kneels beside the chest of a beige adult CPR manikin, knees touching its side, not at its head or feet. Compressions: elbows locked, arms vertical, shoulders directly above the hands, pushing straight down on the chest center. Frame from neck to knees; rescuer's head out of frame. Photorealistic instructional photo, soft daylight, crisp focus. Generic unbranded objects. Absolutely no text, no letters, no numbers, no labels, no logos, no watermark."
+   },
+   "error": null
+  },
+  {
+   "tool": "generate_image",
+   "state": "DONE",
+   "params": {
+    "ImageName": "cpr_posture",
+    "Prompt": "Wide 16:9 landscape side view: a rescuer kneels beside the chest of a beige adult CPR manikin, knees touching its side, not at its head or feet. Compressions: elbows locked, arms vertical, shoulders directly above the hands, pushing straight down on the chest center. Frame from neck to knees; rescuer's head out of frame. Photorealistic instructional photo, soft daylight, crisp focus. Generic unbranded objects. Absolutely no text, no letters, no numbers, no labels, no logos, no watermark."
+   },
+   "error": null
+  },
+  {
+   "tool": "generate_image",
+   "state": "ACTIVE",
+   "params": {
+    "ImageName": "shock_broom",
+    "Prompt": "Wide 16:9 landscape dry workshop concrete floor: a rescuer stands on a dry wooden board, gloved hands only on a long dry wooden broom handle. The broom head pushes a person's limp hand and wrist away from a damaged black power cord. Show the rescuer's legs, shoes and hands, and the person's forearm. No faces. Photorealistic instructional photo, soft daylight, crisp focus. Generic unbranded objects. Absolutely no text, no letters, no numbers, no labels, no logos, no watermark."
+   },
+   "error": null
+  },
+  {
+   "tool": "generate_image",
+   "state": "DONE",
+   "params": {
+    "ImageName": "shock_broom",
+    "Prompt": "Wide 16:9 landscape dry workshop concrete floor: a rescuer stands on a dry wooden board, gloved hands only on a long dry wooden broom handle. The broom head pushes a person's limp hand and wrist away from a damaged black power cord. Show the rescuer's legs, shoes and hands, and the person's forearm. No faces. Photorealistic instructional photo, soft daylight, crisp focus. Generic unbranded objects. Absolutely no text, no letters, no numbers, no labels, no logos, no watermark."
+   },
+   "error": null
+  }
+ ]
+}

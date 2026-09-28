@@ -33,10 +33,12 @@
 | DOMA | 衛生福利部醫事司。全民 CPR 及 AED 推動、救護技術員（EMT）制度等相關業務<br>備註：含民眾版 CPR+AED 教學影片連結 | 衛生福利部醫事司 | 200 | index.html, sources.html | https://dep.mohw.gov.tw/DOMA/cp-2710-7586-106.html |
 | EMS | 衛生福利部緊急醫療管理系統（救護技術員課程報名、訓練機構查詢、受訓紀錄及效期查詢） | 衛生福利部 | 200 | sources.html, where.html | https://ems.mohw.gov.tw/ |
 | AEDNET | 衛生福利部 AED 急救資訊網 | 衛生福利部 | 200 | first-aid.html, sources.html | https://tw-aed.mohw.gov.tw/ |
+| AEDEDU | 衛生福利部。公共場所民眾 CPR+AED 教材（完整版）（PDF，2014）<br>備註：由 AED 急救資訊網「教育訓練」連出；本站只取求救分工（PDF 第 14 頁）、壓胸位置與手勢（第 18–19 頁）、電擊貼片位置（第 28 頁），按壓深度等數字以 2021 摘要表為準 | 衛生福利部 | 200 | first-aid.html, sources.html | https://tw-aed.mohw.gov.tw/UploadContent/completed.pdf |
 | VID | 衛生福利部。民眾版 CPR+AED 教學影片（YouTube，僅提供連結）<br>備註：由衛福部業務頁連出 | 衛生福利部 | 200 | index.html, sources.html | https://youtu.be/CKqW5FScAD8 |
 | NFA810 | 內政部消防署全球資訊網專業版。救災救護 > 緊急救護 > 救護技術（2025 救護技術員教科書等） | 內政部消防署 | 200 | sources.html, where.html | https://www.nfa.gov.tw/pro/index.php?code=list&ids=810 |
 | TB | 內政部消防署（2025）。救護技術員教科書（電子書）<br>備註：由消防署「2025救護技術員教科書」連出 | 內政部消防署 | 200 | first-aid.html, quiz.html, sources.html | https://ebook.nfa.gov.tw/1140527/ |
 | TB123 | 內政部消防署（2025）。救護技術員教科書，第五章 使用自動體外心臟電擊去顫器，頁 123（電子書第 125 頁） | 內政部消防署 | 200 | first-aid.html, sources.html | https://ebook.nfa.gov.tw/1140527/files/basic-html/page125.html |
+| TB117 | 內政部消防署（2025）。救護技術員教科書，第五章 基本心肺復甦術（成人與青少年），頁 117（電子書第 119 頁） | 內政部消防署 | 200 | first-aid.html, sources.html | https://ebook.nfa.gov.tw/1140527/files/basic-html/page119.html |
 | TB140 | 內政部消防署（2025）。救護技術員教科書，第五章 止血，頁 140（電子書第 142 頁） | 內政部消防署 | 200 | first-aid.html, quiz.html, sources.html | https://ebook.nfa.gov.tw/1140527/files/basic-html/page142.html |
 | TB183 | 內政部消防署（2025）。救護技術員教科書，第五章 沖洗眼睛，頁 183（電子書第 185 頁） | 內政部消防署 | 200 | first-aid.html, sources.html | https://ebook.nfa.gov.tw/1140527/files/basic-html/page185.html |
 | TB259 | 內政部消防署（2025）。救護技術員教科書，第八章 傷口基本處置，頁 259（電子書第 261 頁） | 內政部消防署 | 200 | first-aid.html, sources.html | https://ebook.nfa.gov.tw/1140527/files/basic-html/page261.html |

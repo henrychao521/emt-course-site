@@ -2,6 +2,7 @@ status	note	url
 200		https://dep.mohw.gov.tw/DOMA/cp-2710-7586-106.html
 200		https://dep.mohw.gov.tw/DOMA/dl-13882-22bd0839-e9ad-45b6-8665-1bdd2344446a.html
 200		https://ebook.nfa.gov.tw/1140527/
+200		https://ebook.nfa.gov.tw/1140527/files/basic-html/page119.html
 200		https://ebook.nfa.gov.tw/1140527/files/basic-html/page125.html
 200		https://ebook.nfa.gov.tw/1140527/files/basic-html/page142.html
 200		https://ebook.nfa.gov.tw/1140527/files/basic-html/page185.html
@@ -42,6 +43,7 @@ status	note	url
 200		https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=L0020141&flno=9
 203	NCBI 固定回 203（2xx，頁面內容正常）；同一筆書目以 E-utilities efetch 取得 200	https://pubmed.ncbi.nlm.nih.gov/41122888/
 200		https://tw-aed.mohw.gov.tw/
+200		https://tw-aed.mohw.gov.tw/UploadContent/completed.pdf
 200		https://www.119.gov.taipei/cp.aspx?n=675099CCE2907150
 200		https://www.disasterlearning.gov.taipei/tw/Knowledge/ugC_Knowledge_Detail.aspx?ID=120&TID=6
 200		https://www.disasterlearning.gov.taipei/tw/Knowledge/ugC_Knowledge_Detail.aspx?ID=121&TID=6

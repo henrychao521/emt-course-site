@@ -1,0 +1,39 @@
+{
+ "conv": "3400e199-f08c-4bb1-adc7-89538ffb7eb6",
+ "status": "SUCCESS",
+ "secs": 25,
+ "agy_response_ignored": "DONE\n",
+ "items": {
+  "burn_cool": {
+   "ok": true,
+   "file": "/Volumes/Work/emt-images/tools/img/../../images/ai-raw/burn_cool.jpg",
+   "size": [
+    1376,
+    768
+   ],
+   "aspect_ok": true,
+   "prompt_verbatim_512": true
+  }
+ },
+ "quota": null,
+ "steps": [
+  {
+   "tool": "generate_image",
+   "state": "ACTIVE",
+   "params": {
+    "ImageName": "burn_cool",
+    "Prompt": "Wide 16:9 landscape photo: a teenager's hand and forearm in a short sleeve held under a gentle stream of clean cool tap water at a plain stainless steel workshop sink, cooling a small reddened patch of skin on the back of the hand. The water flows softly over it, not a hard jet. No ice. Only hand and forearm, no face. Photorealistic instructional photo, soft daylight, crisp focus. Generic unbranded objects. Absolutely no text, no letters, no numbers, no labels, no logos, no watermark."
+   },
+   "error": null
+  },
+  {
+   "tool": "generate_image",
+   "state": "DONE",
+   "params": {
+    "ImageName": "burn_cool",
+    "Prompt": "Wide 16:9 landscape photo: a teenager's hand and forearm in a short sleeve held under a gentle stream of clean cool tap water at a plain stainless steel workshop sink, cooling a small reddened patch of skin on the back of the hand. The water flows softly over it, not a hard jet. No ice. Only hand and forearm, no face. Photorealistic instructional photo, soft daylight, crisp focus. Generic unbranded objects. Absolutely no text, no letters, no numbers, no labels, no logos, no watermark."
+   },
+   "error": null
+  }
+ ]
+}

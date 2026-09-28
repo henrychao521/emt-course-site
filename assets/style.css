@@ -527,3 +527,33 @@ ol.refs .meta { display: block; color: var(--ink-3); font-size: .8rem; }
   .masthead .theme-btn, .toc, .score .btn { display: none; }
   body { background: #fff; color: #000; }
 }
+
+/* ── 操作示意圖 ─────────────────────────── */
+.fig { margin: 14px 0 18px; }
+.fig img, .fig svg { display: block; width: 100%; height: auto; border: 1px solid var(--rule); border-radius: 2px; background: var(--paper-2); }
+.fig.dia svg { max-width: 560px; }
+.fig figcaption { font-size: .88rem; line-height: 1.65; color: var(--ink-2); margin-top: 6px; }
+.fig figcaption b { color: var(--ink); font-family: var(--serif); }
+.fig figcaption ol { margin: 4px 0; padding-left: 1.4em; }
+.fig .credit { display: block; font-size: .78rem; color: var(--ink-3); margin-top: 4px; }
+.dia .bx { fill: var(--paper); stroke: var(--rule); stroke-width: 1.5; }
+.dia .bx.key { fill: var(--ok-bg); stroke: var(--ok); }
+.dia .bx.call { fill: var(--call-bg); stroke: var(--call); }
+.dia .bx.warn { fill: var(--warn-bg); stroke: var(--warn); }
+.dia .t { fill: var(--ink); font-family: var(--sans); font-size: 15px; }
+.dia .t.s { fill: var(--ink-2); font-size: 12.5px; }
+.dia .t.b { font-weight: 700; }
+.dia .t.acc { fill: var(--accent); font-weight: 700; }
+.dia .t.red { fill: var(--warn); font-weight: 700; }
+.dia .ln { stroke: var(--ink-3); stroke-width: 2; fill: none; }
+.dia .ln.acc { stroke: var(--accent); stroke-width: 3; }
+.dia .ln.red { stroke: var(--warn); stroke-width: 3; }
+.dia .ln.dash { stroke-dasharray: 5 4; }
+.dia .skin { fill: var(--paper); stroke: var(--ink-2); stroke-width: 2; }
+.dia .hand { fill: var(--call-bg); stroke: var(--ink-2); stroke-width: 2; }
+.dia .hand2 { fill: var(--paper-2); stroke: var(--ink-2); stroke-width: 2; }
+.dia .water { fill: none; stroke: var(--accent-2); stroke-width: 4; stroke-linecap: round; }
+.dia .dot { fill: var(--warn); }
+.dia .ah { fill: var(--accent); }
+.dia .ahr { fill: var(--warn); }
+.dia .ahg { fill: var(--ink-3); }
