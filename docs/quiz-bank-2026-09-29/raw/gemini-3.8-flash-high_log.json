@@ -1,0 +1,24 @@
+{
+ "model": "gemini-3.8-flash-high",
+ "rounds": [
+  {
+   "round": 1,
+   "status": "SUCCESS",
+   "secs": 111,
+   "resp_chars": 10349,
+   "usage": {
+    "input_tokens": 34166,
+    "output_tokens": 24850,
+    "thinking_tokens": 19224,
+    "cache_read_tokens": 0,
+    "total_tokens": 59016
+   },
+   "ok": true,
+   "n_items": 24,
+   "n_good": 24,
+   "errors": []
+  }
+ ],
+ "started": "2026-09-29T03:02:22.157721+08:00",
+ "n_final": 24
+}

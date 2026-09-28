@@ -1,0 +1,114 @@
+{
+ "url": "http://127.0.0.1:51694/quiz.html",
+ "rounds": [
+  {
+   "round": 1,
+   "ids": [
+    "q019",
+    "q005",
+    "q028",
+    "q037",
+    "q035",
+    "q064",
+    "q072",
+    "q041",
+    "q059",
+    "q050"
+   ],
+   "chapters": {
+    "ch1": 2,
+    "ch2": 1,
+    "ch3": 2,
+    "ch4": 5
+   },
+   "difficulty": {
+    "3": 3,
+    "1": 3,
+    "2": 4
+   },
+   "types": {
+    "scenario": 2,
+    "tf": 3,
+    "single": 3,
+    "order": 2
+   },
+   "dup_kp": [],
+   "score_text": "已作答 10 / 10 題，答對 8 題｜本組完成，得分 80 分",
+   "expect_correct": 8
+  },
+  {
+   "round": 2,
+   "ids": [
+    "q008",
+    "q001",
+    "q023",
+    "q036",
+    "q034",
+    "q070",
+    "q061",
+    "q074",
+    "q087",
+    "q088"
+   ],
+   "chapters": {
+    "ch1": 2,
+    "ch2": 1,
+    "ch3": 2,
+    "ch4": 5
+   },
+   "difficulty": {
+    "1": 3,
+    "3": 3,
+    "2": 4
+   },
+   "types": {
+    "tf": 2,
+    "single": 3,
+    "order": 2,
+    "scenario": 3
+   },
+   "dup_kp": [],
+   "score_text": "已作答 10 / 10 題，答對 7 題｜本組完成，得分 70 分",
+   "expect_correct": 7
+  },
+  {
+   "round": 3,
+   "ids": [
+    "q015",
+    "q004",
+    "q027",
+    "q029",
+    "q033",
+    "q056",
+    "q089",
+    "q046",
+    "q081",
+    "q090"
+   ],
+   "chapters": {
+    "ch1": 2,
+    "ch2": 1,
+    "ch3": 2,
+    "ch4": 5
+   },
+   "difficulty": {
+    "2": 5,
+    "1": 2,
+    "3": 3
+   },
+   "types": {
+    "order": 2,
+    "tf": 2,
+    "scenario": 3,
+    "single": 3
+   },
+   "dup_kp": [],
+   "score_text": "已作答 10 / 10 題，答對 6 題｜本組完成，得分 60 分",
+   "expect_correct": 6
+  }
+ ],
+ "errors": [],
+ "console": [],
+ "overlap_between_rounds": 0,
+ "teacher_count": 91
+}
