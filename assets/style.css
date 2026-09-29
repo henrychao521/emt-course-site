@@ -342,6 +342,8 @@ blockquote.law footer { font-family: var(--sans); font-size: .8rem; color: var(-
   background: var(--paper);
 }
 .aside-box.info { border-left-color: var(--accent); }
+.aside-box.alert { background: var(--warn-bg); border-color: var(--warn); border-left-width: 6px; }
+.aside-box.alert p:first-child strong { color: var(--warn); }
 .aside-box p:last-child { margin-bottom: 0; }
 
 /* 流程圖（CPR）— 純 HTML 階梯 */
