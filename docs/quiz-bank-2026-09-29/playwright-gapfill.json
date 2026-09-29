@@ -1,0 +1,114 @@
+{
+ "url": "file:///Volumes/Work/emt-quizgap/quiz.html",
+ "rounds": [
+  {
+   "round": 1,
+   "ids": [
+    "q006",
+    "q094",
+    "q098",
+    "q102",
+    "q031",
+    "q058",
+    "q063",
+    "q084",
+    "q074",
+    "q041"
+   ],
+   "chapters": {
+    "ch1": 2,
+    "ch2": 1,
+    "ch3": 2,
+    "ch4": 5
+   },
+   "difficulty": {
+    "1": 3,
+    "3": 3,
+    "2": 4
+   },
+   "types": {
+    "tf": 3,
+    "scenario": 2,
+    "order": 2,
+    "single": 3
+   },
+   "dup_kp": [],
+   "score_text": "已作答 10 / 10 題，答對 8 題｜本組完成，得分 80 分",
+   "expect_correct": 8
+  },
+  {
+   "round": 2,
+   "ids": [
+    "q015",
+    "q005",
+    "q097",
+    "q037",
+    "q035",
+    "q070",
+    "q046",
+    "q061",
+    "q042",
+    "q086"
+   ],
+   "chapters": {
+    "ch1": 2,
+    "ch2": 1,
+    "ch3": 2,
+    "ch4": 5
+   },
+   "difficulty": {
+    "2": 4,
+    "1": 3,
+    "3": 3
+   },
+   "types": {
+    "order": 2,
+    "tf": 3,
+    "scenario": 3,
+    "single": 2
+   },
+   "dup_kp": [],
+   "score_text": "已作答 10 / 10 題，答對 7 題｜本組完成，得分 70 分",
+   "expect_correct": 7
+  },
+  {
+   "round": 3,
+   "ids": [
+    "q095",
+    "q014",
+    "q025",
+    "q029",
+    "q100",
+    "q050",
+    "q080",
+    "q073",
+    "q052",
+    "q076"
+   ],
+   "chapters": {
+    "ch1": 2,
+    "ch2": 1,
+    "ch3": 2,
+    "ch4": 5
+   },
+   "difficulty": {
+    "3": 3,
+    "2": 4,
+    "1": 3
+   },
+   "types": {
+    "order": 2,
+    "tf": 3,
+    "single": 3,
+    "scenario": 2
+   },
+   "dup_kp": [],
+   "score_text": "已作答 10 / 10 題，答對 4 題｜本組完成，得分 40 分",
+   "expect_correct": 4
+  }
+ ],
+ "errors": [],
+ "console": [],
+ "overlap_between_rounds": 0,
+ "teacher_count": 98
+}

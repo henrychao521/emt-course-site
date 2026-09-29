@@ -13,7 +13,7 @@
 | EMSA142 | 緊急醫療救護法 第 14-2 條（民眾施救適用緊急避難免責） | 衛生福利部／全國法規資料庫 | 200 | first-aid.html, quiz.html, sources.html | https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=L0020045&flno=14-2 |
 | EMTR | 救護技術員管理辦法（全文，修正日期民國 113 年 5 月 15 日，自 114 年 1 月 1 日施行） | 衛生福利部／全國法規資料庫 | 200 | sources.html | https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=L0020141 |
 | EMTR2 | 救護技術員管理辦法 第 2 條（各級報名資格） | 衛生福利部／全國法規資料庫 | 200 | emt.html, quiz.html, sources.html, where.html | https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=L0020141&flno=2 |
-| EMTR3 | 救護技術員管理辦法 第 3 條（訓練課程如附表一至三） | 衛生福利部／全國法規資料庫 | 200 | sources.html, units.html | https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=L0020141&flno=3 |
+| EMTR3 | 救護技術員管理辦法 第 3 條（訓練課程如附表一至三） | 衛生福利部／全國法規資料庫 | 200 | quiz.html, sources.html, units.html | https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=L0020141&flno=3 |
 | EMTR4 | 救護技術員管理辦法 第 4 條（得辦理訓練的機關、機構、學校、法人或團體） | 衛生福利部／全國法規資料庫 | 200 | quiz.html, sources.html, where.html | https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=L0020141&flno=4 |
 | EMTR6 | 救護技術員管理辦法 第 6 條（辦訓前須報中央衛生主管機關核准） | 衛生福利部／全國法規資料庫 | 200 | quiz.html, sources.html, where.html | https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=L0020141&flno=6 |
 | EMTR8 | 救護技術員管理辦法 第 8 條（證書由誰發給；高級須甄試） | 衛生福利部／全國法規資料庫 | 200 | emt.html, quiz.html, sources.html | https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=L0020141&flno=8 |
@@ -58,7 +58,7 @@
 | TPCPR | 臺北市政府消防局防災教育雲。心肺復甦術（CPR+AED）（2021/08/17） | 臺北市政府消防局 | 200 | first-aid.html, quiz.html, sources.html | https://www.disasterlearning.gov.taipei/tw/Knowledge/ugC_Knowledge_Detail.aspx?ID=124&TID=6 |
 | TPTRAIN | 臺北市政府消防局。救護訓練介紹<br>備註：頁面中高級訓練時數寫 1,280 小時，與現行附表三 1296 小時不同，本站以法規為準 | 臺北市政府消防局 | 200 | quiz.html, sources.html, where.html | https://www.119.gov.taipei/cp.aspx?n=675099CCE2907150 |
 | KHEMS | 高雄市政府消防局。緊急救護簡介 | 高雄市政府消防局 | 200 | emt.html, quiz.html, sources.html | https://fdkc.kcg.gov.tw/cp.aspx?n=17D7056A665C7AF6 |
-| RCCLASS | 中華民國紅十字會新教育訓練系統。開課資訊（訓練項目含 A08 初級救護技術員EMT1訓練、A13 EMT1繼續教育訓練） | 中華民國紅十字會 | 200 | sources.html, where.html | https://www.redcross-class.org.tw/ClassInfo |
+| RCCLASS | 中華民國紅十字會新教育訓練系統。開課資訊（訓練項目含 A08 初級救護技術員EMT1訓練、A13 EMT1繼續教育訓練） | 中華民國紅十字會 | 200 | quiz.html, sources.html, where.html | https://www.redcross-class.org.tw/ClassInfo |
 | RC | 中華民國紅十字會 官方網站 | 中華民國紅十字會 | 200 | sources.html, where.html | https://www.redcross.org.tw/ |
 | SEM | 台灣急診醫學會 官方網站<br>備註：延伸閱讀 | 台灣急診醫學會 | 200 | sources.html | https://www.sem.org.tw/ |
 | AHA25 | Kleinman ME, et al. (2025). Part 7: Adult Basic Life Support: 2025 American Heart Association Guidelines for CPR and ECC. Circulation, 152(16_suppl_2), S448–S478. doi:10.1161/CIR.0000000000001369（PubMed 書目頁）<br>備註：延伸閱讀；AHA 官網與期刊頁拒絕自動化存取（403），本站的 CPR 數字一律取自衛福部摘要表 | American Heart Association | 203（NCBI 固定回 203（2xx，頁面內容正常）；同一筆書目以 E-utilities efetch 取得 200） | sources.html | https://pubmed.ncbi.nlm.nih.gov/41122888/ |
