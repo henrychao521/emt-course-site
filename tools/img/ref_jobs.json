@@ -1,0 +1,16 @@
+{
+ "cpr_grip": {
+  "aspect": "16:9",
+  "refs": [
+   "/Volumes/Work/emt-images/tools/img/ref/hand_side.png"
+  ],
+  "prompt": "Wide 16:9 photo version of the reference drawing: close-up side view, two real hands doing CPR on a beige plastic manikin chest. As in the reference, only the lower palm heel touches the chest; fingers interlaced and angled upward, fingertips clearly above the chest with a gap. Forearms vertical. Photorealistic instructional photo, soft daylight, crisp focus. Generic unbranded objects. Absolutely no text, no letters, no numbers, no labels, no logos, no watermark."
+ },
+ "cpr_posture": {
+  "aspect": "16:9",
+  "refs": [
+   "/Volumes/Work/emt-images/tools/img/ref/hand_side.png"
+  ],
+  "prompt": "Wide 16:9 side view, plain room: rescuer kneels beside the chest of a beige CPR manikin lying across the image, head at left. Arms vertical, elbows locked, shoulders over hands. Hands as in the reference: only the lower palm heel touches the chest center, fingers interlaced, angled up off the chest. Head out of frame. Photorealistic instructional photo, soft daylight, crisp focus. Generic unbranded objects. Absolutely no text, no letters, no numbers, no labels, no logos, no watermark."
+ }
+}

@@ -1,0 +1,39 @@
+{
+ "conv": "be32164c-5ad0-4a43-91a9-a3cc166c86f9",
+ "status": "SUCCESS",
+ "secs": 29,
+ "agy_response_ignored": "DONE\n",
+ "items": {
+  "cpr_posture": {
+   "ok": true,
+   "file": "/Volumes/Work/emt-images/tools/img/../../images/ai-raw/cpr_posture_080047.jpg",
+   "size": [
+    1376,
+    768
+   ],
+   "aspect_ok": true,
+   "prompt_verbatim_512": true
+  }
+ },
+ "quota": null,
+ "steps": [
+  {
+   "tool": "generate_image",
+   "state": "ACTIVE",
+   "params": {
+    "ImageName": "cpr_posture",
+    "Prompt": "Wide 16:9 landscape indoor side view: CPR manikin lies across the image, head at left. Rescuer kneels on its far side beside its chest. Arms vertical, elbows locked, shoulders above hands. Only the lower palm heel touches the chest center; fingers interlocked, raised off the chest. Rescuer's head out of frame. Photorealistic instructional photo, soft daylight, crisp focus. Generic unbranded objects. Absolutely no text, no letters, no numbers, no labels, no logos, no watermark."
+   },
+   "error": null
+  },
+  {
+   "tool": "generate_image",
+   "state": "DONE",
+   "params": {
+    "ImageName": "cpr_posture",
+    "Prompt": "Wide 16:9 landscape indoor side view: CPR manikin lies across the image, head at left. Rescuer kneels on its far side beside its chest. Arms vertical, elbows locked, shoulders above hands. Only the lower palm heel touches the chest center; fingers interlocked, raised off the chest. Rescuer's head out of frame. Photorealistic instructional photo, soft daylight, crisp focus. Generic unbranded objects. Absolutely no text, no letters, no numbers, no labels, no logos, no watermark."
+   },
+   "error": null
+  }
+ ]
+}

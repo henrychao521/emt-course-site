@@ -1,0 +1,39 @@
+{
+ "conv": "ae2f4797-8c0a-475c-abf3-4713f1cc4b8f",
+ "status": "SUCCESS",
+ "secs": 21,
+ "agy_response_ignored": "DONE\n",
+ "items": {
+  "cpr_grip": {
+   "ok": true,
+   "file": "/Volumes/Work/emt-images/tools/img/../../images/ai-raw/cpr_grip.jpg",
+   "size": [
+    1376,
+    768
+   ],
+   "aspect_ok": true,
+   "prompt_verbatim_512": true
+  }
+ },
+ "quota": null,
+ "steps": [
+  {
+   "tool": "generate_image",
+   "state": "ACTIVE",
+   "params": {
+    "ImageName": "cpr_grip",
+    "Prompt": "Wide 16:9 landscape close-up side view at chest level: two hands doing CPR on a beige manikin chest. Lower palm heel pressed on the chest; upper hand on its back, fingers interlaced; all fingers curl up, fingertips well above the chest, clear gap under them. Arms rise vertically out of frame. Photorealistic instructional photo, soft daylight, crisp focus. Generic unbranded objects. Absolutely no text, no letters, no numbers, no labels, no logos, no watermark."
+   },
+   "error": null
+  },
+  {
+   "tool": "generate_image",
+   "state": "DONE",
+   "params": {
+    "ImageName": "cpr_grip",
+    "Prompt": "Wide 16:9 landscape close-up side view at chest level: two hands doing CPR on a beige manikin chest. Lower palm heel pressed on the chest; upper hand on its back, fingers interlaced; all fingers curl up, fingertips well above the chest, clear gap under them. Arms rise vertically out of frame. Photorealistic instructional photo, soft daylight, crisp focus. Generic unbranded objects. Absolutely no text, no letters, no numbers, no labels, no logos, no watermark."
+   },
+   "error": null
+  }
+ ]
+}

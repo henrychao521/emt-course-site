@@ -1,0 +1,42 @@
+{
+ "conv": "6d2aa0c3-a34e-432f-aa8c-c784f2b8ea02",
+ "secs": 26,
+ "agy_response_ignored": "DONE\n",
+ "items": {
+  "cpr_posture": {
+   "ok": true,
+   "file": "/Volumes/Work/emt-images/tools/img/../../images/ai-raw/cpr_posture_080253.jpg",
+   "size": [
+    1376,
+    768
+   ],
+   "refs_sent": [
+    "/Volumes/Work/emt-images/tools/img/ref/hand_side.png"
+   ],
+   "refs_match": true,
+   "aspect_sent": "16:9",
+   "prompt_match": true
+  }
+ },
+ "quota_hit": null,
+ "steps": [
+  {
+   "tool": "generate_image",
+   "state": "ACTIVE",
+   "params": {
+    "ImageName": "cpr_posture",
+    "Prompt": "Wide 16:9 side view, plain room: rescuer kneels beside the chest of a beige CPR manikin lying across the image, head at left. Arms vertical, elbows locked, shoulders over hands. Hands as in the reference: only the lower palm heel touches the chest center, fingers interlaced, angled up off the chest. Head out of frame. Photorealistic instructional photo, soft daylight, crisp focus. Generic unbranded objects. Absolutely no text, no letters, no numbers, no labels, no logos, no watermark."
+   },
+   "error": null
+  },
+  {
+   "tool": "generate_image",
+   "state": "DONE",
+   "params": {
+    "ImageName": "cpr_posture",
+    "Prompt": "Wide 16:9 side view, plain room: rescuer kneels beside the chest of a beige CPR manikin lying across the image, head at left. Arms vertical, elbows locked, shoulders over hands. Hands as in the reference: only the lower palm heel touches the chest center, fingers interlaced, angled up off the chest. Head out of frame. Photorealistic instructional photo, soft daylight, crisp focus. Generic unbranded objects. Absolutely no text, no letters, no numbers, no labels, no logos, no watermark."
+   },
+   "error": null
+  }
+ ]
+}

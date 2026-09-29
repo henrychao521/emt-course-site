@@ -32,7 +32,11 @@ IMAGES = {
   + " " + STYLE + " " + TAIL),
  # CPR 姿勢：手臂打直、肩在手的正上方、垂直下壓（公共場所民眾 CPR+AED 教材；消防署教科書頁 117）
  "cpr_posture": (
-  W169 + " side view: a rescuer kneels beside the chest of a beige adult CPR manikin, knees touching its side, not at its head or feet. Compressions: elbows locked, arms vertical, shoulders directly above the hands, pushing straight down on the chest center. Frame from neck to knees; rescuer's head out of frame."
+  W169 + " indoor side view: CPR manikin lies across the image, head at left. Rescuer kneels on its far side beside its chest. Arms vertical, elbows locked, shoulders above hands. Only the lower palm heel touches the chest center; fingers interlocked, raised off the chest. Rescuer's head out of frame."
+  + " " + STYLE + " " + TAIL),
+ # CPR 手勢特寫：掌根接觸、十指交扣、下方手指翹起（公共場所民眾 CPR+AED 教材 PDF 第 19 頁；教科書頁 117）
+ "cpr_grip": (
+  W169 + ' close-up side view at chest level: two stacked hands doing CPR on a smooth plastic beige training manikin. Only the lower palm heel touches; all fingers interlaced and bent upward like a hook, fingertips 3 cm above the plastic chest, clear gap. Both forearms straight vertical.'
   + " " + STYLE + " " + TAIL),
  # AED 貼片位置（公共場所民眾 CPR+AED 教材：左乳頭側邊、右鎖骨正下方）
  "aed_pads": (
@@ -49,6 +53,7 @@ BASIS = {
  "shock_broom": ["TB370"],
  "cpr_hands": ["CPR21", "AEDEDU", "TB117"],
  "cpr_posture": ["AEDEDU", "TB117"],
+ "cpr_grip": ["AEDEDU", "TB117"],
  "aed_pads": ["AEDEDU", "CPR21"],
 }
 
@@ -66,7 +71,8 @@ CHECK = {
                  "施救者身體其他部位不碰傷者也不碰電線", "地面乾燥、沒有積水"] + COMMON,
  "cpr_hands": ["下方手的掌根在胸部正中央、兩乳頭連線中點（胸骨下半段）", "不在腹部、不在劍突、不偏向一側肋骨",
                "兩手重疊、十指交扣", "下方手的手指翹起、不壓在胸壁上", "假人無頭部入鏡"] + COMMON,
- "cpr_posture": ["手肘打直鎖住", "肩膀在雙手正上方（手臂垂直地面）", "跪在假人身側、膝蓋靠近",
+ "cpr_grip": ["只有下方手掌根接觸胸部", "下方手手指翹起、與胸部之間看得到空隙", "兩手重疊、十指交扣", "手腕與手臂打直、垂直往下", "手在胸部中央（非腹部、非上胸）"] + COMMON,
+ "cpr_posture": ["下方手手指翹起、不碰胸部，只有掌根接觸", "手肘打直鎖住", "肩膀在雙手正上方（手臂垂直地面）", "跪在假人身側、膝蓋靠近",
                  "按壓位置在胸部中央", "施救者頭部不入鏡"] + COMMON,
  "aed_pads": ["貼片 1 在假人右鎖骨正下方（影像左上）", "貼片 2 在假人左胸外側、左乳頭側邊（影像右側偏下）",
               "兩片不重疊、都不在胸骨正中央", "胸部裸露、貼片直接貼皮膚", "導線接到 AED 本體", "假人無頭部入鏡"] + COMMON,

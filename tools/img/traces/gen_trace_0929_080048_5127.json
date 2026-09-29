@@ -1,0 +1,39 @@
+{
+ "conv": "45e1ac03-e6e7-48cb-9dab-7c5f925dd6ab",
+ "status": "SUCCESS",
+ "secs": 28,
+ "agy_response_ignored": "DONE\n",
+ "items": {
+  "cpr_grip": {
+   "ok": true,
+   "file": "/Volumes/Work/emt-images/tools/img/../../images/ai-raw/cpr_grip_080048.jpg",
+   "size": [
+    1376,
+    768
+   ],
+   "aspect_ok": true,
+   "prompt_verbatim_512": true
+  }
+ },
+ "quota": null,
+ "steps": [
+  {
+   "tool": "generate_image",
+   "state": "ACTIVE",
+   "params": {
+    "ImageName": "cpr_grip",
+    "Prompt": "Wide 16:9 landscape close-up side view at chest level: two stacked hands doing CPR on a smooth plastic beige training manikin. Only the lower palm heel touches; all fingers interlaced and bent upward like a hook, fingertips 3 cm above the plastic chest, clear gap. Both forearms straight vertical. Photorealistic instructional photo, soft daylight, crisp focus. Generic unbranded objects. Absolutely no text, no letters, no numbers, no labels, no logos, no watermark."
+   },
+   "error": null
+  },
+  {
+   "tool": "generate_image",
+   "state": "DONE",
+   "params": {
+    "ImageName": "cpr_grip",
+    "Prompt": "Wide 16:9 landscape close-up side view at chest level: two stacked hands doing CPR on a smooth plastic beige training manikin. Only the lower palm heel touches; all fingers interlaced and bent upward like a hook, fingertips 3 cm above the plastic chest, clear gap. Both forearms straight vertical. Photorealistic instructional photo, soft daylight, crisp focus. Generic unbranded objects. Absolutely no text, no letters, no numbers, no labels, no logos, no watermark."
+   },
+   "error": null
+  }
+ ]
+}

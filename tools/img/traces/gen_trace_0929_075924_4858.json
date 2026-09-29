@@ -1,0 +1,39 @@
+{
+ "conv": "9cb03408-33bb-4e82-b3ef-88b20b341582",
+ "status": "SUCCESS",
+ "secs": 24,
+ "agy_response_ignored": "DONE\n",
+ "items": {
+  "cpr_posture": {
+   "ok": true,
+   "file": "/Volumes/Work/emt-images/tools/img/../../images/ai-raw/cpr_posture_075924.jpg",
+   "size": [
+    1376,
+    768
+   ],
+   "aspect_ok": true,
+   "prompt_verbatim_512": true
+  }
+ },
+ "quota": null,
+ "steps": [
+  {
+   "tool": "generate_image",
+   "state": "ACTIVE",
+   "params": {
+    "ImageName": "cpr_posture",
+    "Prompt": "Wide 16:9 landscape side view: rescuer kneels beside a beige adult CPR manikin's chest. Elbows locked, arms vertical, shoulders over hands. Only the lower palm heel touches the chest center; its fingers interlock with the upper hand, pulled up off the chest. Frame neck to knees; rescuer's head out of frame. Photorealistic instructional photo, soft daylight, crisp focus. Generic unbranded objects. Absolutely no text, no letters, no numbers, no labels, no logos, no watermark."
+   },
+   "error": null
+  },
+  {
+   "tool": "generate_image",
+   "state": "DONE",
+   "params": {
+    "ImageName": "cpr_posture",
+    "Prompt": "Wide 16:9 landscape side view: rescuer kneels beside a beige adult CPR manikin's chest. Elbows locked, arms vertical, shoulders over hands. Only the lower palm heel touches the chest center; its fingers interlock with the upper hand, pulled up off the chest. Frame neck to knees; rescuer's head out of frame. Photorealistic instructional photo, soft daylight, crisp focus. Generic unbranded objects. Absolutely no text, no letters, no numbers, no labels, no logos, no watermark."
+   },
+   "error": null
+  }
+ ]
+}

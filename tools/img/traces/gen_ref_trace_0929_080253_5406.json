@@ -1,0 +1,42 @@
+{
+ "conv": "60d58b39-80f2-40ab-b09d-29c43819b1b6",
+ "secs": 24,
+ "agy_response_ignored": "DONE\n",
+ "items": {
+  "cpr_grip": {
+   "ok": true,
+   "file": "/Volumes/Work/emt-images/tools/img/../../images/ai-raw/cpr_grip_080253.jpg",
+   "size": [
+    1376,
+    768
+   ],
+   "refs_sent": [
+    "/Volumes/Work/emt-images/tools/img/ref/hand_side.png"
+   ],
+   "refs_match": true,
+   "aspect_sent": "16:9",
+   "prompt_match": true
+  }
+ },
+ "quota_hit": null,
+ "steps": [
+  {
+   "tool": "generate_image",
+   "state": "ACTIVE",
+   "params": {
+    "ImageName": "cpr_grip",
+    "Prompt": "Wide 16:9 photo version of the reference drawing: close-up side view, two real hands doing CPR on a beige plastic manikin chest. As in the reference, only the lower palm heel touches the chest; fingers interlaced and angled upward, fingertips clearly above the chest with a gap. Forearms vertical. Photorealistic instructional photo, soft daylight, crisp focus. Generic unbranded objects. Absolutely no text, no letters, no numbers, no labels, no logos, no watermark."
+   },
+   "error": null
+  },
+  {
+   "tool": "generate_image",
+   "state": "DONE",
+   "params": {
+    "ImageName": "cpr_grip",
+    "Prompt": "Wide 16:9 photo version of the reference drawing: close-up side view, two real hands doing CPR on a beige plastic manikin chest. As in the reference, only the lower palm heel touches the chest; fingers interlaced and angled upward, fingertips clearly above the chest with a gap. Forearms vertical. Photorealistic instructional photo, soft daylight, crisp focus. Generic unbranded objects. Absolutely no text, no letters, no numbers, no labels, no logos, no watermark."
+   },
+   "error": null
+  }
+ ]
+}
