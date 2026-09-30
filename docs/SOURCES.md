@@ -60,6 +60,7 @@
 | KHEMS | 高雄市政府消防局。緊急救護簡介 | 高雄市政府消防局 | 200 | emt.html, quiz.html, sources.html | https://fdkc.kcg.gov.tw/cp.aspx?n=17D7056A665C7AF6 |
 | RCCLASS | 中華民國紅十字會新教育訓練系統。開課資訊（訓練項目含 A08 初級救護技術員EMT1訓練、A13 EMT1繼續教育訓練） | 中華民國紅十字會 | 200 | quiz.html, sources.html, where.html | https://www.redcross-class.org.tw/ClassInfo |
 | RC | 中華民國紅十字會 官方網站 | 中華民國紅十字會 | 200 | sources.html, where.html | https://www.redcross.org.tw/ |
+| NTUHEYE | 黃正賢（2012）。眼外傷的處置。臺大醫院健康電子報，2012 年 11 月，專題報導<br>備註：本筆於 2026-09-30 存取核對原文 | 國立臺灣大學醫學院附設醫院（臺大醫院）眼科部 | 200 | first-aid.html, sources.html | https://epaper.ntuh.gov.tw/health/201211/project_1.html |
 | SEM | 台灣急診醫學會 官方網站<br>備註：延伸閱讀 | 台灣急診醫學會 | 200 | sources.html | https://www.sem.org.tw/ |
 | AHA25 | Kleinman ME, et al. (2025). Part 7: Adult Basic Life Support: 2025 American Heart Association Guidelines for CPR and ECC. Circulation, 152(16_suppl_2), S448–S478. doi:10.1161/CIR.0000000000001369（PubMed 書目頁）<br>備註：延伸閱讀；AHA 官網與期刊頁拒絕自動化存取（403），本站的 CPR 數字一律取自衛福部摘要表 | American Heart Association | 203（NCBI 固定回 203（2xx，頁面內容正常）；同一筆書目以 E-utilities efetch 取得 200） | sources.html | https://pubmed.ncbi.nlm.nih.gov/41122888/ |
 

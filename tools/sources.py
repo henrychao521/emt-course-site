@@ -129,6 +129,11 @@ SOURCES = {
                 "中華民國紅十字會", "https://www.redcross-class.org.tw/ClassInfo", ""),
     "RC": ("紅十字會 官網", "中華民國紅十字會 官方網站", "中華民國紅十字會", "https://www.redcross.org.tw/", ""),
 
+    # ── 醫學中心衛教（教育部所屬國立大學附設醫院） ──
+    "NTUHEYE": ("臺大醫院 眼外傷的處置", "黃正賢（2012）。眼外傷的處置。臺大醫院健康電子報，2012 年 11 月，專題報導",
+                "國立臺灣大學醫學院附設醫院（臺大醫院）眼科部",
+                "https://epaper.ntuh.gov.tw/health/201211/project_1.html", "本筆於 2026-09-30 存取核對原文"),
+
     # ── 學會／國際指引（延伸閱讀，本站數字不取自此） ──
     "SEM": ("台灣急診醫學會", "台灣急診醫學會 官方網站", "台灣急診醫學會", "https://www.sem.org.tw/", "延伸閱讀"),
     "AHA25": ("AHA 2025 成人BLS", "Kleinman ME, et al. (2025). Part 7: Adult Basic Life Support: 2025 American Heart Association Guidelines for CPR and ECC. Circulation, 152(16_suppl_2), S448–S478. doi:10.1161/CIR.0000000000001369（PubMed 書目頁）",
