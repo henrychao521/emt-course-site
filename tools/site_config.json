@@ -1,5 +1,5 @@
 {
   "_說明": "SHEET_ENDPOINT 填 Google Apps Script 網路應用程式網址（…/exec）；留空字串＝網站不送出任何作答紀錄。SHEET_TOKEN 要和 Code.gs 的 CONFIG.TOKEN 相同；它會寫在公開網頁裡，只能擋亂槍掃描，不是保密。改完執行 python3 tools/build.py。設定步驟見 tools/sheets/README.md。",
-  "SHEET_ENDPOINT": "",
+  "SHEET_ENDPOINT": "https://script.google.com/macros/s/AKfycbzFcPFDFOnIjAfvFtaoaspI_jJPqjjDeZxGTz0oEZ9KQev1IhNwMszZWfOm_VdFb6k/exec",
   "SHEET_TOKEN": ""
 }
