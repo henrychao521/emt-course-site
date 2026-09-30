@@ -1,0 +1,39 @@
+{
+ "conv": "cdf4f138-7ba2-413d-912b-c344ee26ac72",
+ "status": "SUCCESS",
+ "secs": 30,
+ "agy_response_ignored": "DONE\n",
+ "items": {
+  "bleed_press": {
+   "ok": true,
+   "file": "/Volumes/Work/emt-img2/tools/img/../../images/ai-raw/bleed_press_184920.jpg",
+   "size": [
+    1376,
+    768
+   ],
+   "aspect_ok": true,
+   "prompt_verbatim_512": true
+  }
+ },
+ "quota": null,
+ "steps": [
+  {
+   "tool": "generate_image",
+   "state": "ACTIVE",
+   "params": {
+    "ImageName": "bleed_press",
+    "Prompt": "Wide 16:9 landscape close-up: a forearm on a light wood workbench. A large folded white gauze pad covers mid-forearm; skin elsewhere clean, no cut, no red. A helper's bare hand, no glove, lies fully flat on the pad: whole palm touches the gauze, pressing straight down, fingers flat on it. Only hands and forearms, no face. Photorealistic instructional photo, soft daylight, crisp focus. Generic unbranded objects. Absolutely no text, no letters, no numbers, no labels, no logos, no watermark."
+   },
+   "error": null
+  },
+  {
+   "tool": "generate_image",
+   "state": "DONE",
+   "params": {
+    "ImageName": "bleed_press",
+    "Prompt": "Wide 16:9 landscape close-up: a forearm on a light wood workbench. A large folded white gauze pad covers mid-forearm; skin elsewhere clean, no cut, no red. A helper's bare hand, no glove, lies fully flat on the pad: whole palm touches the gauze, pressing straight down, fingers flat on it. Only hands and forearms, no face. Photorealistic instructional photo, soft daylight, crisp focus. Generic unbranded objects. Absolutely no text, no letters, no numbers, no labels, no logos, no watermark."
+   },
+   "error": null
+  }
+ ]
+}

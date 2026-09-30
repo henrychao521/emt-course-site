@@ -26,7 +26,7 @@ INK = (31, 35, 40)
 
 # 驗收通過的原圖（同名重生時檔名帶時間戳，這裡指定採用哪一張）
 APPROVED = {
-    "bleed_press": "bleed_press_025856.jpg",
+    "bleed_press": "bleed_press_184920.jpg",  # R2-20 徒手版（舊版戴手套：bleed_press_025856.jpg）
     "burn_cool": "burn_cool.jpg",
     "amputation_bag": "amputation_bag.jpg",
     "shock_broom": "shock_broom_025728.jpg",
@@ -113,9 +113,9 @@ def band(im, text, color=NAVY, size=36, where="bottom"):
 # ─────────── 每張圖的標註（座標：原圖 1376×768） ───────────
 
 def f_bleed_press(im, d):
-    callout(d, 1, (70, 650), (560, 520), "紗布蓋住整個傷口", GREEN)
-    callout(d, 2, (70, 300), (700, 360), "手掌直接往下加壓", GREEN)
-    arrow(d, (760, 40), (760, 250), GREEN)
+    callout(d, 1, (70, 650), (640, 495), "紗布蓋住整個傷口", GREEN)
+    callout(d, 2, (960, 150), (780, 290), "手掌直接往下加壓", GREEN)
+    arrow(d, (720, 30), (720, 225), GREEN)
     band(im, "加壓至少 5 分鐘｜紗布浸濕不要拿掉，直接再加一層", GREEN)
 
 

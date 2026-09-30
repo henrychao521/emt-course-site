@@ -9,8 +9,9 @@ W169 = "Wide 16:9 landscape"
 
 IMAGES = {
  # 割傷出血：直接加壓止血（TPBLEED；消防署教科書頁 140、259）
+ # R2-20（2026-09-30）：民眾版依據（臺北市消防局）未要求戴手套 → 改為徒手隔紗布加壓；舊版戴藍手套提示見 git 歷史
  "bleed_press": (
-  W169 + " close-up: first aid on a forearm resting on a light wood workbench. A large folded white gauze pad fully hides a small injury; no red on the skin. A helper's hand in a blue nitrile glove lies flat on top of the pad, the whole palm centered on it, pressing straight down. Only hands and forearms, no face."
+  W169 + " close-up: a forearm on a light wood workbench. A large folded white gauze pad covers mid-forearm; skin elsewhere clean, no cut, no red. A helper's bare hand, no glove, lies fully flat on the pad: whole palm touches the gauze, pressing straight down, fingers flat on it. Only hands and forearms, no face."
   + " " + STYLE + " " + TAIL),
  # 燙傷：沖（TPBURN）
  "burn_cool": (
@@ -61,7 +62,7 @@ BASIS = {
 COMMON = ["只見手、前臂、軀幹或腿，沒有臉", "手指數量與關節自然（每手五指、無多餘手指）",
           "圖上沒有任何文字、字母、數字、商標", "沒有危險的錯誤示範"]
 CHECK = {
- "bleed_press": ["紗布完整蓋住傷口", "手掌平貼、直接往下壓在紗布上（不是捏、不是只用指尖）",
+ "bleed_press": ["施救者徒手、沒有戴手套", "紗布完整蓋住傷口、紗布外皮膚沒有血點", "手掌平貼、直接往下壓在紗布上（不是捏、不是只用指尖）", "手指都在紗布上，指縫間不露出血點",
                  "按壓位置就在傷口正上方", "沒有止血帶、沒有拔異物等其他動作", "血量不驚悚"] + COMMON,
  "burn_cool": ["燙傷處在水流下方", "水流溫和，不是強力沖擊", "只有清水：沒有冰塊、沒有塗抹物",
                "皮膚紅，但沒有畫成破皮大面積重度燒傷"] + COMMON,
