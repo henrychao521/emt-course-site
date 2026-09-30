@@ -196,17 +196,52 @@ def q_hash(q):
     return hashlib.sha1(json.dumps(core, ensure_ascii=False, sort_keys=True).encode("utf-8")).hexdigest()[:8]
 
 
+REPORT_NOTE_OFF = "成果報告（含你填的班級座號）只在你的瀏覽器裡產生，不會上傳。"
+REPORT_NOTE_ON = ("成果報告圖片只在你的瀏覽器裡產生，不會上傳；但按下「成果報告產生」時，你填的班級與座號會和這一組的作答紀錄一起送給老師"
+                  "（每組只送第一次產生報告時填的班級座號）。")
+
+
 def sheet_notes(cfg):
+    """回傳（學生頁說明、成果報告說明、教師版資料流向）。"""
     if cfg["SHEET_ENDPOINT"]:
-        student = ('<p class="data-note" id="data-note"><strong>作答紀錄說明</strong>　完成一組後，會匿名送出各題對錯與所選答案'
-                   '（不含班級座號與任何個人資料），供老師分析題目品質。</p>')
-        teacher = ('<p class="data-flow">資料流向：學生每完成一組 10 題，網站會把各題題號、對錯與所選答案匿名送到老師的 Google 試算表'
-                   '（選擇題記錄選項代號，對應本頁各題 A、B、C、D 的順序；是非題記錄「正確／錯誤」；排序題記錄依序點選的步驟序號）；不含班級座號、姓名或任何個人資料。'
-                   '成果報告只在學生的瀏覽器裡產生，不會上傳。</p>')
+        student = ('<p class="data-note" id="data-note"><strong>作答紀錄說明</strong>　完成一組後，會送出各題對錯與所選答案給老師；'
+                   '<strong>按「成果報告產生」時，填寫的班級座號也會一起送給老師</strong>，用於學習紀錄與題目分析。'
+                   '成果報告圖片本身只在你的瀏覽器裡產生，不會上傳。</p>')
+        teacher = ('<p class="data-flow">資料流向：學生每完成一組 10 題，網站會把各題題號、對錯與所選答案送到老師的 Google 試算表'
+                   '（選擇題記錄選項代號，對應本頁各題 A、B、C、D 的順序；是非題記錄「正確／錯誤」；排序題記錄依序點選的步驟序號）。'
+                   '學生若按「成果報告產生」，當時填的班級與座號會再送一次，補進同一組的紀錄（每組只收第一次）；沒有產生報告的組別不含班級座號。'
+                   '成果報告圖片只在學生的瀏覽器裡產生，不會上傳。</p>')
+        report = REPORT_NOTE_ON
     else:
         student = ""
         teacher = '<p class="data-flow">資料流向：目前未設定作答紀錄接收網址，網站不會送出任何作答資料；成果報告只在學生的瀏覽器裡產生。</p>'
-    return student, teacher
+        report = REPORT_NOTE_OFF
+    return student, report, teacher
+
+
+OPT_CODES = "ABCDEF"
+
+
+def bank_index(bank):
+    """給 Apps Script importBank() 用的題庫索引：題號→題幹、教師版順序的選項代號、正解代號。"""
+    out = []
+    for q in bank["questions"]:
+        e = {"id": q["id"], "h": q_hash(q), "type": q["type"], "chapter": q["chapter"],
+             "difficulty": q["difficulty"], "stem": q["stem"]}
+        if q["type"] == "order":
+            e["options"] = []
+            e["steps"] = list(q["items"])
+            e["answer"] = ">".join(str(i + 1) for i in range(len(q["items"])))
+        elif q["type"] == "tf":
+            e["options"] = [{"code": o, "text": o} for o in q["options"]]
+            e["answer"] = q["answer"]
+        else:
+            if len(q["options"]) > len(OPT_CODES):
+                raise SystemExit(f"{q['id']} 選項超過 {len(OPT_CODES)} 個")
+            e["options"] = [{"code": OPT_CODES[i], "text": o} for i, o in enumerate(q["options"])]
+            e["answer"] = OPT_CODES[q["options"].index(q["answer"])]
+        out.append(e)
+    return {"version": str(bank.get("version", "")), "count": len(out), "questions": out}
 
 
 def quiz_config(cfg):
@@ -230,14 +265,17 @@ def quiz_data(bank):
 def main():
     bank = load_bank()
     cfg = site_config()
-    student_note, teacher_note = sheet_notes(cfg)
+    student_note, report_note, teacher_note = sheet_notes(cfg)
+    (ROOT / "assets" / "quiz-bank-index.json").write_text(
+        json.dumps(bank_index(bank), ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+    print("寫出 assets/quiz-bank-index.json")
     for i, (fn, no, short, title, desc) in enumerate(PAGES):
         body = (ROOT / "src" / fn).read_text(encoding="utf-8")
         body = body.replace("{{refs}}", refs_html())
         if fn == "quiz.html":
             body = (body.replace("{{quizall}}", quiz_all_html(bank)).replace("{{quizdata}}", quiz_data(bank))
                     .replace("{{quizcount}}", str(len(bank["questions"]))).replace("{{quizstats}}", quiz_stats(bank))
-                    .replace("{{sheetnote}}", student_note).replace("{{dataflow}}", teacher_note)
+                    .replace("{{sheetnote}}", student_note).replace("{{reportnote}}", report_note).replace("{{dataflow}}", teacher_note)
                     .replace("{{quizconfig}}", quiz_config(cfg)))
         body = CITE_RE.sub(cite, body)
         if "{{" in body:

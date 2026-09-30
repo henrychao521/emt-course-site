@@ -49,10 +49,11 @@
   var out = document.getElementById("score-text");
   var metaEl = document.getElementById("quiz-meta");
   var round = 0, answered = 0, correct = 0, current = [], seen = {}, results = {};
-  var rid = "", sent = false;
+  var rid = "", sent = false, identSent = false;
 
-  // ── 匿名作答紀錄：每完成一組送一次到老師的 Google 試算表（未設定網址就完全不送） ──
-  // 只送題號、題目指紋、對錯、所選與正解代號；成果報告的班級座號絕不放進來。
+  // ── 作答紀錄：每完成一組送一次到老師的 Google 試算表（未設定網址就完全不送） ──
+  // 作答紀錄只含題號、題目指紋、對錯、所選與正解代號；班級座號只在學生按「成果報告產生」時，
+  // 另送一筆 identify（同一作答編號，每組只送第一次），排在該組作答紀錄之後。
   var CFG = {};
   try { CFG = JSON.parse((document.getElementById("quiz-config") || {}).textContent || "{}") || {}; } catch (e) { CFG = {}; }
   var SHEET_ENDPOINT = typeof CFG.SHEET_ENDPOINT === "string" ? CFG.SHEET_ENDPOINT : "";
@@ -104,12 +105,23 @@
       var r = results[q.id];
       return { q: q.id, h: q.h || "", t: q.type, ok: r.ok ? 1 : 0, a: r.code, k: r.key };
     });
-    var body = JSON.stringify({ v: 1, token: SHEET_TOKEN, rid: rid, bank: String(BANK.version || ""), round: round, items: items });
+    enqueue(JSON.stringify({ v: 1, token: SHEET_TOKEN, rid: rid, bank: String(BANK.version || ""), round: round, items: items }));
+  }
+  // 先進佇列再依序送：送到一半關掉頁面也不會遺失，identify 一定排在作答紀錄之後；伺服器端同一作答編號只收一次
+  var direct = Promise.resolve();
+  function enqueue(body) {
     var q = qRead();
-    // 先進佇列再送：送到一半關掉頁面也不會遺失；伺服器端同一作答編號只收一次
     q.push(body); qWrite(q);
-    if (!qRead().length) { post(body).then(null, function () {}); return; }  // 存不了佇列（無痕等）時直接送一次
+    if (qRead().indexOf(body) < 0) {  // 存不了佇列（無痕等）時直接依序送一次
+      direct = direct.then(function () { return post(body); }).then(null, function () {});
+      return;
+    }
     flush();
+  }
+  function sendIdentify(cls, seat) {
+    if (!SHEET_ENDPOINT || !sent || identSent || !rid) return;
+    identSent = true;
+    enqueue(JSON.stringify({ v: 1, type: "identify", token: SHEET_TOKEN, rid: rid, "class": cls, seat: seat }));
   }
   window.addEventListener("online", flush);
 
@@ -268,7 +280,7 @@
 
   function render() {
     round++; answered = 0; correct = 0; results = {};
-    rid = newRid(); sent = false;
+    rid = newRid(); sent = false; identSent = false;
     if (reportOut) { reportOut.innerHTML = ""; reportOut.hidden = true; }
     if (reportMsg) reportMsg.textContent = "";
     current = draw();
@@ -314,10 +326,17 @@
     if (line) lines.push(line);
     return lines;
   }
+  // 全形數字與英文字母轉半形；班級規則要和 Code.gs 的 CLASS_RE 相同
+  function toHalf(t) {
+    return t.replace(/[\uFF10-\uFF19\uFF21-\uFF3A\uFF41-\uFF5A\uFF0D]/g, function (c) { return String.fromCharCode(c.charCodeAt(0) - 0xFEE0); });
+  }
+  var CLASS_RE = /^(?!-)[0-9A-Za-z\u3400-\u9FFF\-]{1,10}$/;
   function makeReport() {
-    var cls = (document.getElementById("report-class").value || "").trim();
-    var seat = (document.getElementById("report-seat").value || "").trim();
+    var cls = toHalf((document.getElementById("report-class").value || "").trim());
+    var seat = toHalf((document.getElementById("report-seat").value || "").trim());
     if (!cls || !seat) { reportMsg.textContent = "請先填寫班級與座號。"; return; }
+    if (!CLASS_RE.test(cls)) { reportMsg.textContent = "班級只能填中文、英文字母、數字或 -（不可用 - 開頭），最多 10 個字。"; return; }
+    if (!/^[0-9]{1,4}$/.test(seat)) { reportMsg.textContent = "座號請填 1 到 4 位數字。"; return; }
     var left = current.length - answered;
     if (left > 0) { reportMsg.textContent = "還有 " + left + " 題沒有作答，全部作答後才能產生成果報告。"; return; }
     reportMsg.textContent = "";
@@ -382,6 +401,7 @@
     img.className = "report-img";
     reportOut.appendChild(a); reportOut.appendChild(tip); reportOut.appendChild(img);
     reportOut.hidden = false;
+    sendIdentify(cls, seat);
     reportOut.scrollIntoView({ behavior: "smooth", block: "start" });
   }
   if (reportBtn) reportBtn.addEventListener("click", makeReport);

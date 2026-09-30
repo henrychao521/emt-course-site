@@ -45,7 +45,7 @@
 
 <div id="quiz-app" hidden>
   <p class="quiz-meta" id="quiz-meta"></p>
-  <p class="data-note" id="data-note"><strong>作答紀錄說明</strong>　完成一組後，會匿名送出各題對錯與所選答案（不含班級座號與任何個人資料），供老師分析題目品質。</p>
+  <p class="data-note" id="data-note"><strong>作答紀錄說明</strong>　完成一組後，會送出各題對錯與所選答案給老師；<strong>按「成果報告產生」時，填寫的班級座號也會一起送給老師</strong>，用於學習紀錄與題目分析。成果報告圖片本身只在你的瀏覽器裡產生，不會上傳。</p>
   <div class="quiz" id="quiz-list"></div>
   <div class="score">
     <span id="score-text" aria-live="polite"></span>
@@ -55,7 +55,7 @@
   </div>
   <section class="report-box" aria-labelledby="report-h">
     <h2 id="report-h">成果報告</h2>
-    <p>全部作答後，填寫班級與座號，按「成果報告產生」就會得到一張列出答對與答錯題目的 JPG 圖，可以下載存檔。成果報告（含你填的班級座號）只在你的瀏覽器裡產生，不會上傳。</p>
+    <p>全部作答後，填寫班級與座號，按「成果報告產生」就會得到一張列出答對與答錯題目的 JPG 圖，可以下載存檔。成果報告圖片只在你的瀏覽器裡產生，不會上傳；但按下「成果報告產生」時，你填的班級與座號會和這一組的作答紀錄一起送給老師（每組只送第一次產生報告時填的班級座號）。</p>
     <p class="report-fields">
       <label>班級 <input id="report-class" type="text" inputmode="numeric" maxlength="10" autocomplete="off" placeholder="例如 228"></label>
       <label>座號 <input id="report-seat" type="text" inputmode="numeric" maxlength="4" autocomplete="off" placeholder="例如 12"></label>
@@ -71,7 +71,7 @@
   <div class="bank-head">
     <h2>題庫全部題目（教師版）</h2>
     <p>共 98 題。每題附答案、解說、出處與難度。題型：單選 36、是非 23、情境判斷 28、排序 11；難度：基礎 33、進階 38、挑戰 27。</p>
-    <p class="data-flow">資料流向：學生每完成一組 10 題，網站會把各題題號、對錯與所選答案匿名送到老師的 Google 試算表（選擇題記錄選項代號，對應本頁各題 A、B、C、D 的順序；是非題記錄「正確／錯誤」；排序題記錄依序點選的步驟序號）；不含班級座號、姓名或任何個人資料。成果報告只在學生的瀏覽器裡產生，不會上傳。</p>
+    <p class="data-flow">資料流向：學生每完成一組 10 題，網站會把各題題號、對錯與所選答案送到老師的 Google 試算表（選擇題記錄選項代號，對應本頁各題 A、B、C、D 的順序；是非題記錄「正確／錯誤」；排序題記錄依序點選的步驟序號）。學生若按「成果報告產生」，當時填的班級與座號會再送一次，補進同一組的紀錄（每組只收第一次）；沒有產生報告的組別不含班級座號。成果報告圖片只在學生的瀏覽器裡產生，不會上傳。</p>
     <p class="bank-actions"><a href="#" id="back-to-quiz">回到測驗</a>　<button class="btn" type="button" id="bank-print">列印</button></p>
   </div>
 <h3 class="bank-ch">第一章 EMT 是什麼（23 題）</h3>
