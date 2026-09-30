@@ -222,7 +222,7 @@ function onOpen() {
 
 /** 從網站抓題庫索引，整張覆寫「題庫」工作表。第一次執行會要求「連線到外部服務」授權。 */
 function importBank() {
-  var res = UrlFetchApp.fetch(CONFIG.BANK_URL, { muteHttpExceptions: true, followRedirects: true });
+  var res = UrlFetchApp.fetch(CONFIG.BANK_URL + '?t=' + Date.now(), { muteHttpExceptions: true, followRedirects: true });
   var code = res.getResponseCode();
   if (code !== 200) throw new Error('下載題庫失敗：HTTP ' + code + '（' + CONFIG.BANK_URL + '）');
   var d;

@@ -59,7 +59,7 @@ function makeFakes() {
       UrlFetchApp: {
         fetch(url, opt) {
           fetched.push({ url, opt });
-          const r = FAKE_FETCH(url);
+          const r = FAKE_FETCH(String(url).split("?")[0]);
           return { getResponseCode: () => r.code, getContentText: () => r.body };
         }
       },

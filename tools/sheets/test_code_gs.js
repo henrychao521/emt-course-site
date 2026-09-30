@@ -240,7 +240,7 @@ function payload(over, itemsOver) {
   setFetch(url => url.endsWith("/assets/quiz-bank-index.json") ? { code: 200, body: JSON.stringify(idx) } : { code: 404, body: "" });
   let r = f.ctx.importBank();
   ok(r.count === 3 && r.version === "2026-09-30", "importBank 回傳");
-  ok(f.fetched[0].url === "https://henrychao521.github.io/emt-course-site/assets/quiz-bank-index.json", "importBank 抓正式網址");
+  ok(/^https:\/\/henrychao521\.github\.io\/emt-course-site\/assets\/quiz-bank-index\.json\?t=\d+$/.test(f.fetched[0].url), "importBank 抓正式網址");
   const B = f.sheets["題庫"].data;
   ok(B.length === 4 && B[0][0] === "題號" && B[1][6] === "B" && B[1][8] === "56 小時，分七個模組並且有實作訓練" && B[3][13] === "1. 沖\n2. 脫\n3. 泡\n4. 蓋\n5. 送", "題庫工作表內容");
   ok(f.toasts.length === 1 && f.toasts[0].indexOf("3 題") > 0, "匯入完成提示");
