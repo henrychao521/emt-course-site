@@ -52,6 +52,17 @@
       <button class="btn" id="quiz-redraw" type="button">再抽一組</button>
     </span>
   </div>
+  <section class="report-box" aria-labelledby="report-h">
+    <h2 id="report-h">成果報告</h2>
+    <p>全部作答後，填寫班級與座號，按「成果報告產生」就會得到一張列出答對與答錯題目的 JPG 圖，可以下載存檔。報告只在你的瀏覽器裡產生，不會上傳。</p>
+    <p class="report-fields">
+      <label>班級 <input id="report-class" type="text" inputmode="numeric" maxlength="10" autocomplete="off" placeholder="例如 228"></label>
+      <label>座號 <input id="report-seat" type="text" inputmode="numeric" maxlength="4" autocomplete="off" placeholder="例如 12"></label>
+      <button class="btn" id="report-make" type="button">成果報告產生</button>
+    </p>
+    <p class="report-msg" id="report-msg" role="status" aria-live="polite"></p>
+    <div class="report-out" id="report-out" hidden></div>
+  </section>
   <p class="teacher-link"><a href="#all">教師版：全部題目與答案（可列印）</a></p>
 </div>
 

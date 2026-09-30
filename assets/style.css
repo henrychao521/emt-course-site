@@ -601,3 +601,16 @@ ol.refs .meta { display: block; color: var(--ink-3); font-size: .8rem; }
 .dia .ah { fill: var(--accent); }
 .dia .ahr { fill: var(--warn); }
 .dia .ahg { fill: var(--ink-3); }
+
+/* 小測驗成果報告 */
+.report-box{margin-top:28px;padding:18px 20px;border:1px solid var(--rule);border-radius:8px}
+.report-box h2{margin:0 0 6px;font-size:1.15rem}
+.report-fields{display:flex;flex-wrap:wrap;gap:10px 16px;align-items:flex-end}
+.report-fields label{display:flex;flex-direction:column;gap:4px;font-size:.92rem}
+.report-fields input{font:inherit;width:8.5em;max-width:100%;padding:6px 8px;border:1px solid var(--rule);border-radius:6px;background:transparent;color:inherit}
+.report-msg{min-height:1.4em;color:var(--warn);margin:6px 0 0}
+.report-out{margin-top:12px}
+.report-tip{font-size:.88rem;opacity:.8}
+.report-img{display:block;width:100%;max-width:540px;height:auto;border:1px solid var(--rule);margin-top:8px}
+@media print{.report-box{display:none}}
+.report-out a.btn, .report-out a.btn:visited { display: inline-block; color: var(--paper); text-decoration: none; }

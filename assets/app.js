@@ -48,7 +48,7 @@
   var list = document.getElementById("quiz-list");
   var out = document.getElementById("score-text");
   var metaEl = document.getElementById("quiz-meta");
-  var round = 0, answered = 0, correct = 0, current = [], seen = {};
+  var round = 0, answered = 0, correct = 0, current = [], seen = {}, results = {};
 
   // Fisher–Yates
   function shuffle(a) {
@@ -112,7 +112,8 @@
     return p;
   }
 
-  function finish(q, box, ok) {
+  function finish(q, box, ok, chosen) {
+    results[q.id] = { ok: ok, chosen: chosen };
     box.setAttribute("data-done", "1");
     box.setAttribute("data-result", ok ? "right" : "wrong");
     answered++; if (ok) correct++;
@@ -140,7 +141,7 @@
           if (v === q.answer) { x.classList.add("right"); x.appendChild(el("span", "mark", "正解")); }
           else if (x === b) { x.classList.add("wrong"); x.appendChild(el("span", "mark", "你的選擇")); }
         });
-        finish(q, box, o === q.answer);
+        finish(q, box, o === q.answer, o);
       });
       btns.push(b); li.appendChild(b); ol.appendChild(li);
     });
@@ -187,7 +188,7 @@
           var ex = box.querySelector(".explain");
           ex.insertBefore(ans, ex.firstChild);
           ex.insertBefore(el("p", "order-answer-h", "正確順序："), ans);
-          finish(q, box, ok);
+          finish(q, box, ok, seq.join(" → "));
         }
       });
       btns.push(b); li.appendChild(b); ol.appendChild(li);
@@ -197,7 +198,9 @@
   }
 
   function render() {
-    round++; answered = 0; correct = 0;
+    round++; answered = 0; correct = 0; results = {};
+    if (reportOut) { reportOut.innerHTML = ""; reportOut.hidden = true; }
+    if (reportMsg) reportMsg.textContent = "";
     current = draw();
     list.innerHTML = "";
     current.forEach(function (q) {
@@ -223,6 +226,95 @@
     if (current.length && answered === current.length) t += "｜本組完成，得分 " + Math.round(correct * 100 / current.length) + " 分";
     out.textContent = t;
   }
+
+
+  // ---------- 成果報告（JPG，在瀏覽器內產生，不上傳） ----------
+  var reportBtn = document.getElementById("report-make");
+  var reportOut = document.getElementById("report-out");
+  var reportMsg = document.getElementById("report-msg");
+  var FONT = '"PingFang TC","Noto Sans TC","Microsoft JhengHei",sans-serif';
+  function wrap(ctx, text, maxW) {
+    var lines = [], line = "";
+    String(text).split("").forEach(function (ch) {
+      if (ch === "\n") { lines.push(line); line = ""; return; }
+      // 避頭點：標點不放在行首，允許略為超出
+      if (ctx.measureText(line + ch).width > maxW && line && "，。、；：！？）」』》,.;:!?)".indexOf(ch) < 0) { lines.push(line); line = ch; }
+      else line += ch;
+    });
+    if (line) lines.push(line);
+    return lines;
+  }
+  function makeReport() {
+    var cls = (document.getElementById("report-class").value || "").trim();
+    var seat = (document.getElementById("report-seat").value || "").trim();
+    if (!cls || !seat) { reportMsg.textContent = "請先填寫班級與座號。"; return; }
+    var left = current.length - answered;
+    if (left > 0) { reportMsg.textContent = "還有 " + left + " 題沒有作答，全部作答後才能產生成果報告。"; return; }
+    reportMsg.textContent = "";
+    var W = 1080, PAD = 64, CW = W - PAD * 2;
+    var cv = document.createElement("canvas"), ctx = cv.getContext("2d");
+    var rightQs = current.filter(function (q) { return results[q.id] && results[q.id].ok; });
+    var wrongQs = current.filter(function (q) { return results[q.id] && !results[q.id].ok; });
+    var now = new Date();
+    var stamp = now.getFullYear() + "/" + (now.getMonth() + 1) + "/" + now.getDate() + " " +
+      ("0" + now.getHours()).slice(-2) + ":" + ("0" + now.getMinutes()).slice(-2);
+    var scoreN = Math.round(correct * 100 / current.length);
+    // 先排版成指令，再依總高度畫
+    var ops = [], y = PAD;
+    function text(t, size, color, weight, indent, gap) {
+      ctx.font = (weight || "normal") + " " + size + "px " + FONT;
+      wrap(ctx, t, CW - (indent || 0)).forEach(function (ln) {
+        ops.push({ t: ln, x: PAD + (indent || 0), y: y + size, size: size, color: color, weight: weight || "normal" });
+        y += Math.round(size * 1.5);
+      });
+      y += gap || 0;
+    }
+    function rule(color) { ops.push({ rule: true, y: y, color: color }); y += 24; }
+    text("從工場安全到 EMT-1｜小測驗成果報告", 40, "#16202a", "bold", 0, 8);
+    text("班級：" + cls + "　座號：" + seat, 30, "#16202a", "bold", 0, 0);
+    text("作答時間：" + stamp + "　第 " + round + " 組", 24, "#56616b", "normal", 0, 12);
+    text("得分 " + scoreN + " 分（答對 " + correct + " / " + current.length + " 題）", 36, scoreN >= 60 ? "#1d6b3a" : "#a33a2a", "bold", 0, 8);
+    rule("#c9d1d8");
+    text("答錯的題目（" + wrongQs.length + " 題）", 30, "#a33a2a", "bold", 0, 6);
+    if (!wrongQs.length) text("沒有答錯的題目。", 24, "#56616b", "normal", 0, 10);
+    wrongQs.forEach(function (q, i) {
+      var r = results[q.id];
+      text((i + 1) + ". " + q.stem, 26, "#16202a", "bold", 0, 2);
+      text("你的答案：" + r.chosen, 24, "#a33a2a", "normal", 28, 0);
+      text("正確答案：" + (q.type === "order" ? q.items.join(" → ") : q.answer), 24, "#1d6b3a", "normal", 28, 0);
+      text("解說：" + q.explain, 22, "#3e4850", "normal", 28, 16);
+    });
+    rule("#c9d1d8");
+    text("答對的題目（" + rightQs.length + " 題）", 30, "#1d6b3a", "bold", 0, 6);
+    if (!rightQs.length) text("這組沒有答對的題目，再抽一組試試看。", 24, "#56616b", "normal", 0, 10);
+    rightQs.forEach(function (q, i) {
+      text("✓ " + q.stem, 24, "#16202a", "normal", 0, 0);
+      text("你的答案：" + results[q.id].chosen, 22, "#1d6b3a", "normal", 28, 8);
+    });
+    y += 8; rule("#c9d1d8");
+    text("本報告由學生自行在瀏覽器產生，僅供學習紀錄。觀念測驗答對不代表會做，急救技能須經合格課程實作訓練。", 20, "#56616b", "normal", 0, 0);
+    text("網站：henrychao521.github.io/emt-course-site", 20, "#56616b", "normal", 0, 0);
+    var H = y + PAD - 16, scale = 1;
+    cv.width = W * scale; cv.height = H * scale;
+    ctx.fillStyle = "#ffffff"; ctx.fillRect(0, 0, W, H);
+    ctx.fillStyle = "#a33a2a"; ctx.fillRect(0, 0, W, 12);
+    ops.forEach(function (o) {
+      if (o.rule) { ctx.fillStyle = o.color; ctx.fillRect(PAD, o.y, CW, 2); return; }
+      ctx.font = o.weight + " " + o.size + "px " + FONT; ctx.fillStyle = o.color; ctx.textBaseline = "alphabetic";
+      ctx.fillText(o.t, o.x, o.y);
+    });
+    var url = cv.toDataURL("image/jpeg", 0.92);
+    var fname = "EMT小測驗成果報告_" + cls + "_" + seat + ".jpg";
+    reportOut.innerHTML = "";
+    var a = el("a", "btn", "下載成果報告（JPG）"); a.href = url; a.download = fname;
+    var tip = el("p", "report-tip", "手機若無法直接下載，請長按下方圖片選「儲存影像」。");
+    var img = document.createElement("img"); img.src = url; img.alt = "小測驗成果報告：班級 " + cls + "、座號 " + seat + "，得分 " + scoreN + " 分";
+    img.className = "report-img";
+    reportOut.appendChild(a); reportOut.appendChild(tip); reportOut.appendChild(img);
+    reportOut.hidden = false;
+    reportOut.scrollIntoView({ behavior: "smooth", block: "start" });
+  }
+  if (reportBtn) reportBtn.addEventListener("click", makeReport);
 
   var redraw = document.getElementById("quiz-redraw");
   if (redraw) redraw.addEventListener("click", function () {
