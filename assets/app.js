@@ -49,6 +49,69 @@
   var out = document.getElementById("score-text");
   var metaEl = document.getElementById("quiz-meta");
   var round = 0, answered = 0, correct = 0, current = [], seen = {}, results = {};
+  var rid = "", sent = false;
+
+  // ── 匿名作答紀錄：每完成一組送一次到老師的 Google 試算表（未設定網址就完全不送） ──
+  // 只送題號、題目指紋、對錯、所選與正解代號；成果報告的班級座號絕不放進來。
+  var CFG = {};
+  try { CFG = JSON.parse((document.getElementById("quiz-config") || {}).textContent || "{}") || {}; } catch (e) { CFG = {}; }
+  var SHEET_ENDPOINT = typeof CFG.SHEET_ENDPOINT === "string" ? CFG.SHEET_ENDPOINT : "";
+  var SHEET_TOKEN = typeof CFG.SHEET_TOKEN === "string" ? CFG.SHEET_TOKEN : "";
+  var QKEY = "emt-sheet-queue", QMAX = 50, flushing = false;
+  function newRid() {
+    try {
+      var c = window.crypto || window.msCrypto, b = new Uint8Array(16), h = "";
+      c.getRandomValues(b);
+      for (var i = 0; i < b.length; i++) h += ("0" + b[i].toString(16)).slice(-2);
+      return h;
+    } catch (e) { return ""; }
+  }
+  function qRead() {
+    try {
+      var a = JSON.parse(localStorage.getItem(QKEY) || "[]");
+      return Array.isArray(a) ? a.filter(function (x) { return typeof x === "string"; }) : [];
+    } catch (e) { return []; }
+  }
+  function qWrite(a) {
+    try {
+      if (a.length) localStorage.setItem(QKEY, JSON.stringify(a.slice(-QMAX)));
+      else localStorage.removeItem(QKEY);
+    } catch (e) { /* 無痕視窗等情況存不了就算了 */ }
+  }
+  function post(body) {
+    // no-cors＋text/plain：不觸發 CORS 預檢；回應讀不到，只要沒有網路錯誤就當作送達
+    try {
+      return fetch(SHEET_ENDPOINT, { method: "POST", mode: "no-cors",
+        headers: { "Content-Type": "text/plain" }, body: body });
+    } catch (e) { return Promise.reject(e); }
+  }
+  // 依序補送佇列；遇到失敗就停，留待下次開頁或恢復連線
+  function flush() {
+    if (!SHEET_ENDPOINT || flushing || !window.fetch) return;
+    var q = qRead();
+    if (!q.length) return;
+    flushing = true;
+    var body = q[0];
+    post(body).then(function () {
+      qWrite(qRead().filter(function (x) { return x !== body; }));
+      flushing = false; flush();
+    }, function () { flushing = false; });
+  }
+  function sendRound() {
+    if (!SHEET_ENDPOINT || sent || !rid) return;
+    sent = true;
+    var items = current.map(function (q) {
+      var r = results[q.id];
+      return { q: q.id, h: q.h || "", t: q.type, ok: r.ok ? 1 : 0, a: r.code, k: r.key };
+    });
+    var body = JSON.stringify({ v: 1, token: SHEET_TOKEN, rid: rid, bank: String(BANK.version || ""), round: round, items: items });
+    var q = qRead();
+    // 先進佇列再送：送到一半關掉頁面也不會遺失；伺服器端同一作答編號只收一次
+    q.push(body); qWrite(q);
+    if (!qRead().length) { post(body).then(null, function () {}); return; }  // 存不了佇列（無痕等）時直接送一次
+    flush();
+  }
+  window.addEventListener("online", flush);
 
   // Fisher–Yates
   function shuffle(a) {
@@ -112,8 +175,8 @@
     return p;
   }
 
-  function finish(q, box, ok, chosen) {
-    results[q.id] = { ok: ok, chosen: chosen };
+  function finish(q, box, ok, chosen, code, key) {
+    results[q.id] = { ok: ok, chosen: chosen, code: code, key: key };
     box.setAttribute("data-done", "1");
     box.setAttribute("data-result", ok ? "right" : "wrong");
     answered++; if (ok) correct++;
@@ -122,6 +185,7 @@
     ex.insertBefore(verdict, ex.firstChild);
     ex.hidden = false;
     update();
+    if (answered === current.length) sendRound();
   }
 
   function renderChoice(q, box) {
@@ -141,7 +205,10 @@
           if (v === q.answer) { x.classList.add("right"); x.appendChild(el("span", "mark", "正解")); }
           else if (x === b) { x.classList.add("wrong"); x.appendChild(el("span", "mark", "你的選擇")); }
         });
-        finish(q, box, o === q.answer, o);
+        var L = "ABCDEF";
+        finish(q, box, o === q.answer, o,
+          q.type === "tf" ? o : L.charAt(q.options.indexOf(o)),
+          q.type === "tf" ? q.answer : L.charAt(q.options.indexOf(q.answer)));
       });
       btns.push(b); li.appendChild(b); ol.appendChild(li);
     });
@@ -188,7 +255,9 @@
           var ex = box.querySelector(".explain");
           ex.insertBefore(ans, ex.firstChild);
           ex.insertBefore(el("p", "order-answer-h", "正確順序："), ans);
-          finish(q, box, ok, seq.join(" → "));
+          finish(q, box, ok, seq.join(" → "),
+            seq.map(function (v) { return q.items.indexOf(v) + 1; }).join(">"),
+            q.items.map(function (v, i) { return i + 1; }).join(">"));
         }
       });
       btns.push(b); li.appendChild(b); ol.appendChild(li);
@@ -199,6 +268,7 @@
 
   function render() {
     round++; answered = 0; correct = 0; results = {};
+    rid = newRid(); sent = false;
     if (reportOut) { reportOut.innerHTML = ""; reportOut.hidden = true; }
     if (reportMsg) reportMsg.textContent = "";
     current = draw();
@@ -339,4 +409,5 @@
   }
   window.addEventListener("hashchange", route);
   route();
+  flush();
 })();

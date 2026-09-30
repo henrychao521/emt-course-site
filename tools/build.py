@@ -1,10 +1,14 @@
 #!/usr/bin/env python3
 """把 src/*.html 的主文套上共用書眉、目錄、聲明與頁尾，輸出到網站根目錄。
 主文中 {{c:ID}} 或 {{c:ID|文字}} 會展開成出處連結；{{refs}} 展開成完整資料來源清單。
+作答紀錄接收網址與口令在 tools/site_config.json（SHEET_ENDPOINT 空字串＝不送）；
+環境變數 EMT_SHEET_ENDPOINT／EMT_SHEET_TOKEN 可暫時覆蓋（測試用）。
 用法：python3 tools/build.py
 """
+import hashlib
 import html
 import json
+import os
 import re
 import sys
 from pathlib import Path
@@ -174,13 +178,50 @@ def quiz_stats(bank):
             + "；難度：" + "、".join(f"{DIFF_NAME[k]} {d[k]}" for k in (1, 2, 3) if d[k]) + "。")
 
 
+def site_config():
+    p = ROOT / "tools" / "site_config.json"
+    cfg = json.loads(p.read_text(encoding="utf-8")) if p.exists() else {}
+    ep = os.environ.get("EMT_SHEET_ENDPOINT", cfg.get("SHEET_ENDPOINT", "")).strip()
+    tok = os.environ.get("EMT_SHEET_TOKEN", cfg.get("SHEET_TOKEN", "")).strip()
+    if ep and not re.match(r"^https?://[^\s\"'<>]+$", ep):
+        raise SystemExit(f"SHEET_ENDPOINT 格式不對：{ep}")
+    if not re.match(r"^[\x21-\x7e]{0,64}$", tok):
+        raise SystemExit("SHEET_TOKEN 只能是 64 字以內的英數符號（不可有空白或中文）")
+    return {"SHEET_ENDPOINT": ep, "SHEET_TOKEN": tok}
+
+
+def q_hash(q):
+    """題目內容指紋：題幹、選項、答案、排序項目有任何改動，指紋就會變，分析時新舊版分開算。"""
+    core = {k: q.get(k) for k in ("type", "stem", "options", "answer", "items")}
+    return hashlib.sha1(json.dumps(core, ensure_ascii=False, sort_keys=True).encode("utf-8")).hexdigest()[:8]
+
+
+def sheet_notes(cfg):
+    if cfg["SHEET_ENDPOINT"]:
+        student = ('<p class="data-note" id="data-note"><strong>作答紀錄說明</strong>　完成一組後，會匿名送出各題對錯與所選答案'
+                   '（不含班級座號與任何個人資料），供老師分析題目品質。</p>')
+        teacher = ('<p class="data-flow">資料流向：學生每完成一組 10 題，網站會把各題題號、對錯與所選答案匿名送到老師的 Google 試算表'
+                   '（選擇題記錄選項代號，對應本頁各題 A、B、C、D 的順序；是非題記錄「正確／錯誤」；排序題記錄依序點選的步驟序號）；不含班級座號、姓名或任何個人資料。'
+                   '成果報告只在學生的瀏覽器裡產生，不會上傳。</p>')
+    else:
+        student = ""
+        teacher = '<p class="data-flow">資料流向：目前未設定作答紀錄接收網址，網站不會送出任何作答資料；成果報告只在學生的瀏覽器裡產生。</p>'
+    return student, teacher
+
+
+def quiz_config(cfg):
+    txt = json.dumps(cfg, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
+    return f'<script type="application/json" id="quiz-config">{txt}</script>'
+
+
 def quiz_data(bank):
     used = sorted({s for q in bank["questions"] for s in q["sources"]})
     for s in used:
         if s not in SOURCES:
             raise SystemExit(f"題庫用了未登錄的出處代碼：{s}")
     data = {"questions": [{k: q[k] for k in ("id", "chapter", "type", "difficulty", "kp", "stem", "options", "answer",
-                                                "items", "explain", "sources") if k in q} for q in bank["questions"]],
+                                                "items", "explain", "sources") if k in q} | {"h": q_hash(q)} for q in bank["questions"]],
+            "version": str(bank.get("version", "")),
             "sources": {s: [SOURCES[s][0], SOURCES[s][3], SOURCES[s][1]] for s in used}}
     txt = json.dumps(data, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
     return f'<script type="application/json" id="quiz-bank">{txt}</script>'
@@ -188,12 +229,16 @@ def quiz_data(bank):
 
 def main():
     bank = load_bank()
+    cfg = site_config()
+    student_note, teacher_note = sheet_notes(cfg)
     for i, (fn, no, short, title, desc) in enumerate(PAGES):
         body = (ROOT / "src" / fn).read_text(encoding="utf-8")
         body = body.replace("{{refs}}", refs_html())
         if fn == "quiz.html":
             body = (body.replace("{{quizall}}", quiz_all_html(bank)).replace("{{quizdata}}", quiz_data(bank))
-                    .replace("{{quizcount}}", str(len(bank["questions"]))).replace("{{quizstats}}", quiz_stats(bank)))
+                    .replace("{{quizcount}}", str(len(bank["questions"]))).replace("{{quizstats}}", quiz_stats(bank))
+                    .replace("{{sheetnote}}", student_note).replace("{{dataflow}}", teacher_note)
+                    .replace("{{quizconfig}}", quiz_config(cfg)))
         body = CITE_RE.sub(cite, body)
         if "{{" in body:
             raise SystemExit(f"{fn} 有未展開的樣板標記")

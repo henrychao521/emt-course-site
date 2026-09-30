@@ -12,6 +12,7 @@
 
 <div id="quiz-app" hidden>
   <p class="quiz-meta" id="quiz-meta"></p>
+  {{sheetnote}}
   <div class="quiz" id="quiz-list"></div>
   <div class="score">
     <span id="score-text" aria-live="polite"></span>
@@ -21,7 +22,7 @@
   </div>
   <section class="report-box" aria-labelledby="report-h">
     <h2 id="report-h">成果報告</h2>
-    <p>全部作答後，填寫班級與座號，按「成果報告產生」就會得到一張列出答對與答錯題目的 JPG 圖，可以下載存檔。報告只在你的瀏覽器裡產生，不會上傳。</p>
+    <p>全部作答後，填寫班級與座號，按「成果報告產生」就會得到一張列出答對與答錯題目的 JPG 圖，可以下載存檔。成果報告（含你填的班級座號）只在你的瀏覽器裡產生，不會上傳。</p>
     <p class="report-fields">
       <label>班級 <input id="report-class" type="text" inputmode="numeric" maxlength="10" autocomplete="off" placeholder="例如 228"></label>
       <label>座號 <input id="report-seat" type="text" inputmode="numeric" maxlength="4" autocomplete="off" placeholder="例如 12"></label>
@@ -37,9 +38,11 @@
   <div class="bank-head">
     <h2>題庫全部題目（教師版）</h2>
     <p>共 {{quizcount}} 題。每題附答案、解說、出處與難度。{{quizstats}}</p>
+    {{dataflow}}
     <p class="bank-actions"><a href="#" id="back-to-quiz">回到測驗</a>　<button class="btn" type="button" id="bank-print">列印</button></p>
   </div>
 {{quizall}}
 </section>
 
 {{quizdata}}
+{{quizconfig}}
