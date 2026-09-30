@@ -254,8 +254,8 @@ def quiz_data(bank):
     for s in used:
         if s not in SOURCES:
             raise SystemExit(f"題庫用了未登錄的出處代碼：{s}")
-    data = {"questions": [{k: q[k] for k in ("id", "chapter", "type", "difficulty", "kp", "stem", "options", "answer",
-                                                "items", "explain", "sources") if k in q} | {"h": q_hash(q)} for q in bank["questions"]],
+    data = {"questions": [{k: q[k] for k in ("id", "chapter", "type", "difficulty", "kp", "variant_group", "stem",
+                                                "options", "answer", "items", "explain", "sources") if k in q} | {"h": q_hash(q)} for q in bank["questions"]],
             "version": str(bank.get("version", "")),
             "sources": {s: [SOURCES[s][0], SOURCES[s][3], SOURCES[s][1]] for s in used}}
     txt = json.dumps(data, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")

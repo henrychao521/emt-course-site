@@ -142,7 +142,8 @@
 
   function draw() {
     // 已出過的題目先避開；不足時才重用
-    var pool = {}, picked = [], usedKp = {}, usedId = {};
+    // 同一 variant_group（同一知識點的不同情境／題型變體）一輪最多出一題
+    var pool = {}, picked = [], usedKp = {}, usedId = {}, usedVg = {};
     var need = {}; for (var d in DIFF_TARGET) need[d] = DIFF_TARGET[d];
     var typeCount = {};
     QS.forEach(function (q) { (pool[q.chapter] = pool[q.chapter] || []).push(q); });
@@ -157,13 +158,16 @@
       s -= (typeCount[q.type] || 0) * 0.8;
       return s;
     }
+    function vgOf(q) { return q.variant_group || q.id; }
+    function free(q) { return !usedId[q.id] && !usedVg[vgOf(q)]; }
     slots.forEach(function (ch) {
-      var cand = (pool[ch] || []).filter(function (q) { return !usedId[q.id]; });
+      var cand = (pool[ch] || []).filter(free);
+      if (!cand.length) cand = QS.filter(free);
       if (!cand.length) cand = QS.filter(function (q) { return !usedId[q.id]; });
       var best = null, bs = -1e9;
       cand.forEach(function (q) { var s = score(q); if (s > bs) { bs = s; best = q; } });
       if (!best) return;
-      picked.push(best); usedId[best.id] = 1;
+      picked.push(best); usedId[best.id] = 1; usedVg[vgOf(best)] = 1;
       best.kp.forEach(function (k) { usedKp[k] = 1; });
       need[best.difficulty] = (need[best.difficulty] || 0) - 1;
       typeCount[best.type] = (typeCount[best.type] || 0) + 1;

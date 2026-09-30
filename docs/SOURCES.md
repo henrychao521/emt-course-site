@@ -27,7 +27,7 @@
 | T1 | 救護技術員管理辦法 附表一：初級救護技術員訓練課程基準（PDF）<br>備註：總時數 56 小時 | 衛生福利部／全國法規資料庫 | 200 | emt.html, first-aid.html, index.html, quiz.html, sources.html, units.html, where.html | https://law.moj.gov.tw/LawClass/LawGetFile.ashx?FileId=0000368758&lan=C |
 | T2 | 救護技術員管理辦法 附表二：中級救護技術員訓練課程基準（PDF）<br>備註：總時數 336 小時 | 衛生福利部／全國法規資料庫 | 200 | emt.html, quiz.html, sources.html, units.html | https://law.moj.gov.tw/LawClass/LawGetFile.ashx?FileId=0000368759&lan=C |
 | T3 | 救護技術員管理辦法 附表三：高級救護技術員訓練課程基準（PDF）<br>備註：總時數 1296 小時 | 衛生福利部／全國法規資料庫 | 200 | emt.html, quiz.html, sources.html, units.html | https://law.moj.gov.tw/LawClass/LawGetFile.ashx?FileId=0000368760&lan=C |
-| SCH2 | 教育部主管各級學校緊急傷病處理準則 第 2 條（適用於教育部主管之各級學校） | 教育部／全國法規資料庫 | 200 | index.html, sources.html | https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=H0020053&flno=2 |
+| SCH2 | 教育部主管各級學校緊急傷病處理準則 第 2 條（適用於教育部主管之各級學校） | 教育部／全國法規資料庫 | 200 | index.html, quiz.html, sources.html | https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=H0020053&flno=2 |
 | SCH5 | 教育部主管各級學校緊急傷病處理準則 第 5 條（師生定期接受基本救命術至少四小時） | 教育部／全國法規資料庫 | 200 | index.html, quiz.html, sources.html | https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=H0020053&flno=5 |
 | CPR21 | 衛生福利部（民國 110 年 4 月 23 日修訂）。民眾版心肺復甦術參考指引摘要表（2021 年版）（PDF）<br>備註：含成人簡易版／完整版流程圖 | 衛生福利部醫事司 | 200 | first-aid.html, index.html, quiz.html, sources.html | https://dep.mohw.gov.tw/DOMA/dl-13882-22bd0839-e9ad-45b6-8665-1bdd2344446a.html |
 | DOMA | 衛生福利部醫事司。全民 CPR 及 AED 推動、救護技術員（EMT）制度等相關業務<br>備註：含民眾版 CPR+AED 教學影片連結 | 衛生福利部醫事司 | 200 | index.html, sources.html | https://dep.mohw.gov.tw/DOMA/cp-2710-7586-106.html |
@@ -38,12 +38,12 @@
 | NFA810 | 內政部消防署全球資訊網專業版。救災救護 > 緊急救護 > 救護技術（2025 救護技術員教科書等） | 內政部消防署 | 200 | quiz.html, sources.html, where.html | https://www.nfa.gov.tw/pro/index.php?code=list&ids=810 |
 | TB | 內政部消防署（2025）。救護技術員教科書（電子書）<br>備註：由消防署「2025救護技術員教科書」連出 | 內政部消防署 | 200 | first-aid.html, quiz.html, sources.html | https://ebook.nfa.gov.tw/1140527/ |
 | TB123 | 內政部消防署（2025）。救護技術員教科書，第五章 使用自動體外心臟電擊去顫器，頁 123（電子書第 125 頁） | 內政部消防署 | 200 | first-aid.html, quiz.html, sources.html | https://ebook.nfa.gov.tw/1140527/files/basic-html/page125.html |
-| TB117 | 內政部消防署（2025）。救護技術員教科書，第五章 基本心肺復甦術（成人與青少年），頁 117（電子書第 119 頁） | 內政部消防署 | 200 | first-aid.html, sources.html | https://ebook.nfa.gov.tw/1140527/files/basic-html/page119.html |
+| TB117 | 內政部消防署（2025）。救護技術員教科書，第五章 基本心肺復甦術（成人與青少年），頁 117（電子書第 119 頁） | 內政部消防署 | 200 | first-aid.html, quiz.html, sources.html | https://ebook.nfa.gov.tw/1140527/files/basic-html/page119.html |
 | TB140 | 內政部消防署（2025）。救護技術員教科書，第五章 止血，頁 140（電子書第 142 頁） | 內政部消防署 | 200 | first-aid.html, quiz.html, sources.html | https://ebook.nfa.gov.tw/1140527/files/basic-html/page142.html |
 | TB183 | 內政部消防署（2025）。救護技術員教科書，第五章 沖洗眼睛，頁 183（電子書第 185 頁） | 內政部消防署 | 200 | first-aid.html, quiz.html, sources.html | https://ebook.nfa.gov.tw/1140527/files/basic-html/page185.html |
 | TB192 | 內政部消防署（2025）。救護技術員教科書，第六章 病人評估：現場環境評估，頁 192（電子書第 194 頁） | 內政部消防署 | 200 | first-aid.html, quiz.html, sources.html | https://ebook.nfa.gov.tw/1140527/files/basic-html/page194.html |
 | TB259 | 內政部消防署（2025）。救護技術員教科書，第八章 傷口基本處置，頁 259（電子書第 261 頁） | 內政部消防署 | 200 | first-aid.html, quiz.html, sources.html | https://ebook.nfa.gov.tw/1140527/files/basic-html/page261.html |
-| TB261 | 內政部消防署（2025）。救護技術員教科書，第八章 傷口基本處置：敷料與包紮，頁 261（電子書第 263 頁） | 內政部消防署 | 200 | first-aid.html, sources.html | https://ebook.nfa.gov.tw/1140527/files/basic-html/page263.html |
+| TB261 | 內政部消防署（2025）。救護技術員教科書，第八章 傷口基本處置：敷料與包紮，頁 261（電子書第 263 頁） | 內政部消防署 | 200 | first-aid.html, quiz.html, sources.html | https://ebook.nfa.gov.tw/1140527/files/basic-html/page263.html |
 | TB263 | 內政部消防署（2025）。救護技術員教科書，第八章 灼燙傷嚴重度分類，頁 263（電子書第 265 頁） | 內政部消防署 | 200 | first-aid.html, quiz.html, sources.html | https://ebook.nfa.gov.tw/1140527/files/basic-html/page265.html |
 | TB264 | 內政部消防署（2025）。救護技術員教科書，第八章 灼燙傷面積評估與損傷機轉，頁 264（電子書第 266 頁） | 內政部消防署 | 200 | first-aid.html, quiz.html, sources.html | https://ebook.nfa.gov.tw/1140527/files/basic-html/page266.html |
 | TB265 | 內政部消防署（2025）。救護技術員教科書，第八章 灼燙傷處置原則，頁 265（電子書第 267 頁） | 內政部消防署 | 200 | first-aid.html, quiz.html, sources.html | https://ebook.nfa.gov.tw/1140527/files/basic-html/page267.html |
@@ -60,7 +60,7 @@
 | KHEMS | 高雄市政府消防局。緊急救護簡介 | 高雄市政府消防局 | 200 | emt.html, quiz.html, sources.html | https://fdkc.kcg.gov.tw/cp.aspx?n=17D7056A665C7AF6 |
 | RCCLASS | 中華民國紅十字會新教育訓練系統。開課資訊（訓練項目含 A08 初級救護技術員EMT1訓練、A13 EMT1繼續教育訓練） | 中華民國紅十字會 | 200 | quiz.html, sources.html, where.html | https://www.redcross-class.org.tw/ClassInfo |
 | RC | 中華民國紅十字會 官方網站 | 中華民國紅十字會 | 200 | sources.html, where.html | https://www.redcross.org.tw/ |
-| NTUHEYE | 黃正賢（2012）。眼外傷的處置。臺大醫院健康電子報，2012 年 11 月，專題報導<br>備註：本筆於 2026-09-30 存取核對原文 | 國立臺灣大學醫學院附設醫院（臺大醫院）眼科部 | 200 | first-aid.html, sources.html | https://epaper.ntuh.gov.tw/health/201211/project_1.html |
+| NTUHEYE | 黃正賢（2012）。眼外傷的處置。臺大醫院健康電子報，2012 年 11 月，專題報導<br>備註：本筆於 2026-09-30 存取核對原文 | 國立臺灣大學醫學院附設醫院（臺大醫院）眼科部 | 200 | first-aid.html, quiz.html, sources.html | https://epaper.ntuh.gov.tw/health/201211/project_1.html |
 | SEM | 台灣急診醫學會 官方網站<br>備註：延伸閱讀 | 台灣急診醫學會 | 200 | sources.html | https://www.sem.org.tw/ |
 | AHA25 | Kleinman ME, et al. (2025). Part 7: Adult Basic Life Support: 2025 American Heart Association Guidelines for CPR and ECC. Circulation, 152(16_suppl_2), S448–S478. doi:10.1161/CIR.0000000000001369（PubMed 書目頁）<br>備註：延伸閱讀；AHA 官網與期刊頁拒絕自動化存取（403），本站的 CPR 數字一律取自衛福部摘要表 | American Heart Association | 203（NCBI 固定回 203（2xx，頁面內容正常）；同一筆書目以 E-utilities efetch 取得 200） | sources.html | https://pubmed.ncbi.nlm.nih.gov/41122888/ |
 
