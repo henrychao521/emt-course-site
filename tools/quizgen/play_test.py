@@ -1,8 +1,9 @@
 """Playwright 實際作答 3 輪：檢查抽題（10 題、無重複、章節與難度平衡）、計分、解說與出處、教師版。
 用法：python3 tools/quizgen/play_test.py <quiz.html 的 URL> [輸出 json]
 """
-import json, random, sys
+import json, os, random, sys
 from collections import Counter
+from pathlib import Path
 from playwright.sync_api import sync_playwright
 
 url = sys.argv[1]
@@ -16,6 +17,12 @@ with sync_playwright() as p:
     pg.goto(url)
     bank = json.loads(pg.locator("#quiz-bank").text_content())
     Q = {q["id"]: q for q in bank["questions"]}
+    # variant_group：頁面內嵌題庫若還沒輸出（build.py 未合併 draw.patch），改讀 assets/quiz-bank.json
+    VG = {q["id"]: q.get("variant_group") for q in bank["questions"]}
+    if not any(VG.values()):
+        _f = Path(__file__).resolve().parents[2] / "assets/quiz-bank.json"
+        VG = {q["id"]: q.get("variant_group") for q in json.loads(_f.read_text(encoding="utf-8"))["questions"]}
+    STRICT_VG = os.environ.get("PT_STRICT_VG") == "1"  # 合併 draw.patch 後設 1：同輪重複 variant_group 算錯誤
     all_seen = []
     for r in range(1, 4):
         ids = pg.eval_on_selector_all("#quiz-list .q", "els => els.map(e => e.dataset.id)")
@@ -27,6 +34,8 @@ with sync_playwright() as p:
         rec["difficulty"] = dict(Counter(Q[i]["difficulty"] for i in ids))
         rec["types"] = dict(Counter(Q[i]["type"] for i in ids))
         rec["dup_kp"] = [k for k, c in Counter(kps).items() if c > 1]
+        rec["dup_vg"] = [g for g, c in Counter(VG.get(i) or i for i in ids).items() if c > 1]
+        if STRICT_VG and rec["dup_vg"]: report["errors"].append(f"第{r}輪同一 variant_group 出現多題：{rec['dup_vg']}")
         expect_correct = 0
         for n, qid in enumerate(ids):
             q = Q[qid]
@@ -81,4 +90,4 @@ if len(sys.argv) > 2:
     open(sys.argv[2], "w").write(json.dumps(report, ensure_ascii=False, indent=1))
 print(json.dumps({k: v for k, v in report.items() if k != "rounds"}, ensure_ascii=False, indent=1))
 for r in report["rounds"]:
-    print(r["round"], r["chapters"], r["difficulty"], r["types"], r["dup_kp"], r["score_text"])
+    print(r["round"], r["chapters"], r["difficulty"], r["types"], "dup_kp", r["dup_kp"], "dup_vg", r["dup_vg"], r["score_text"])

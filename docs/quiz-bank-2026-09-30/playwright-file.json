@@ -1,0 +1,117 @@
+{
+ "url": "file:///Volumes/Work/emt-bank/quiz.html",
+ "rounds": [
+  {
+   "round": 1,
+   "ids": [
+    "q095",
+    "q124",
+    "q133",
+    "q153",
+    "q100",
+    "q180",
+    "q046",
+    "q187",
+    "q073",
+    "q181"
+   ],
+   "chapters": {
+    "ch1": 2,
+    "ch2": 1,
+    "ch3": 2,
+    "ch4": 5
+   },
+   "difficulty": {
+    "3": 3,
+    "1": 3,
+    "2": 4
+   },
+   "types": {
+    "order": 2,
+    "scenario": 3,
+    "tf": 3,
+    "single": 2
+   },
+   "dup_kp": [],
+   "dup_vg": [],
+   "score_text": "已作答 10 / 10 題，答對 8 題｜本組完成，得分 80 分",
+   "expect_correct": 8
+  },
+  {
+   "round": 2,
+   "ids": [
+    "q014",
+    "q115",
+    "q098",
+    "q147",
+    "q159",
+    "q038",
+    "q160",
+    "q193",
+    "q161",
+    "q079"
+   ],
+   "chapters": {
+    "ch1": 2,
+    "ch2": 1,
+    "ch3": 2,
+    "ch4": 5
+   },
+   "difficulty": {
+    "2": 4,
+    "3": 3,
+    "1": 3
+   },
+   "types": {
+    "tf": 2,
+    "scenario": 3,
+    "order": 2,
+    "single": 3
+   },
+   "dup_kp": [],
+   "dup_vg": [],
+   "score_text": "已作答 10 / 10 題，答對 6 題｜本組完成，得分 60 分",
+   "expect_correct": 6
+  },
+  {
+   "round": 3,
+   "ids": [
+    "q118",
+    "q012",
+    "q139",
+    "q140",
+    "q031",
+    "q047",
+    "q072",
+    "q090",
+    "q169",
+    "q209"
+   ],
+   "chapters": {
+    "ch1": 2,
+    "ch2": 1,
+    "ch3": 2,
+    "ch4": 5
+   },
+   "difficulty": {
+    "2": 4,
+    "3": 3,
+    "1": 3
+   },
+   "types": {
+    "scenario": 3,
+    "single": 3,
+    "tf": 2,
+    "order": 2
+   },
+   "dup_kp": [],
+   "dup_vg": [],
+   "score_text": "已作答 10 / 10 題，答對 8 題｜本組完成，得分 80 分",
+   "expect_correct": 8
+  }
+ ],
+ "errors": [],
+ "console": [],
+ "overlap_between_rounds": 0,
+ "teacher_count": 212
+}

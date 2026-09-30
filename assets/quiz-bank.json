@@ -1,5 +1,5 @@
 {
- "version": "2026-09-29",
+ "version": "2026-09-30",
  "questions": [
   {
    "id": "q001",
@@ -26,7 +26,8 @@
     "EMTR10"
    ],
    "model": "original（網站原本 10 題）",
-   "cand_id": "OR01"
+   "cand_id": "OR01",
+   "variant_group": "E10"
   },
   {
    "id": "q002",
@@ -49,7 +50,8 @@
     "EMTR2"
    ],
    "model": "original（網站原本 10 題）",
-   "cand_id": "OR02"
+   "cand_id": "OR02",
+   "variant_group": "E07"
   },
   {
    "id": "q003",
@@ -73,7 +75,8 @@
     "EMTR10"
    ],
    "model": "original（網站原本 10 題）",
-   "cand_id": "OR03"
+   "cand_id": "OR03",
+   "variant_group": "E12"
   },
   {
    "id": "q004",
@@ -94,7 +97,8 @@
     "SCH5"
    ],
    "model": "claude-opus-5-5",
-   "cand_id": "CL38"
+   "cand_id": "CL38",
+   "variant_group": "E20"
   },
   {
    "id": "q005",
@@ -115,7 +119,8 @@
     "EMSA4"
    ],
    "model": "gemini-3.1-pro-high",
-   "cand_id": "GP01"
+   "cand_id": "GP01",
+   "variant_group": "E01"
   },
   {
    "id": "q006",
@@ -136,7 +141,8 @@
     "EMSA24"
    ],
    "model": "gemini-3.1-pro-high",
-   "cand_id": "GP03"
+   "cand_id": "GP03",
+   "variant_group": "E03"
   },
   {
    "id": "q007",
@@ -157,7 +163,8 @@
     "EMTR19"
    ],
    "model": "gemini-3.1-pro-high",
-   "cand_id": "GP04"
+   "cand_id": "GP04",
+   "variant_group": "E04"
   },
   {
    "id": "q008",
@@ -179,7 +186,8 @@
     "T1"
    ],
    "model": "gemini-3.1-pro-high",
-   "cand_id": "GP14"
+   "cand_id": "GP14",
+   "variant_group": "E20"
   },
   {
    "id": "q009",
@@ -204,7 +212,8 @@
     "KHEMS"
    ],
    "model": "gemini-3.1-pro-high",
-   "cand_id": "GP02"
+   "cand_id": "GP02",
+   "variant_group": "E02"
   },
   {
    "id": "q010",
@@ -228,7 +237,8 @@
     "EMTR2"
    ],
    "model": "gemini-3.1-pro-high",
-   "cand_id": "GP07"
+   "cand_id": "GP07",
+   "variant_group": "E08"
   },
   {
    "id": "q011",
@@ -253,7 +263,8 @@
     "T3"
    ],
    "model": "gemini-3.1-pro-high",
-   "cand_id": "GP08"
+   "cand_id": "GP08",
+   "variant_group": "E10"
   },
   {
    "id": "q012",
@@ -276,7 +287,8 @@
     "EMTR8"
    ],
    "model": "gemini-3.1-pro-high",
-   "cand_id": "GP09"
+   "cand_id": "GP09",
+   "variant_group": "E11"
   },
   {
    "id": "q013",
@@ -299,7 +311,8 @@
     "EMTR10"
    ],
    "model": "original（網站原本 10 題）",
-   "cand_id": "OR04"
+   "cand_id": "OR04",
+   "variant_group": "E13"
   },
   {
    "id": "q014",
@@ -321,7 +334,8 @@
     "EMTR8"
    ],
    "model": "gemini-3.1-pro-high",
-   "cand_id": "GP13"
+   "cand_id": "GP13",
+   "variant_group": "E19"
   },
   {
    "id": "q015",
@@ -350,7 +364,8 @@
     "EMTR10"
    ],
    "model": "claude-opus-5-5",
-   "cand_id": "CL06"
+   "cand_id": "CL06",
+   "variant_group": "E07"
   },
   {
    "id": "q016",
@@ -377,7 +392,8 @@
     "EMTR15"
    ],
    "model": "gemini-3.1-pro-high",
-   "cand_id": "GP12"
+   "cand_id": "GP12",
+   "variant_group": "E16"
   },
   {
    "id": "q017",
@@ -400,7 +416,8 @@
     "EMTR11"
    ],
    "model": "claude-opus-5-5",
-   "cand_id": "CL29"
+   "cand_id": "CL29",
+   "variant_group": "E15"
   },
   {
    "id": "q018",
@@ -423,7 +440,8 @@
     "EMTR10"
    ],
    "model": "claude-opus-5-5",
-   "cand_id": "CL30"
+   "cand_id": "CL30",
+   "variant_group": "E14"
   },
   {
    "id": "q019",
@@ -446,7 +464,8 @@
     "EMSA26"
    ],
    "model": "gemini-3.1-pro-high",
-   "cand_id": "GP05"
+   "cand_id": "GP05",
+   "variant_group": "E05"
   },
   {
    "id": "q020",
@@ -469,7 +488,8 @@
     "NFA810"
    ],
    "model": "gpt-oss-120b-medium",
-   "cand_id": "GO06"
+   "cand_id": "GO06",
+   "variant_group": "W06"
   },
   {
    "id": "q021",
@@ -490,7 +510,8 @@
     "EMTR6"
    ],
    "model": "gpt-oss-120b-medium",
-   "cand_id": "GO02"
+   "cand_id": "GO02",
+   "variant_group": "W02"
   },
   {
    "id": "q022",
@@ -511,7 +532,8 @@
     "EMS"
    ],
    "model": "gpt-oss-120b-medium",
-   "cand_id": "GO03"
+   "cand_id": "GO03",
+   "variant_group": "W03"
   },
   {
    "id": "q023",
@@ -533,7 +555,8 @@
     "EMTR6"
    ],
    "model": "claude-opus-5-5",
-   "cand_id": "CL44"
+   "cand_id": "CL44",
+   "variant_group": "W02"
   },
   {
    "id": "q024",
@@ -556,7 +579,8 @@
     "EMTR4"
    ],
    "model": "gpt-oss-120b-medium",
-   "cand_id": "GO01"
+   "cand_id": "GO01",
+   "variant_group": "W01"
   },
   {
    "id": "q025",
@@ -580,7 +604,8 @@
     "TPTRAIN"
    ],
    "model": "gpt-oss-120b-medium",
-   "cand_id": "GO05"
+   "cand_id": "GO05",
+   "variant_group": "W05"
   },
   {
    "id": "q026",
@@ -601,7 +626,8 @@
     "TPTRAIN"
    ],
    "model": "claude-opus-5-5",
-   "cand_id": "CL37"
+   "cand_id": "CL37",
+   "variant_group": "W05"
   },
   {
    "id": "q027",
@@ -625,7 +651,8 @@
     "T1"
    ],
    "model": "claude-opus-5-5",
-   "cand_id": "CL36"
+   "cand_id": "CL36",
+   "variant_group": "W07"
   },
   {
    "id": "q028",
@@ -648,7 +675,8 @@
     "EMTR6"
    ],
    "model": "claude-opus-5-5",
-   "cand_id": "CL35"
+   "cand_id": "CL35",
+   "variant_group": "W02"
   },
   {
    "id": "q029",
@@ -671,7 +699,8 @@
     "T1"
    ],
    "model": "claude-opus-5-5",
-   "cand_id": "CL32"
+   "cand_id": "CL32",
+   "variant_group": "U02"
   },
   {
    "id": "q030",
@@ -694,7 +723,8 @@
     "T1"
    ],
    "model": "claude-opus-5-5",
-   "cand_id": "CL33"
+   "cand_id": "CL33",
+   "variant_group": "U05"
   },
   {
    "id": "q031",
@@ -718,7 +748,8 @@
     "T1"
    ],
    "model": "gemini-3.1-pro-high",
-   "cand_id": "GP17"
+   "cand_id": "GP17",
+   "variant_group": "U03"
   },
   {
    "id": "q032",
@@ -742,7 +773,8 @@
     "T1"
    ],
    "model": "gemini-3.1-pro-high",
-   "cand_id": "GP18"
+   "cand_id": "GP18",
+   "variant_group": "U05"
   },
   {
    "id": "q033",
@@ -767,7 +799,8 @@
     "T3"
    ],
    "model": "gemini-3.1-pro-high",
-   "cand_id": "GP21"
+   "cand_id": "GP21",
+   "variant_group": "U09"
   },
   {
    "id": "q034",
@@ -788,7 +821,8 @@
     "T1"
    ],
    "model": "gemini-3.1-pro-high",
-   "cand_id": "GP19"
+   "cand_id": "GP19",
+   "variant_group": "U07"
   },
   {
    "id": "q035",
@@ -810,7 +844,8 @@
     "T1"
    ],
    "model": "gemini-3.1-pro-high",
-   "cand_id": "GP16"
+   "cand_id": "GP16",
+   "variant_group": "U02"
   },
   {
    "id": "q036",
@@ -833,7 +868,8 @@
     "T2"
    ],
    "model": "claude-opus-5-5",
-   "cand_id": "CL34"
+   "cand_id": "CL34",
+   "variant_group": "U09"
   },
   {
    "id": "q037",
@@ -856,7 +892,8 @@
     "EMTR13"
    ],
    "model": "gemini-3.1-pro-high",
-   "cand_id": "GP20"
+   "cand_id": "GP20",
+   "variant_group": "U08"
   },
   {
    "id": "q038",
@@ -880,7 +917,8 @@
     "AEDNET"
    ],
    "model": "claude-opus-5-5",
-   "cand_id": "CL40"
+   "cand_id": "CL40",
+   "variant_group": "P15"
   },
   {
    "id": "q039",
@@ -903,7 +941,8 @@
     "TB259"
    ],
    "model": "gemini-3.8-flash-high",
-   "cand_id": "GF10"
+   "cand_id": "GF10",
+   "variant_group": "B02"
   },
   {
    "id": "q040",
@@ -926,7 +965,8 @@
     "TB264"
    ],
    "model": "gemini-3.8-flash-high",
-   "cand_id": "GF12"
+   "cand_id": "GF12",
+   "variant_group": "R09"
   },
   {
    "id": "q041",
@@ -949,7 +989,8 @@
     "CPR21"
    ],
    "model": "original（網站原本 10 題）",
-   "cand_id": "OR05"
+   "cand_id": "OR05",
+   "variant_group": "P06"
   },
   {
    "id": "q042",
@@ -974,7 +1015,8 @@
     "TB123"
    ],
    "model": "claude-sonnet-4-6",
-   "cand_id": "SN10"
+   "cand_id": "SN10",
+   "variant_group": "P10"
   },
   {
    "id": "q043",
@@ -997,7 +1039,8 @@
     "CPR21"
    ],
    "model": "claude-sonnet-4-6",
-   "cand_id": "SN11"
+   "cand_id": "SN11",
+   "variant_group": "P05"
   },
   {
    "id": "q044",
@@ -1020,7 +1063,8 @@
     "TPCPR"
    ],
    "model": "claude-sonnet-4-6",
-   "cand_id": "SN13"
+   "cand_id": "SN13",
+   "variant_group": "P01"
   },
   {
    "id": "q045",
@@ -1041,7 +1085,8 @@
     "TB288"
    ],
    "model": "claude-opus-5-5",
-   "cand_id": "CL19"
+   "cand_id": "CL19",
+   "variant_group": "C06"
   },
   {
    "id": "q046",
@@ -1062,7 +1107,8 @@
     "TB287"
    ],
    "model": "gemini-3.8-flash-high",
-   "cand_id": "GF05"
+   "cand_id": "GF05",
+   "variant_group": "C05"
   },
   {
    "id": "q047",
@@ -1083,7 +1129,8 @@
     "TB288"
    ],
    "model": "gemini-3.8-flash-high",
-   "cand_id": "GF08"
+   "cand_id": "GF08",
+   "variant_group": "C07"
   },
   {
    "id": "q049",
@@ -1104,7 +1151,8 @@
     "TB370"
    ],
    "model": "claude-sonnet-4-6",
-   "cand_id": "SN06"
+   "cand_id": "SN06",
+   "variant_group": "S06"
   },
   {
    "id": "q050",
@@ -1125,7 +1173,8 @@
     "CPR21"
    ],
    "model": "claude-sonnet-4-6",
-   "cand_id": "SN07"
+   "cand_id": "SN07",
+   "variant_group": "P12"
   },
   {
    "id": "q051",
@@ -1134,7 +1183,8 @@
    "difficulty": 1,
    "kp": [
     "G01",
-    "C01"
+    "C01",
+    "G04"
    ],
    "stem": "在生活科技工場實作時，有同學的手指不慎被運轉中的機具夾住壓傷，在場同學第一時間的第一步應做什麼？",
    "options": [
@@ -1150,7 +1200,8 @@
     "TB192"
    ],
    "model": "gemini-3.8-flash-high",
-   "cand_id": "GF17"
+   "cand_id": "GF17",
+   "variant_group": "G01"
   },
   {
    "id": "q052",
@@ -1173,7 +1224,8 @@
     "TPBURN"
    ],
    "model": "original（網站原本 10 題）",
-   "cand_id": "OR07"
+   "cand_id": "OR07",
+   "variant_group": "R02"
   },
   {
    "id": "q054",
@@ -1196,7 +1248,8 @@
     "TPBURN"
    ],
    "model": "claude-opus-5-5",
-   "cand_id": "CL02"
+   "cand_id": "CL02",
+   "variant_group": "R01"
   },
   {
    "id": "q055",
@@ -1220,7 +1273,8 @@
     "TPBURN"
    ],
    "model": "gemini-3.8-flash-high",
-   "cand_id": "GF11"
+   "cand_id": "GF11",
+   "variant_group": "R02"
   },
   {
    "id": "q057",
@@ -1245,7 +1299,8 @@
     "TB287"
    ],
    "model": "gemini-3.8-flash-high",
-   "cand_id": "GF16"
+   "cand_id": "GF16",
+   "variant_group": "B03"
   },
   {
    "id": "q058",
@@ -1269,7 +1324,8 @@
     "CPR21"
    ],
    "model": "original（網站原本 10 題）",
-   "cand_id": "OR06"
+   "cand_id": "OR06",
+   "variant_group": "P07"
   },
   {
    "id": "q059",
@@ -1293,7 +1349,8 @@
     "TB288"
    ],
    "model": "original（網站原本 10 題）",
-   "cand_id": "OR10"
+   "cand_id": "OR10",
+   "variant_group": "C04"
   },
   {
    "id": "q060",
@@ -1317,7 +1374,8 @@
     "AEDNET"
    ],
    "model": "claude-sonnet-4-6",
-   "cand_id": "SN15"
+   "cand_id": "SN15",
+   "variant_group": "P15"
   },
   {
    "id": "q061",
@@ -1340,7 +1398,8 @@
     "TB183"
    ],
    "model": "claude-sonnet-4-6",
-   "cand_id": "SN16"
+   "cand_id": "SN16",
+   "variant_group": "Y02"
   },
   {
    "id": "q062",
@@ -1361,7 +1420,8 @@
     "EMSA142"
    ],
    "model": "gemini-3.8-flash-high",
-   "cand_id": "GF06"
+   "cand_id": "GF06",
+   "variant_group": "G03"
   },
   {
    "id": "q063",
@@ -1382,7 +1442,8 @@
     "TB263"
    ],
    "model": "gemini-3.8-flash-high",
-   "cand_id": "GF09"
+   "cand_id": "GF09",
+   "variant_group": "R10"
   },
   {
    "id": "q064",
@@ -1403,7 +1464,8 @@
     "CPR21"
    ],
    "model": "gpt-oss-120b-medium",
-   "cand_id": "GO18"
+   "cand_id": "GO18",
+   "variant_group": "P04"
   },
   {
    "id": "q065",
@@ -1428,7 +1490,8 @@
     "TPCPR"
    ],
    "model": "claude-opus-5-5",
-   "cand_id": "CL08"
+   "cand_id": "CL08",
+   "variant_group": "G02"
   },
   {
    "id": "q066",
@@ -1452,7 +1515,8 @@
     "TB265"
    ],
    "model": "claude-opus-5-5",
-   "cand_id": "CL14"
+   "cand_id": "CL14",
+   "variant_group": "R03"
   },
   {
    "id": "q067",
@@ -1476,7 +1540,8 @@
     "TB287"
    ],
    "model": "claude-opus-5-5",
-   "cand_id": "CL18"
+   "cand_id": "CL18",
+   "variant_group": "C02"
   },
   {
    "id": "q068",
@@ -1499,7 +1564,8 @@
     "TB259"
    ],
    "model": "claude-opus-5-5",
-   "cand_id": "CL41"
+   "cand_id": "CL41",
+   "variant_group": "B06"
   },
   {
    "id": "q069",
@@ -1523,7 +1589,8 @@
     "TB140"
    ],
    "model": "original（網站原本 10 題）",
-   "cand_id": "OR08"
+   "cand_id": "OR08",
+   "variant_group": "B05"
   },
   {
    "id": "q070",
@@ -1546,7 +1613,8 @@
     "TB370"
    ],
    "model": "original（網站原本 10 題）",
-   "cand_id": "OR09"
+   "cand_id": "OR09",
+   "variant_group": "S01"
   },
   {
    "id": "q071",
@@ -1571,7 +1639,8 @@
     "TPCPR"
    ],
    "model": "claude-sonnet-4-6",
-   "cand_id": "SN19"
+   "cand_id": "SN19",
+   "variant_group": "P02"
   },
   {
    "id": "q072",
@@ -1596,7 +1665,8 @@
     "TPBLEED"
    ],
    "model": "claude-opus-5-5",
-   "cand_id": "CL04"
+   "cand_id": "CL04",
+   "variant_group": "B01"
   },
   {
    "id": "q073",
@@ -1620,7 +1690,8 @@
     "TB288"
    ],
    "model": "gemini-3.1-pro-high",
-   "cand_id": "GP25"
+   "cand_id": "GP25",
+   "variant_group": "C04"
   },
   {
    "id": "q074",
@@ -1648,7 +1719,8 @@
     "TPCPR"
    ],
    "model": "claude-sonnet-4-6",
-   "cand_id": "SN01"
+   "cand_id": "SN01",
+   "variant_group": "P02"
   },
   {
    "id": "q075",
@@ -1671,7 +1743,8 @@
     "TB263"
    ],
    "model": "claude-opus-5-5",
-   "cand_id": "CL16"
+   "cand_id": "CL16",
+   "variant_group": "R08"
   },
   {
    "id": "q076",
@@ -1696,7 +1769,8 @@
     "TB263"
    ],
    "model": "claude-opus-5-5",
-   "cand_id": "CL17"
+   "cand_id": "CL17",
+   "variant_group": "R09"
   },
   {
    "id": "q077",
@@ -1719,7 +1793,8 @@
     "TB274"
    ],
    "model": "claude-sonnet-4-6",
-   "cand_id": "SN14"
+   "cand_id": "SN14",
+   "variant_group": "Y04"
   },
   {
    "id": "q078",
@@ -1740,7 +1815,8 @@
     "TB274"
    ],
    "model": "claude-sonnet-4-6",
-   "cand_id": "SN08"
+   "cand_id": "SN08",
+   "variant_group": "Y05"
   },
   {
    "id": "q079",
@@ -1763,7 +1839,8 @@
     "CPR21"
    ],
    "model": "claude-opus-5-5",
-   "cand_id": "CL09"
+   "cand_id": "CL09",
+   "variant_group": "P04"
   },
   {
    "id": "q080",
@@ -1786,7 +1863,8 @@
     "TB265"
    ],
    "model": "claude-opus-5-5",
-   "cand_id": "CL13"
+   "cand_id": "CL13",
+   "variant_group": "R06"
   },
   {
    "id": "q082",
@@ -1809,7 +1887,8 @@
     "TB288"
    ],
    "model": "claude-opus-5-5",
-   "cand_id": "CL21"
+   "cand_id": "CL21",
+   "variant_group": "C08"
   },
   {
    "id": "q083",
@@ -1834,7 +1913,8 @@
     "TB140"
    ],
    "model": "claude-opus-5-5",
-   "cand_id": "CL42"
+   "cand_id": "CL42",
+   "variant_group": "B07"
   },
   {
    "id": "q084",
@@ -1860,7 +1940,8 @@
     "TB183"
    ],
    "model": "gemini-3.1-pro-high",
-   "cand_id": "GP26"
+   "cand_id": "GP26",
+   "variant_group": "Y01"
   },
   {
    "id": "q085",
@@ -1885,7 +1966,8 @@
     "TB370"
    ],
    "model": "claude-sonnet-4-6",
-   "cand_id": "SN18"
+   "cand_id": "SN18",
+   "variant_group": "G01"
   },
   {
    "id": "q086",
@@ -1908,7 +1990,8 @@
     "TB370"
    ],
    "model": "claude-sonnet-4-6",
-   "cand_id": "SN21"
+   "cand_id": "SN21",
+   "variant_group": "S05"
   },
   {
    "id": "q087",
@@ -1934,7 +2017,8 @@
     "TB183"
    ],
    "model": "claude-sonnet-4-6",
-   "cand_id": "SN22"
+   "cand_id": "SN22",
+   "variant_group": "Y01"
   },
   {
    "id": "q088",
@@ -1957,7 +2041,8 @@
     "CPR21"
    ],
    "model": "claude-sonnet-4-6",
-   "cand_id": "SN23"
+   "cand_id": "SN23",
+   "variant_group": "P11"
   },
   {
    "id": "q090",
@@ -1966,7 +2051,8 @@
    "difficulty": 3,
    "kp": [
     "S01",
-    "S02"
+    "S02",
+    "P10"
    ],
    "stem": "同學在工場觸電倒地，電源開關就在旁邊。下列處置的正確順序是？",
    "items": [
@@ -1982,7 +2068,8 @@
     "AEDEDU"
    ],
    "model": "claude-opus-5-5",
-   "cand_id": "CL05"
+   "cand_id": "CL05",
+   "variant_group": "S01"
   },
   {
    "id": "q091",
@@ -2007,7 +2094,8 @@
     "TPBLEED"
    ],
    "model": "gemini-3.8-flash-high",
-   "cand_id": "GF03"
+   "cand_id": "GF03",
+   "variant_group": "G01"
   },
   {
    "id": "q092",
@@ -2030,7 +2118,8 @@
     "EMSA4"
    ],
    "model": "claude-opus-5-5",
-   "cand_id": "OG01"
+   "cand_id": "OG01",
+   "variant_group": "E01"
   },
   {
    "id": "q093",
@@ -2053,7 +2142,8 @@
     "EMTR2"
    ],
    "model": "claude-opus-5-5",
-   "cand_id": "OG02"
+   "cand_id": "OG02",
+   "variant_group": "E09"
   },
   {
    "id": "q094",
@@ -2074,7 +2164,8 @@
     "EMTR10"
    ],
    "model": "claude-opus-5-5",
-   "cand_id": "OG03"
+   "cand_id": "OG03",
+   "variant_group": "E13"
   },
   {
    "id": "q095",
@@ -2101,7 +2192,8 @@
     "EMTR8"
    ],
    "model": "claude-opus-5-5",
-   "cand_id": "OG04"
+   "cand_id": "OG04",
+   "variant_group": "E07"
   },
   {
    "id": "q096",
@@ -2124,7 +2216,8 @@
     "RCCLASS"
    ],
    "model": "claude-opus-5-5",
-   "cand_id": "OG05"
+   "cand_id": "OG05",
+   "variant_group": "W04"
   },
   {
    "id": "q097",
@@ -2147,7 +2240,8 @@
     "EMTR6"
    ],
    "model": "claude-opus-5-5",
-   "cand_id": "OG07"
+   "cand_id": "OG07",
+   "variant_group": "W01"
   },
   {
    "id": "q098",
@@ -2172,7 +2266,8 @@
     "EMTR6"
    ],
    "model": "claude-opus-5-5",
-   "cand_id": "OG06"
+   "cand_id": "OG06",
+   "variant_group": "W01"
   },
   {
    "id": "q099",
@@ -2195,7 +2290,8 @@
     "EMTR3"
    ],
    "model": "claude-opus-5-5",
-   "cand_id": "OG08"
+   "cand_id": "OG08",
+   "variant_group": "U01"
   },
   {
    "id": "q100",
@@ -2216,7 +2312,8 @@
     "T1"
    ],
    "model": "claude-sonnet-4-6",
-   "cand_id": "SG09"
+   "cand_id": "SG09",
+   "variant_group": "U06"
   },
   {
    "id": "q101",
@@ -2239,7 +2336,8 @@
     "T1"
    ],
    "model": "claude-opus-5-5",
-   "cand_id": "OG10"
+   "cand_id": "OG10",
+   "variant_group": "U04"
   },
   {
    "id": "q102",
@@ -2260,7 +2358,8 @@
     "T1"
    ],
    "model": "claude-opus-5-5",
-   "cand_id": "OG12"
+   "cand_id": "OG12",
+   "variant_group": "U07"
   },
   {
    "id": "q103",
@@ -2281,7 +2380,2719 @@
     "T3"
    ],
    "model": "claude-opus-5-5",
-   "cand_id": "OG11"
+   "cand_id": "OG11",
+   "variant_group": "U10"
+  },
+  {
+   "id": "q104",
+   "chapter": "ch1",
+   "type": "single",
+   "difficulty": 1,
+   "kp": [
+    "E17"
+   ],
+   "variant_group": "E17",
+   "stem": "下列哪一項屬於中級救護技術員在初級項目之外，所增加的法定得施行救護項目？",
+   "options": [
+    "周邊輸液路徑",
+    "骨折固定",
+    "基本心肺復甦術",
+    "沖洗眼睛"
+   ],
+   "answer": "周邊輸液路徑",
+   "explain": "周邊輸液路徑屬於中級增加項目。骨折固定、基本心肺復甦術、沖洗眼睛屬於初級救護項目。",
+   "sources": [
+    "EMTR14"
+   ],
+   "model": "gemini-3.1-pro-high",
+   "cand_id": "GP30"
+  },
+  {
+   "id": "q105",
+   "chapter": "ch1",
+   "type": "tf",
+   "difficulty": 1,
+   "kp": [
+    "E06"
+   ],
+   "variant_group": "E06",
+   "stem": "救護技術員的常見縮寫中，高級救護技術員的縮寫為 EMT-3。",
+   "options": [
+    "正確",
+    "錯誤"
+   ],
+   "answer": "錯誤",
+   "explain": "常見的縮寫：初級 EMT-1、中級 EMT-2、高級 EMTP（Paramedic）。高級縮寫並非 EMT-3。",
+   "sources": [
+    "KHEMS"
+   ],
+   "model": "gemini-3.1-pro-high",
+   "cand_id": "GP07"
+  },
+  {
+   "id": "q106",
+   "chapter": "ch1",
+   "type": "tf",
+   "difficulty": 1,
+   "kp": [
+    "E09"
+   ],
+   "variant_group": "E09",
+   "stem": "要報名高級救護技術員訓練，只要專科以上學校畢業並領有效期內中級證書即可，沒有證書持有時間的要求。",
+   "options": [
+    "正確",
+    "錯誤"
+   ],
+   "answer": "錯誤",
+   "explain": "專科以上學校畢業報名高級訓練，必須領有效期內中級證書「一年以上」。",
+   "sources": [
+    "EMTR2"
+   ],
+   "model": "gemini-3.1-pro-high",
+   "cand_id": "GP10"
+  },
+  {
+   "id": "q107",
+   "chapter": "ch1",
+   "type": "tf",
+   "difficulty": 1,
+   "kp": [
+    "E11"
+   ],
+   "variant_group": "E11",
+   "stem": "高級救護技術員在訓練完成後，會直接由辦理訓練的機構發給證書。",
+   "options": [
+    "正確",
+    "錯誤"
+   ],
+   "answer": "錯誤",
+   "explain": "高級救護技術員在訓練完成後，須送指定的甄試機構，甄試通過才發證。",
+   "sources": [
+    "EMTR8"
+   ],
+   "model": "gemini-3.1-pro-high",
+   "cand_id": "GP16"
+  },
+  {
+   "id": "q108",
+   "chapter": "ch1",
+   "type": "tf",
+   "difficulty": 1,
+   "kp": [
+    "E13"
+   ],
+   "variant_group": "E13",
+   "stem": "高級救護技術員3年內需完成96小時以上的繼續教育，其中至少48小時以上必須是模組二、四、五。",
+   "options": [
+    "正確",
+    "錯誤"
+   ],
+   "answer": "正確",
+   "explain": "高級繼續教育時數需96小時以上，其中48小時以上為模組二、四、五。",
+   "sources": [
+    "EMTR10"
+   ],
+   "model": "gemini-3.1-pro-high",
+   "cand_id": "GP21"
+  },
+  {
+   "id": "q109",
+   "chapter": "ch1",
+   "type": "tf",
+   "difficulty": 1,
+   "kp": [
+    "E15"
+   ],
+   "variant_group": "E15",
+   "stem": "救護技術員因服兵役來不及完成繼續教育時數，申請展延通過後，展延的有效期間為3年。",
+   "options": [
+    "正確",
+    "錯誤"
+   ],
+   "answer": "錯誤",
+   "explain": "依規定，因懷孕、重大疾病或服兵役來不及完成時數申請展延，展延期間為1年，並非3年。",
+   "sources": [
+    "EMTR11"
+   ],
+   "model": "gemini-3.1-pro-high",
+   "cand_id": "GP25"
+  },
+  {
+   "id": "q110",
+   "chapter": "ch1",
+   "type": "scenario",
+   "difficulty": 1,
+   "kp": [
+    "E11"
+   ],
+   "variant_group": "E11",
+   "stem": "紅十字會（經中央衛生主管機關認可的法人團體）辦理初級救護技術員訓練，學生完成訓練課程合格後，初級證書由誰發給？",
+   "options": [
+    "由辦理訓練的單位發給",
+    "由指定的甄試機構發給",
+    "由中央衛生主管機關統一發給",
+    "由當地消防局統一發給"
+   ],
+   "answer": "由辦理訓練的單位發給",
+   "explain": "第 8 條：完成初級、中級訓練課程合格的人員，由辦理訓練的機關、機構、學校、法人或團體發給證書。只有高級要送指定的甄試機構，甄試通過才發證。",
+   "sources": [
+    "EMTR8"
+   ],
+   "model": "gemini-3.1-pro-high",
+   "cand_id": "GP15"
+  },
+  {
+   "id": "q111",
+   "chapter": "ch1",
+   "type": "scenario",
+   "difficulty": 1,
+   "kp": [
+    "E17"
+   ],
+   "variant_group": "E17",
+   "stem": "校外教學時有學生出現嚴重過敏反應，該學生隨身攜帶了自備的腎上腺素注射筆。隨行的救護員確認自己具備中級救護技術員資格。依法規，這位中級救護員能做什麼？",
+   "options": [
+    "可以協助該學生使用自備腎上腺素注射筆",
+    "只能做傷口包紮，不可協助使用注射筆",
+    "必須具備高級資格才能協助使用自備腎上腺素注射筆",
+    "可以為該學生進行氣管插管"
+   ],
+   "answer": "可以協助該學生使用自備腎上腺素注射筆",
+   "explain": "中級增加項目包含協助使用自備腎上腺素注射筆。氣管插管是高級項目。",
+   "sources": [
+    "EMTR14"
+   ],
+   "model": "gemini-3.1-pro-high",
+   "cand_id": "GP28"
+  },
+  {
+   "id": "q112",
+   "chapter": "ch1",
+   "type": "single",
+   "difficulty": 2,
+   "kp": [
+    "E05"
+   ],
+   "variant_group": "E05",
+   "stem": "關於救護技術員執行救護的地點限制，下列何者不包含在內？",
+   "options": [
+    "抵達醫院且醫護人員已開始處置後",
+    "緊急傷病或大量傷病患的現場",
+    "送醫或轉診途中",
+    "抵達醫院而醫護人員尚未處置前"
+   ],
+   "answer": "抵達醫院且醫護人員已開始處置後",
+   "explain": "救護技術員執行救護的地點有限制：緊急傷病或大量傷病患的現場、送醫或轉診途中、抵達醫院而醫護人員尚未處置前。醫護人員已處置後不在規定範圍內。",
+   "sources": [
+    "EMSA26"
+   ],
+   "model": "gemini-3.1-pro-high",
+   "cand_id": "GP05"
+  },
+  {
+   "id": "q113",
+   "chapter": "ch1",
+   "type": "single",
+   "difficulty": 2,
+   "kp": [
+    "E14"
+   ],
+   "variant_group": "E14",
+   "stem": "依《救護技術員管理辦法》，若救護技術員沒有在期限內完成原級別的繼續教育，但達到了較低級別的時數，此時會有什麼結果？",
+   "options": [
+    "可以改發較低級別的證書",
+    "證書直接作廢，必須重新報名初訓",
+    "可自動獲得原級別證書展延一年",
+    "由主管機關處以罰款後保留原級別證書"
+   ],
+   "answer": "可以改發較低級別的證書",
+   "explain": "沒有在期限內完成原級別的繼續教育、但達到較低級別的時數時，可以改發較低級別的證書。",
+   "sources": [
+    "EMTR10"
+   ],
+   "model": "gemini-3.1-pro-high",
+   "cand_id": "GP22"
+  },
+  {
+   "id": "q114",
+   "chapter": "ch1",
+   "type": "tf",
+   "difficulty": 2,
+   "kp": [
+    "E08"
+   ],
+   "variant_group": "E08",
+   "stem": "只要國民中學畢業並領有效期內的初級救護技術員證書，就可以報名中級救護技術員訓練。",
+   "options": [
+    "正確",
+    "錯誤"
+   ],
+   "answer": "錯誤",
+   "explain": "報名中級需「高級中等以上」學校畢業或具同等學力，並領有效期內的初級證書，國民中學畢業不符學歷要求。",
+   "sources": [
+    "EMTR2"
+   ],
+   "model": "gemini-3.1-pro-high",
+   "cand_id": "GP09"
+  },
+  {
+   "id": "q115",
+   "chapter": "ch1",
+   "type": "tf",
+   "difficulty": 2,
+   "kp": [
+    "E12"
+   ],
+   "variant_group": "E12",
+   "stem": "各級救護技術員的證書有效期間為3年，但每次展延後的有效期間會縮短為1年。",
+   "options": [
+    "正確",
+    "錯誤"
+   ],
+   "answer": "錯誤",
+   "explain": "各級救護技術員證書有效期間為3年。每次展延的有效期間也是3年，並未縮短。",
+   "sources": [
+    "EMTR9",
+    "EMTR10"
+   ],
+   "model": "gemini-3.1-pro-high",
+   "cand_id": "GP18"
+  },
+  {
+   "id": "q116",
+   "chapter": "ch1",
+   "type": "scenario",
+   "difficulty": 2,
+   "kp": [
+    "E08"
+   ],
+   "variant_group": "E08",
+   "stem": "就讀大學一年級的小美持有初級救護技術員證書，但發現證書已過期。如果她現在想報名中級救護技術員訓練，她的資格是否符合法規要求？",
+   "options": [
+    "不符合，因為她雖然學歷符合，但初級證書已不在效期內",
+    "符合，因為她具有高級中等以上學校畢業的學歷",
+    "不符合，因為報名中級必須專科以上學校畢業",
+    "符合，因為曾經領有初級證書即可，是否在效期內沒有影響"
+   ],
+   "answer": "不符合，因為她雖然學歷符合，但初級證書已不在效期內",
+   "explain": "報名中級需高級中等以上學校畢業或具同等學力，並領有效期內的初級證書。證書過期即不符資格。",
+   "sources": [
+    "EMTR2"
+   ],
+   "model": "gemini-3.1-pro-high",
+   "cand_id": "GP08"
+  },
+  {
+   "id": "q117",
+   "chapter": "ch1",
+   "type": "scenario",
+   "difficulty": 2,
+   "kp": [
+    "E12"
+   ],
+   "variant_group": "E12",
+   "stem": "高三學生小明剛取得初級救護技術員證書，他計畫在上大學後繼續維持資格並辦理展延。請問辦理展延後，證書的有效期間是多久？",
+   "options": [
+    "3年",
+    "1年",
+    "5年",
+    "永久有效"
+   ],
+   "answer": "3年",
+   "explain": "各級救護技術員證書有效期間為3年。每次展延的有效期間也是3年。",
+   "sources": [
+    "EMTR9",
+    "EMTR10"
+   ],
+   "model": "gemini-3.1-pro-high",
+   "cand_id": "GP17"
+  },
+  {
+   "id": "q118",
+   "chapter": "ch1",
+   "type": "scenario",
+   "difficulty": 2,
+   "kp": [
+    "E18"
+   ],
+   "variant_group": "E18",
+   "stem": "救護車抵達校園內心肺功能停止患者的現場，車上有一位高級救護技術員與一位中級救護技術員。為了搶救患者，哪一項處置依規定只有該名高級救護技術員可以執行？",
+   "options": [
+    "依預立醫療流程執行氣管插管",
+    "使用AED進行電擊",
+    "執行基本心肺復甦術",
+    "給予氧氣"
+   ],
+   "answer": "依預立醫療流程執行氣管插管",
+   "explain": "依預立醫療流程執行氣管插管為高級增加項目。AED、CPR、給氧均為初級即可執行之項目。",
+   "sources": [
+    "EMTR15"
+   ],
+   "model": "gemini-3.1-pro-high",
+   "cand_id": "GP31"
+  },
+  {
+   "id": "q119",
+   "chapter": "ch1",
+   "type": "single",
+   "difficulty": 3,
+   "kp": [
+    "E15"
+   ],
+   "variant_group": "E15",
+   "stem": "關於因特殊事由來不及完成繼續教育時數的展延規定，下列敘述何者完全符合法規？",
+   "options": [
+    "因重大疾病可在證書效期屆滿3個月前申請展延，展延期間1年",
+    "因服兵役可在證書效期屆滿1個月前申請展延，展延期間3年",
+    "因出國留學可在證書效期屆滿3個月前申請展延，展延期間1年",
+    "因懷孕可在證書效期屆滿後申請展延，展延期間半年"
+   ],
+   "answer": "因重大疾病可在證書效期屆滿3個月前申請展延，展延期間1年",
+   "explain": "第 11 條：因懷孕、重大疾病或服兵役，未能在期限內完成繼續教育時數，得於證書效期屆滿三個月前申請展延，展延期間為一年。出國留學不是條文列出的事由；申請時間也不是屆滿一個月前或屆滿後。",
+   "sources": [
+    "EMTR11"
+   ],
+   "model": "gemini-3.1-pro-high",
+   "cand_id": "GP24"
+  },
+  {
+   "id": "q120",
+   "chapter": "ch1",
+   "type": "tf",
+   "difficulty": 3,
+   "kp": [
+    "E10"
+   ],
+   "variant_group": "E10",
+   "stem": "中級救護技術員的初訓總時數為336小時，其中包含醫院急診實習480小時。",
+   "options": [
+    "正確",
+    "錯誤"
+   ],
+   "answer": "錯誤",
+   "explain": "中級初訓包含醫院實習40小時、救護車出勤實習96小時；醫院急診實習480小時是高級初訓的規定。",
+   "sources": [
+    "T2",
+    "T3"
+   ],
+   "model": "gemini-3.1-pro-high",
+   "cand_id": "GP14"
+  },
+  {
+   "id": "q121",
+   "chapter": "ch1",
+   "type": "tf",
+   "difficulty": 3,
+   "kp": [
+    "E14"
+   ],
+   "variant_group": "E14",
+   "stem": "高級救護技術員若沒有在期限內完成高級的繼續教育，即使已經達到中級的繼續教育時數，其證書也會直接失效，不能改發較低級別的證書。",
+   "options": [
+    "正確",
+    "錯誤"
+   ],
+   "answer": "錯誤",
+   "explain": "沒有在期限內完成原級別的繼續教育、但達到較低級別的時數時，是可以改發較低級別證書的。",
+   "sources": [
+    "EMTR10"
+   ],
+   "model": "gemini-3.1-pro-high",
+   "cand_id": "GP23"
+  },
+  {
+   "id": "q122",
+   "chapter": "ch1",
+   "type": "tf",
+   "difficulty": 3,
+   "kp": [
+    "E18"
+   ],
+   "variant_group": "E18",
+   "stem": "中級救護技術員已經可以依預立醫療流程執行注射與給藥。",
+   "options": [
+    "正確",
+    "錯誤"
+   ],
+   "answer": "錯誤",
+   "explain": "依預立醫療流程執行注射、給藥，是高級救護技術員增加的項目。",
+   "sources": [
+    "EMTR15"
+   ],
+   "model": "gemini-3.1-pro-high",
+   "cand_id": "GP32"
+  },
+  {
+   "id": "q123",
+   "chapter": "ch1",
+   "type": "scenario",
+   "difficulty": 3,
+   "kp": [
+    "E03"
+   ],
+   "variant_group": "E03",
+   "stem": "學校登山社同學想報名救護技術員訓練，以應付山區可能的突發狀況。同學在討論課程內容時，哪一個說法符合法規的規定？",
+   "options": [
+    "法規明定各級救護技術員的訓練課程，應包括野外地區的救護訓練",
+    "因為山區救援危險，法規規定初級救護技術員不可參與野外救護訓練",
+    "野外地區的救護訓練不屬於救護技術員的法定訓練範圍，需另外考取",
+    "只有高級救護技術員的訓練課程才包含野外地區的救護訓練"
+   ],
+   "answer": "法規明定各級救護技術員的訓練課程，應包括野外地區的救護訓練",
+   "explain": "各級救護技術員的受訓資格、訓練、繼續教育、得施行的救護項目等細節，由中央衛生主管機關另定辦法，而且訓練課程應包括野外地區的救護訓練。",
+   "sources": [
+    "EMSA24"
+   ],
+   "model": "gemini-3.1-pro-high",
+   "cand_id": "GP03"
+  },
+  {
+   "id": "q124",
+   "chapter": "ch1",
+   "type": "scenario",
+   "difficulty": 3,
+   "kp": [
+    "E04"
+   ],
+   "variant_group": "E04",
+   "stem": "某校護理師在民國113年9月向學生宣導救護證照的新制規定，提到《救護技術員管理辦法》已在民國113年5月15日修正。請問這份修正後的新版本，何時才會開始施行？",
+   "options": [
+    "自民國114年1月1日施行",
+    "自民國113年5月15日當日施行",
+    "自民國113年12月31日施行",
+    "自民國115年1月1日施行"
+   ],
+   "answer": "自民國114年1月1日施行",
+   "explain": "《救護技術員管理辦法》現行版本修正日期為民國113年5月15日，自民國114年1月1日施行。",
+   "sources": [
+    "EMTR19"
+   ],
+   "model": "gemini-3.1-pro-high",
+   "cand_id": "GP04"
+  },
+  {
+   "id": "q125",
+   "chapter": "ch1",
+   "type": "scenario",
+   "difficulty": 3,
+   "kp": [
+    "E09"
+   ],
+   "variant_group": "E09",
+   "stem": "社區志工阿明擁有大學學歷，半年前剛取得中級救護技術員證書。他聽說高級訓練課程能學到更多技術，現在立刻去報名高級救護技術員訓練，是否會被接受？",
+   "options": [
+    "不會接受，因為他領有效期內中級證書未滿一年",
+    "會被接受，因為他具備專科以上學校畢業的學歷",
+    "不會接受，因為報名高級一定要先從事中級緊急救護連續四年以上，學歷不能替代",
+    "會被接受，因為只要有中級證書就可以報名高級訓練"
+   ],
+   "answer": "不會接受，因為他領有效期內中級證書未滿一年",
+   "explain": "第 2 條：高級的報名資格有兩條路，符合其一即可：從事中級救護技術員緊急救護連續四年以上；或專科以上學校畢業，並領有效期內中級證書一年以上。阿明走學歷這條路，但中級證書只領了半年，未滿一年，所以資格不符；四年年資並不是唯一的條件。",
+   "sources": [
+    "EMTR2"
+   ],
+   "model": "gemini-3.1-pro-high",
+   "cand_id": "GP11"
+  },
+  {
+   "id": "q126",
+   "chapter": "ch1",
+   "type": "scenario",
+   "difficulty": 3,
+   "kp": [
+    "E10"
+   ],
+   "variant_group": "E10",
+   "stem": "學長打算報名中級救護技術員初訓，向老師詢問課程內容與時數。若老師依照法規說明，學長參加的中級初訓總時數及實習規定為何？",
+   "options": [
+    "總時數336小時，其中包含醫院實習40小時與救護車出勤實習96小時",
+    "總時數336小時，全數為教室內的學科與技術演練，無實習時數",
+    "總時數1296小時，其中包含醫院急診實習480小時與救護車實習240小時",
+    "總時數56小時，其中包含救護車出勤實習40小時"
+   ],
+   "answer": "總時數336小時，其中包含醫院實習40小時與救護車出勤實習96小時",
+   "explain": "中級初訓總時數336小時，含醫院實習40小時、救護車出勤實習96小時。1296小時為高級初訓規定，56小時為初級。",
+   "sources": [
+    "T2"
+   ],
+   "model": "gemini-3.1-pro-high",
+   "cand_id": "GP13"
+  },
+  {
+   "id": "q127",
+   "chapter": "ch1",
+   "type": "scenario",
+   "difficulty": 3,
+   "kp": [
+    "E13"
+   ],
+   "variant_group": "E13",
+   "stem": "擔任中級救護技術員的大學生正在查詢自己需要的繼續教育時數，他要在3年內完成多少小時以上的繼續教育，才能維持中級資格？",
+   "options": [
+    "72小時以上，其中36小時以上為模組二、四、五、七",
+    "24小時以上，其中12小時以上為模組二、四、六",
+    "96小時以上，其中48小時以上為模組二、四、五",
+    "56小時以上，全數為基本生命急救術"
+   ],
+   "answer": "72小時以上，其中36小時以上為模組二、四、五、七",
+   "explain": "中級繼續教育時數需72小時以上，其中36小時以上為模組二、四、五、七。24小時是初級規定，96小時是高級規定。",
+   "sources": [
+    "EMTR10"
+   ],
+   "model": "gemini-3.1-pro-high",
+   "cand_id": "GP20"
+  },
+  {
+   "id": "q128",
+   "chapter": "ch1",
+   "type": "scenario",
+   "difficulty": 3,
+   "kp": [
+    "E16"
+   ],
+   "variant_group": "E16",
+   "stem": "工場裡一位同學被木屑噴到眼睛，另一位同學割傷手部流血。保健室有一位持有效初級救護技術員證書的志工趕來。依《救護技術員管理辦法》第 13 條，下列哪一項屬於他得施行的救護項目？",
+   "options": [
+    "協助傷口清洗止血包紮與沖洗眼睛",
+    "為割傷同學注射止痛藥",
+    "為割傷同學進行周邊輸液路徑建立",
+    "為兩位同學進行氣管插管以確保呼吸順暢"
+   ],
+   "answer": "協助傷口清洗止血包紮與沖洗眼睛",
+   "explain": "第 13 條初級救護技術員得施行的 20 項中，有「傷口清洗、止血及包紮」與「沖洗眼睛」。注射、周邊輸液路徑、氣管插管都不在這 20 項之中。",
+   "sources": [
+    "EMTR13"
+   ],
+   "model": "gemini-3.1-pro-high",
+   "cand_id": "GP26"
+  },
+  {
+   "id": "q129",
+   "chapter": "ch1",
+   "type": "scenario",
+   "difficulty": 3,
+   "kp": [
+    "E19"
+   ],
+   "variant_group": "E19",
+   "stem": "紅十字會開辦的初級救護技術員訓練班總計 56 小時。到了最後一天，同學問測驗與分數的規定。下列哪一項說明正確？",
+   "options": [
+    "測驗時數為4小時，已包含在56小時總時數內，且及格標準依授課單位規定",
+    "測驗時數必須外加在56小時之後，筆試及格分數為中央統一規定的60分",
+    "初級訓練只需上滿56小時即發給證書，無需進行筆試與技術測驗",
+    "測驗內容只有技術測驗，不包含筆試，及格者由當地消防局發證"
+   ],
+   "answer": "測驗時數為4小時，已包含在56小時總時數內，且及格標準依授課單位規定",
+   "explain": "初級課程基準最後一個模組「測試」為4小時，包含在56小時內；內容為筆試與技術測驗；法規沒有寫出及格分數，及格標準依授課單位規定。",
+   "sources": [
+    "T1",
+    "EMTR8"
+   ],
+   "model": "gemini-3.1-pro-high",
+   "cand_id": "GP34"
+  },
+  {
+   "id": "q130",
+   "chapter": "ch1",
+   "type": "scenario",
+   "difficulty": 3,
+   "kp": [
+    "E21"
+   ],
+   "variant_group": "E21",
+   "stem": "高中體育老師處理完學生上課摔傷的事件後，翻閱《教育部主管各級學校緊急傷病處理準則》。這部準則的適用範圍是？",
+   "options": [
+    "適用於教育部主管的各級學校",
+    "適用於全國所有的醫療院所與救護機構",
+    "僅適用於提供救護技術員訓練的民間法人或團體",
+    "適用於所有民間立案的補習班及安親班"
+   ],
+   "answer": "適用於教育部主管的各級學校",
+   "explain": "該準則適用於教育部主管的各級學校。",
+   "sources": [
+    "SCH2"
+   ],
+   "model": "gemini-3.1-pro-high",
+   "cand_id": "GP36"
+  },
+  {
+   "id": "q131",
+   "chapter": "ch2",
+   "type": "single",
+   "difficulty": 1,
+   "kp": [
+    "W04"
+   ],
+   "variant_group": "W04",
+   "stem": "紅十字會線上教育訓練系統的訓練項目中，下列哪一個是初級救護技術員（EMT-1）的訓練課程？",
+   "options": [
+    "A08.初級救護技術員EMT1訓練",
+    "基本救命術",
+    "CPR＋AED 訓練",
+    "急救員"
+   ],
+   "answer": "A08.初級救護技術員EMT1訓練",
+   "explain": "紅十字會線上教育訓練系統的訓練項目包含「A08.初級救護技術員EMT1訓練」與「A13.初級救護技術員EMT1繼續教育訓練」；CPR＋AED、基本救命術、急救員是同一系統列出的非 EMT 課程。",
+   "sources": [
+    "RCCLASS"
+   ],
+   "model": "claude-opus-5-5",
+   "cand_id": "CL04"
+  },
+  {
+   "id": "q132",
+   "chapter": "ch2",
+   "type": "tf",
+   "difficulty": 1,
+   "kp": [
+    "W04"
+   ],
+   "variant_group": "W04",
+   "stem": "紅十字會線上教育訓練系統只開 EMT 課程，沒有 CPR＋AED 或基本救命術這類入門課程。",
+   "options": [
+    "正確",
+    "錯誤"
+   ],
+   "answer": "錯誤",
+   "explain": "紅十字會線上教育訓練系統除了「A08.初級救護技術員EMT1訓練」與「A13.初級救護技術員EMT1繼續教育訓練」，也列有 CPR＋AED、基本救命術、急救員等非 EMT 課程。",
+   "sources": [
+    "RCCLASS"
+   ],
+   "model": "claude-opus-5-5",
+   "cand_id": "CL05"
+  },
+  {
+   "id": "q133",
+   "chapter": "ch2",
+   "type": "tf",
+   "difficulty": 1,
+   "kp": [
+    "W06"
+   ],
+   "variant_group": "W06",
+   "stem": "內政部消防署編印的救護技術員教科書只提供給消防人員，一般人無法閱讀。",
+   "options": [
+    "正確",
+    "錯誤"
+   ],
+   "answer": "錯誤",
+   "explain": "內政部消防署編印救護技術員教科書，公開在網站上，可以當作延伸閱讀。",
+   "sources": [
+    "NFA810"
+   ],
+   "model": "claude-opus-5-5",
+   "cand_id": "CL09"
+  },
+  {
+   "id": "q134",
+   "chapter": "ch2",
+   "type": "scenario",
+   "difficulty": 1,
+   "kp": [
+    "W04",
+    "W07"
+   ],
+   "variant_group": "W04",
+   "stem": "國中剛畢業的表弟想報名紅十字會的 EMT1 訓練，問你報名有沒有年齡限制。依網站，最正確的回答是？",
+   "options": [
+    "法規只規定國中以上畢業或同等學力；年齡限制依授課單位規定，以系統上的公告為準",
+    "法規規定要年滿 16 歲",
+    "法規規定要年滿 18 歲",
+    "法規規定要年滿 20 歲"
+   ],
+   "answer": "法規只規定國中以上畢業或同等學力；年齡限制依授課單位規定，以系統上的公告為準",
+   "explain": "《救護技術員管理辦法》第 2 條對初級只規定學歷：國民中學以上學校畢業或具同等學力，法規沒有寫年齡下限。紅十字會各梯次的日期、名額、年齡限制與費用，依授課單位規定，以系統上的公告為準。",
+   "sources": [
+    "EMTR2",
+    "RCCLASS"
+   ],
+   "model": "claude-opus-5-5",
+   "cand_id": "CL06"
+  },
+  {
+   "id": "q135",
+   "chapter": "ch2",
+   "type": "single",
+   "difficulty": 2,
+   "kp": [
+    "W05"
+   ],
+   "variant_group": "W05",
+   "stem": "以臺北市政府消防局為例，協助救護勤務的救護義消，要具備哪一級以上的救護技術員資格？",
+   "options": [
+    "初級（EMT-1）",
+    "中級（EMT-2）",
+    "高級（EMTP）",
+    "不需要任何救護技術員資格"
+   ],
+   "answer": "初級（EMT-1）",
+   "explain": "臺北市政府消防局：救護人員主要由具中級以上資格的消防人員擔任，另由具初級（EMT-1）以上資格的救護義消協助救護勤務。中級以上是對消防人員的要求。",
+   "sources": [
+    "TPTRAIN"
+   ],
+   "model": "claude-opus-5-5",
+   "cand_id": "CL08"
+  },
+  {
+   "id": "q136",
+   "chapter": "ch2",
+   "type": "scenario",
+   "difficulty": 2,
+   "kp": [
+    "W01"
+   ],
+   "variant_group": "W01",
+   "stem": "班上討論要請哪個單位開初級救護技術員（EMT-1）訓練。依《救護技術員管理辦法》第 4 條，下列哪一個單位「不在」可辦理初級訓練的四類單位之中？",
+   "options": [
+    "一所沒有醫療、衛生、消防相關科系的高級中等學校",
+    "縣市衛生局",
+    "設有消防相關科系的科技大學",
+    "經中央衛生主管機關認可的法人團體"
+   ],
+   "answer": "一所沒有醫療、衛生、消防相關科系的高級中等學校",
+   "explain": "第 4 條：辦理初級、中級訓練的單位以四類為限：各級衛生、消防主管機關；設有醫療、衛生、消防或其他相關科系所的專科以上學校；符合條件的急救責任醫院；其他經中央衛生主管機關認可的機關、機構、法人或團體。高級中等學校不是專科以上學校，不在這四類之中。",
+   "sources": [
+    "EMTR4"
+   ],
+   "model": "claude-opus-5-5",
+   "cand_id": "CL01"
+  },
+  {
+   "id": "q137",
+   "chapter": "ch2",
+   "type": "scenario",
+   "difficulty": 2,
+   "kp": [
+    "W03"
+   ],
+   "variant_group": "W03",
+   "stem": "學長拿到初級救護技術員證書兩年多，忘了證書哪一天到期，也想看自己的受訓紀錄。依網站第二章，他可以到哪裡查？",
+   "options": [
+    "衛福部緊急醫療管理系統的「救護技術員專區」",
+    "內政部消防署的救護技術員教科書",
+    "衛福部 AED 急救資訊網",
+    "全國法規資料庫的《救護技術員管理辦法》"
+   ],
+   "answer": "衛福部緊急醫療管理系統的「救護技術員專區」",
+   "explain": "衛福部緊急醫療管理系統首頁設有「救護技術員專區」，提供救護技術員課程報名、訓練機構查詢、受訓紀錄及效期查詢。",
+   "sources": [
+    "EMS"
+   ],
+   "model": "claude-opus-5-5",
+   "cand_id": "CL03"
+  },
+  {
+   "id": "q138",
+   "chapter": "ch2",
+   "type": "scenario",
+   "difficulty": 2,
+   "kp": [
+    "W05"
+   ],
+   "variant_group": "W05",
+   "stem": "參觀臺北市政府消防局分隊時，同學想知道救護車上的救護人員是什麼資格。依臺北市消防局的說明，下列何者正確？",
+   "options": [
+    "主要由具中級以上資格的消防人員擔任，另由具初級以上資格的救護義消協助",
+    "主要由醫師擔任，消防人員只負責開車",
+    "主要由具初級資格的消防人員擔任，不需要中級以上資格",
+    "全部由救護義消擔任，消防人員不出救護勤務"
+   ],
+   "answer": "主要由具中級以上資格的消防人員擔任，另由具初級以上資格的救護義消協助",
+   "explain": "臺北市政府消防局：救護人員主要由具備中級救護技術員（EMT-2）資格以上之消防人員擔任，另由具備初級救護技術員（EMT-1）資格以上之救護義消協助救護勤務。",
+   "sources": [
+    "TPTRAIN"
+   ],
+   "model": "claude-opus-5-5",
+   "cand_id": "CL07"
+  },
+  {
+   "id": "q139",
+   "chapter": "ch2",
+   "type": "scenario",
+   "difficulty": 3,
+   "kp": [
+    "W02"
+   ],
+   "variant_group": "W02",
+   "stem": "下學期有三個初級救護技術員課程：甲、某縣消防局辦初級訓練；乙、經中央衛生主管機關認可的法人團體辦初級訓練；丙、設有護理系的科技大學辦初級繼續教育課程。依《救護技術員管理辦法》第 6 條，哪些要在辦理前送計畫書，經中央衛生主管機關審查核准？",
+   "options": [
+    "只有乙",
+    "甲、乙、丙都要",
+    "只有甲和乙",
+    "只有丙"
+   ],
+   "answer": "只有乙",
+   "explain": "第 6 條：辦理訓練或繼續教育課程，要檢具計畫書向中央衛生主管機關提出，經審查核准後才能辦理；但衛生、消防主管機關（甲）與設有相關科系所的專科以上學校（丙）辦理初級、中級訓練或繼續教育課程，得免予申請。經認可的法人團體（乙）不在免申請之列。",
+   "sources": [
+    "EMTR6"
+   ],
+   "model": "claude-opus-5-5",
+   "cand_id": "CL02"
+  },
+  {
+   "id": "q140",
+   "chapter": "ch3",
+   "type": "single",
+   "difficulty": 1,
+   "kp": [
+    "U08"
+   ],
+   "variant_group": "U08",
+   "stem": "依《救護技術員管理辦法》第 13 條，下列哪一項是初級救護技術員得施行的救護項目？",
+   "options": [
+    "沖洗眼睛",
+    "氣管插管",
+    "依預立醫療流程給藥",
+    "注射藥物"
+   ],
+   "answer": "沖洗眼睛",
+   "explain": "第 13 條列出初級救護技術員得施行的 20 項救護項目，最後一項是沖洗眼睛；氣管插管、給藥、注射都不在這 20 項之中。",
+   "sources": [
+    "EMTR13"
+   ],
+   "model": "claude-opus-5-5",
+   "cand_id": "CL25"
+  },
+  {
+   "id": "q141",
+   "chapter": "ch3",
+   "type": "tf",
+   "difficulty": 1,
+   "kp": [
+    "U05"
+   ],
+   "variant_group": "U05",
+   "stem": "附表一模組六包含「大量傷病患與檢傷分類」科目，時數 1 小時。",
+   "options": [
+    "正確",
+    "錯誤"
+   ],
+   "answer": "正確",
+   "explain": "附表一模組六：6.4 大量傷病患與檢傷分類 1 小時。",
+   "sources": [
+    "T1"
+   ],
+   "model": "claude-opus-5-5",
+   "cand_id": "CL20"
+  },
+  {
+   "id": "q142",
+   "chapter": "ch3",
+   "type": "scenario",
+   "difficulty": 1,
+   "kp": [
+    "U02"
+   ],
+   "variant_group": "U02",
+   "stem": "小華拿到初級救護技術員課程表，想找出時數最少的模組。依附表一，是哪一個？",
+   "options": [
+    "模組七 測試（4 小時）",
+    "模組三 病人評估（5 小時）",
+    "模組二 基本生命急救術（6 小時）",
+    "模組五 半情境流程演練（6 小時）"
+   ],
+   "answer": "模組七 測試（4 小時）",
+   "explain": "附表一各模組時數：模組一 7、模組二 6、模組三 5、模組四 12、模組五 6、模組六 16、模組七 4 小時，總時數 56 小時。時數最少的是模組七測試。",
+   "sources": [
+    "T1"
+   ],
+   "model": "claude-opus-5-5",
+   "cand_id": "CL12"
+  },
+  {
+   "id": "q143",
+   "chapter": "ch3",
+   "type": "scenario",
+   "difficulty": 1,
+   "kp": [
+    "U06"
+   ],
+   "variant_group": "U06",
+   "stem": "健康教育課學到量呼吸、脈搏、血壓。初級救護技術員課程（附表一）中，介紹生命徵象測量的是哪一個科目？",
+   "options": [
+    "1.2 人體構造與生命徵象",
+    "1.1 緊急醫療救護體系概論",
+    "1.3 緊急醫療救護職業安全",
+    "3.3 通報與紀錄"
+   ],
+   "answer": "1.2 人體構造與生命徵象",
+   "explain": "附表一模組一：1.2 人體構造與生命徵象（2 小時），內容包含生命徵象（意識或昏迷指數、呼吸、脈搏、血壓、血氧、瞳孔、體溫、膚色）的測量與注意事項。",
+   "sources": [
+    "T1"
+   ],
+   "model": "claude-opus-5-5",
+   "cand_id": "CL21"
+  },
+  {
+   "id": "q144",
+   "chapter": "ch3",
+   "type": "single",
+   "difficulty": 2,
+   "kp": [
+    "U10"
+   ],
+   "variant_group": "U10",
+   "stem": "高級救護技術員課程基準（附表三）中，「救護指揮中心實習」是幾小時？",
+   "options": [
+    "8 小時",
+    "14 小時",
+    "240 小時",
+    "480 小時"
+   ],
+   "answer": "8 小時",
+   "explain": "附表三：救護指揮中心實習 8 小時；綜合演練及測試 14 小時、救護車實習 240 小時、醫院急診實習 480 小時。",
+   "sources": [
+    "T3"
+   ],
+   "model": "claude-opus-5-5",
+   "cand_id": "CL32"
+  },
+  {
+   "id": "q145",
+   "chapter": "ch3",
+   "type": "tf",
+   "difficulty": 2,
+   "kp": [
+    "U02"
+   ],
+   "variant_group": "U02",
+   "stem": "附表一中，模組二「基本生命急救術」和模組五「半情境流程演練」的時數相同，都是 6 小時。",
+   "options": [
+    "正確",
+    "錯誤"
+   ],
+   "answer": "正確",
+   "explain": "附表一：模組二基本生命急救術 6 小時、模組五半情境流程演練 6 小時。",
+   "sources": [
+    "T1"
+   ],
+   "model": "claude-opus-5-5",
+   "cand_id": "CL13"
+  },
+  {
+   "id": "q146",
+   "chapter": "ch3",
+   "type": "tf",
+   "difficulty": 2,
+   "kp": [
+    "U08"
+   ],
+   "variant_group": "U08",
+   "stem": "「使用自動心肺復甦機」與「血糖監測及給予口服葡萄糖」都在初級救護技術員得施行的 20 項救護項目內。",
+   "options": [
+    "正確",
+    "錯誤"
+   ],
+   "answer": "正確",
+   "explain": "第 13 條的 20 項救護項目包括使用自動心肺復甦機，以及血糖監測及給予口服葡萄糖。",
+   "sources": [
+    "EMTR13"
+   ],
+   "model": "claude-opus-5-5",
+   "cand_id": "CL26"
+  },
+  {
+   "id": "q147",
+   "chapter": "ch3",
+   "type": "scenario",
+   "difficulty": 2,
+   "kp": [
+    "U03"
+   ],
+   "variant_group": "U03",
+   "stem": "同學問：EMT-1 課程有沒有教小孩的心肺復甦術？依附表一，下列何者正確？",
+   "options": [
+    "有，科目 2.2 小兒心肺復甦術，1 小時",
+    "有，併在 2.1 成人心肺復甦術裡，沒有單獨的科目",
+    "沒有，小兒心肺復甦術只在中級課程",
+    "有，科目 2.3 清除呼吸道異物，4 小時"
+   ],
+   "answer": "有，科目 2.2 小兒心肺復甦術，1 小時",
+   "explain": "附表一模組二：2.1 成人心肺復甦術（含胸部按壓及 AED 操作）4 小時、2.2 小兒心肺復甦術 1 小時、2.3 清除呼吸道異物 1 小時。",
+   "sources": [
+    "T1"
+   ],
+   "model": "claude-opus-5-5",
+   "cand_id": "CL14"
+  },
+  {
+   "id": "q148",
+   "chapter": "ch3",
+   "type": "scenario",
+   "difficulty": 2,
+   "kp": [
+    "U07"
+   ],
+   "variant_group": "U07",
+   "stem": "救護技術員完成一趟任務後，要用無線電報告並填寫救護紀錄表。這在初級救護技術員課程（附表一）的哪一個科目？",
+   "options": [
+    "3.3 通報與紀錄",
+    "1.1 緊急醫療救護體系概論",
+    "4.5 傷患搬運",
+    "6.4 大量傷病患與檢傷分類"
+   ],
+   "answer": "3.3 通報與紀錄",
+   "explain": "附表一模組三：3.3 通報與紀錄（1 小時），內容是無線電報告與救護紀錄表填寫。",
+   "sources": [
+    "T1"
+   ],
+   "model": "claude-opus-5-5",
+   "cand_id": "CL23"
+  },
+  {
+   "id": "q149",
+   "chapter": "ch3",
+   "type": "scenario",
+   "difficulty": 2,
+   "kp": [
+    "U10"
+   ],
+   "variant_group": "U10",
+   "stem": "表姊在上高級救護技術員（EMTP）課程，除了八個課程模組，還要到醫院急診、救護車與救護指揮中心實習。依附表三，下列時數何者正確？",
+   "options": [
+    "醫院急診實習 480、救護車實習 240、救護指揮中心實習 8 小時",
+    "醫院急診實習 240、救護車實習 480、救護指揮中心實習 8 小時",
+    "醫院急診實習 480、救護車實習 240、救護指揮中心實習 14 小時",
+    "醫院急診實習 40、救護車實習 96、救護指揮中心實習 8 小時"
+   ],
+   "answer": "醫院急診實習 480、救護車實習 240、救護指揮中心實習 8 小時",
+   "explain": "高級課程基準（附表三）共 1296 小時：八個課程模組之外，還有醫院急診實習 480 小時、救護車實習 240 小時、救護指揮中心實習 8 小時，以及綜合演練及測試 14 小時。醫院實習 40、救護車出勤實習 96 小時是中級的。",
+   "sources": [
+    "T3"
+   ],
+   "model": "claude-opus-5-5",
+   "cand_id": "CL30"
+  },
+  {
+   "id": "q150",
+   "chapter": "ch3",
+   "type": "order",
+   "difficulty": 2,
+   "kp": [
+    "U04"
+   ],
+   "variant_group": "U04",
+   "stem": "請依附表一模組四「基本救護技術」的科目編號，由先到後排列下列科目。",
+   "items": [
+    "氧氣治療與抽吸",
+    "傷口清洗、止血、包紮與固定",
+    "頸椎減移及固定、脫除安全帽及上頸圈",
+    "脊椎減移及固定（翻身）及上長背板",
+    "傷患搬運"
+   ],
+   "explain": "附表一模組四：4.1 氧氣治療與抽吸、4.2 傷口清洗、止血、包紮與固定、4.3 頸椎減移及固定、脫除安全帽及上頸圈、4.4 脊椎減移及固定（翻身）及上長背板、4.5 傷患搬運，共 12 小時。",
+   "sources": [
+    "T1"
+   ],
+   "model": "claude-opus-5-5",
+   "cand_id": "CL17"
+  },
+  {
+   "id": "q151",
+   "chapter": "ch3",
+   "type": "single",
+   "difficulty": 3,
+   "kp": [
+    "U07"
+   ],
+   "variant_group": "U07",
+   "stem": "附表一模組三「病人評估」共 5 小時，科目的時數分配是？",
+   "options": [
+    "急症（非創傷）病人評估 2、創傷病人評估 2、通報與紀錄 1",
+    "急症（非創傷）病人評估 3、創傷病人評估 1、通報與紀錄 1",
+    "急症（非創傷）病人評估 1、創傷病人評估 3、通報與紀錄 1",
+    "急症（非創傷）病人評估 2、創傷病人評估 1、通報與紀錄 2"
+   ],
+   "answer": "急症（非創傷）病人評估 2、創傷病人評估 2、通報與紀錄 1",
+   "explain": "附表一模組三病人評估：3.1 急症（非創傷）病人評估 2 小時、3.2 創傷病人評估 2 小時、3.3 通報與紀錄 1 小時，共 5 小時。",
+   "sources": [
+    "T1"
+   ],
+   "model": "claude-opus-5-5",
+   "cand_id": "CL24"
+  },
+  {
+   "id": "q152",
+   "chapter": "ch3",
+   "type": "tf",
+   "difficulty": 3,
+   "kp": [
+    "U04"
+   ],
+   "variant_group": "U04",
+   "stem": "附表一模組四中，「頸椎減移及固定、脫除安全帽及上頸圈」、「脊椎減移及固定（翻身）及上長背板」與「傷患搬運」三個科目都是 2 小時。",
+   "options": [
+    "正確",
+    "錯誤"
+   ],
+   "answer": "錯誤",
+   "explain": "附表一模組四：4.3 頸椎減移及固定、脫除安全帽及上頸圈 2 小時；4.4 脊椎減移及固定（翻身）及上長背板 2 小時；4.5 傷患搬運是 1 小時。",
+   "sources": [
+    "T1"
+   ],
+   "model": "claude-opus-5-5",
+   "cand_id": "CL16"
+  },
+  {
+   "id": "q153",
+   "chapter": "ch3",
+   "type": "scenario",
+   "difficulty": 3,
+   "kp": [
+    "U01",
+    "U02"
+   ],
+   "variant_group": "U01",
+   "stem": "兩個單位的初級救護技術員課程簡章：甲單位總時數 56 小時，乙單位寫「精簡版 40 小時，內容自行安排」。依《救護技術員管理辦法》，下列判斷何者正確？",
+   "options": [
+    "課程的模組、科目、內容與時數要依附表一辦理，總時數 56 小時，乙單位的安排不符合",
+    "各開課單位可以自行決定時數，兩個都符合",
+    "初級課程依附表三辦理，兩個都不符合",
+    "只要最後有筆試，時數多少都可以"
+   ],
+   "answer": "課程的模組、科目、內容與時數要依附表一辦理，總時數 56 小時，乙單位的安排不符合",
+   "explain": "第 3 條：各級救護技術員訓練課程的模組、科目、內容與時數，依附表一至附表三辦理；初級是附表一，總時數 56 小時。附表三是高級的課程基準。",
+   "sources": [
+    "EMTR3",
+    "T1"
+   ],
+   "model": "claude-opus-5-5",
+   "cand_id": "CL11"
+  },
+  {
+   "id": "q154",
+   "chapter": "ch3",
+   "type": "scenario",
+   "difficulty": 3,
+   "kp": [
+    "U04"
+   ],
+   "variant_group": "U04",
+   "stem": "救護技術員到場後為一位疑似頸部受傷的傷者上頸圈。這項技術在初級救護技術員課程（附表一）的哪一個科目練習？",
+   "options": [
+    "4.3 頸椎減移及固定、脫除安全帽及上頸圈",
+    "4.4 脊椎減移及固定（翻身）及上長背板",
+    "4.5 傷患搬運",
+    "3.2 創傷病人評估"
+   ],
+   "answer": "4.3 頸椎減移及固定、脫除安全帽及上頸圈",
+   "explain": "附表一模組四：4.3 頸椎減移及固定、脫除安全帽及上頸圈（2 小時）；4.4 是脊椎減移及固定與上長背板，4.5 是傷患搬運，3.2 是創傷病人評估。",
+   "sources": [
+    "T1"
+   ],
+   "model": "claude-opus-5-5",
+   "cand_id": "CL18"
+  },
+  {
+   "id": "q155",
+   "chapter": "ch3",
+   "type": "scenario",
+   "difficulty": 3,
+   "kp": [
+    "U05"
+   ],
+   "variant_group": "U05",
+   "stem": "校外教學時有孕婦急產，救護技術員協助接生。初級救護技術員課程（附表一）中，「急產接生」列在哪一個科目？",
+   "options": [
+    "6.3 特殊病人與狀況（小兒、孕婦含急產接生、老人）",
+    "6.1 常見急症的處置",
+    "6.2 常見創傷的處置",
+    "6.6 行為急症"
+   ],
+   "answer": "6.3 特殊病人與狀況（小兒、孕婦含急產接生、老人）",
+   "explain": "附表一模組六：6.3 特殊病人與狀況（小兒、孕婦含急產接生、老人）2 小時。6.1 是常見急症、6.2 是常見創傷、6.6 是行為急症。",
+   "sources": [
+    "T1"
+   ],
+   "model": "claude-opus-5-5",
+   "cand_id": "CL19"
+  },
+  {
+   "id": "q156",
+   "chapter": "ch3",
+   "type": "scenario",
+   "difficulty": 3,
+   "kp": [
+    "U08"
+   ],
+   "variant_group": "U08",
+   "stem": "救護車上的 EMT-1 學長說，有一項處置他不能做，因為不在初級救護技術員得施行的 20 項救護項目中。是下列哪一項？",
+   "options": [
+    "使用聲門上呼吸道",
+    "使用口咽、鼻咽人工呼吸道",
+    "抽吸呼吸道分泌物",
+    "清除呼吸道異物"
+   ],
+   "answer": "使用聲門上呼吸道",
+   "explain": "第 13 條的 20 項包括清除呼吸道異物、抽吸呼吸道分泌物、使用口咽、鼻咽人工呼吸道；聲門上呼吸道不在這 20 項之中。",
+   "sources": [
+    "EMTR13"
+   ],
+   "model": "claude-opus-5-5",
+   "cand_id": "CL27"
+  },
+  {
+   "id": "q157",
+   "chapter": "ch3",
+   "type": "scenario",
+   "difficulty": 3,
+   "kp": [
+    "U09"
+   ],
+   "variant_group": "U09",
+   "stem": "學長正在上中級救護技術員訓練，他說光是「實習與測試」模組就有 149 小時。下列哪一項是這個模組裡時數最多的？",
+   "options": [
+    "救護車出勤實習 96 小時",
+    "醫院實習 40 小時",
+    "測試 13 小時",
+    "醫院急診實習 480 小時"
+   ],
+   "answer": "救護車出勤實習 96 小時",
+   "explain": "中級課程基準（附表二）的實習與測試模組 149 小時：醫院實習 40 小時、救護車出勤實習 96 小時、測試 13 小時。醫院急診實習 480 小時是高級課程基準的項目。",
+   "sources": [
+    "T2"
+   ],
+   "model": "claude-opus-5-5",
+   "cand_id": "CL28"
+  },
+  {
+   "id": "q158",
+   "chapter": "ch3",
+   "type": "order",
+   "difficulty": 3,
+   "kp": [
+    "U06"
+   ],
+   "variant_group": "U06",
+   "stem": "請依附表一模組一「基本概念」的科目編號，由先到後排列下列科目。",
+   "items": [
+    "緊急醫療救護體系概論",
+    "人體構造與生命徵象",
+    "緊急醫療救護職業安全",
+    "環境急症與野外地區緊急救護"
+   ],
+   "explain": "附表一模組一：1.1 緊急醫療救護體系概論 2、1.2 人體構造與生命徵象 2、1.3 緊急醫療救護職業安全 2、1.4 環境急症與野外地區緊急救護 1 小時，共 7 小時。",
+   "sources": [
+    "T1"
+   ],
+   "model": "claude-opus-5-5",
+   "cand_id": "CL22"
+  },
+  {
+   "id": "q159",
+   "chapter": "ch3",
+   "type": "order",
+   "difficulty": 3,
+   "kp": [
+    "U10"
+   ],
+   "variant_group": "U10",
+   "stem": "高級救護技術員課程基準（附表三）中，八個課程模組以外的下列項目，請依時數由多到少排列。",
+   "items": [
+    "醫院急診實習",
+    "救護車實習",
+    "綜合演練及測試",
+    "救護指揮中心實習"
+   ],
+   "explain": "附表三：醫院急診實習 480 小時、救護車實習 240 小時、綜合演練及測試 14 小時、救護指揮中心實習 8 小時。",
+   "sources": [
+    "T3"
+   ],
+   "model": "claude-opus-5-5",
+   "cand_id": "CL31"
+  },
+  {
+   "id": "q160",
+   "chapter": "ch4",
+   "type": "single",
+   "difficulty": 1,
+   "kp": [
+    "G02"
+   ],
+   "variant_group": "G02",
+   "stem": "依據衛福部及消防局教材，若在現場發現需要急救的傷病患且手邊有手機，自行打 119 求救時的正確做法為何？",
+   "options": [
+    "開啟擴音並聽從 119 執勤人員指示",
+    "通話時不可開啟擴音以防干擾收音",
+    "撥通 119 後應立即掛斷以等待對方回撥",
+    "不可使用手機撥打 119，必須尋找市內電話"
+   ],
+   "answer": "開啟擴音並聽從 119 執勤人員指示",
+   "explain": "衛福部民眾版 CPR 摘要表：求救時「可以用手機打 119，開啟擴音，聽從 119 執勤人員指示」。",
+   "sources": [
+    "CPR21",
+    "TPCPR"
+   ],
+   "model": "gemini-3.8-flash-high",
+   "cand_id": "GF01"
+  },
+  {
+   "id": "q161",
+   "chapter": "ch4",
+   "type": "single",
+   "difficulty": 1,
+   "kp": [
+    "R06"
+   ],
+   "variant_group": "R06",
+   "stem": "面對化學品或輻射造成的灼傷，下列哪一項符合消防署教材的說法？",
+   "options": [
+    "處置人員應該穿戴足夠的安全防護除汙",
+    "處置人員不可穿戴任何防護，應直接徒手接觸傷口",
+    "應立即將傷處直接冷凍於冰塊中",
+    "應先進行脫臼或骨折復位"
+   ],
+   "answer": "處置人員應該穿戴足夠的安全防護除汙",
+   "explain": "依消防署教材，「因化學、輻射所造成灼傷，處置人員應該穿戴足夠的安全防護除汙」。",
+   "sources": [
+    "TB265"
+   ],
+   "model": "gemini-3.8-flash-high",
+   "cand_id": "GF19"
+  },
+  {
+   "id": "q162",
+   "chapter": "ch4",
+   "type": "single",
+   "difficulty": 1,
+   "kp": [
+    "C09"
+   ],
+   "variant_group": "C09",
+   "stem": "依據消防署《救護技術員教科書》，當發現傷者四肢有斷肢情形時，控制出血應優先考慮採取何種處置？",
+   "options": [
+    "優先考慮打上止血帶來控制出血",
+    "優先持續浸泡熱水以促使凝血",
+    "優先在現場進行斷骨強行復位",
+    "優先使用毛刷刷除傷口周圍血跡"
+   ],
+   "answer": "優先考慮打上止血帶來控制出血",
+   "explain": "消防署《救護技術員教科書》：「如發現四肢有斷肢情形，應優先考慮打上止血帶來控制出血」，「就算沒有大量出血，也應優先考量使用止血帶止血」。止血帶的操作列在初級救護技術員訓練課程（科目 4.2「含加壓止血及止血帶的操作」），需要在合格課程中練習。",
+   "sources": [
+    "TB287",
+    "T1"
+   ],
+   "model": "gemini-3.8-flash-high",
+   "cand_id": "GF38"
+  },
+  {
+   "id": "q163",
+   "chapter": "ch4",
+   "type": "single",
+   "difficulty": 1,
+   "kp": [
+    "S01"
+   ],
+   "variant_group": "S01",
+   "stem": "同學觸電倒地，一時無法切斷電源，施救者應站在什麼上面，再用乾的工具將傷者肢體拖離電源？",
+   "options": [
+    "乾燥絕緣物（如木箱或橡皮墊）",
+    "濕毛巾",
+    "金屬板",
+    "積水的地面"
+   ],
+   "answer": "乾燥絕緣物（如木箱或橡皮墊）",
+   "explain": "無法切開電源時，應「站在木箱、塑膠管、橡皮墊或報紙等乾燥絕緣體上」，再用乾的掃把、竹竿或木椅將傷者肢體拖離電源。",
+   "sources": [
+    "TB370"
+   ],
+   "model": "claude-sonnet-4-6",
+   "cand_id": "SN10"
+  },
+  {
+   "id": "q164",
+   "chapter": "ch4",
+   "type": "single",
+   "difficulty": 1,
+   "kp": [
+    "P04"
+   ],
+   "variant_group": "P04",
+   "stem": "確認傷者沒有反應後，觀察呼吸狀況，發現傷者幾乎沒有呼吸，此時應該怎麼做？",
+   "options": [
+    "再等10秒確認一次",
+    "立即開始胸外按壓",
+    "先叫救護車，等候指示",
+    "讓傷者側躺，觀察情況"
+   ],
+   "answer": "立即開始胸外按壓",
+   "explain": "「沒有呼吸或幾乎沒有呼吸，就開始胸外按壓」。",
+   "sources": [
+    "CPR21"
+   ],
+   "model": "claude-sonnet-4-6",
+   "cand_id": "SN20"
+  },
+  {
+   "id": "q165",
+   "chapter": "ch4",
+   "type": "single",
+   "difficulty": 1,
+   "kp": [
+    "P14"
+   ],
+   "variant_group": "P14",
+   "stem": "發現成人倒地、沒有反應，依成人CPR流程，應在什麼時機打119求援？",
+   "options": [
+    "確認沒有反應就立即呼救，不要等",
+    "確認沒有呼吸後再打119",
+    "完成第一輪CPR後再呼救",
+    "AED到達後再呼叫救護車"
+   ],
+   "answer": "確認沒有反應就立即呼救，不要等",
+   "explain": "「一確認沒有反應就叫，不要等。成人的流程是先打119求援」。",
+   "sources": [
+    "CPR21"
+   ],
+   "model": "claude-sonnet-4-6",
+   "cand_id": "SN33"
+  },
+  {
+   "id": "q166",
+   "chapter": "ch4",
+   "type": "single",
+   "difficulty": 1,
+   "kp": [
+    "P16"
+   ],
+   "variant_group": "P16",
+   "stem": "AED準備電擊前，施救者應該口喊什麼，並確認什麼條件後才能按下電擊鈕？",
+   "options": [
+    "口喊「準備」，確認AED貼片已黏好",
+    "口喊「離開」，確認沒有人接觸病人",
+    "口喊「電擊」，確認傷者臉朝上",
+    "口喊「按壓」，確認施救者站穩"
+   ],
+   "answer": "口喊「離開」，確認沒有人接觸病人",
+   "explain": "「要電擊時口喊『離開』，確定沒有人接觸病人才按電擊鈕」。",
+   "sources": [
+    "TB123"
+   ],
+   "model": "claude-sonnet-4-6",
+   "cand_id": "SN40"
+  },
+  {
+   "id": "q167",
+   "chapter": "ch4",
+   "type": "single",
+   "difficulty": 1,
+   "kp": [
+    "P19"
+   ],
+   "variant_group": "P19",
+   "stem": "使用 AED 貼電擊貼片時，下列哪一個做法正確？",
+   "options": [
+    "直接隔著衣服貼上",
+    "拉開衣服，露出胸壁再依圖示貼上",
+    "先按下電擊鈕再貼",
+    "把兩片貼片都貼在衣服外的肚子上"
+   ],
+   "answer": "拉開衣服，露出胸壁再依圖示貼上",
+   "explain": "衛福部民眾 CPR+AED 教材：「拉開衣服。將電擊貼片依圖示貼在患者裸露的胸壁」；步驟順序是「開、貼、插、電」，電擊在最後。",
+   "sources": [
+    "AEDEDU"
+   ],
+   "model": "claude-sonnet-4-6",
+   "cand_id": "SN46"
+  },
+  {
+   "id": "q168",
+   "chapter": "ch4",
+   "type": "tf",
+   "difficulty": 1,
+   "kp": [
+    "Y02"
+   ],
+   "variant_group": "Y02",
+   "stem": "化學品噴入眼睛進行沖洗時，應撐開眼瞼，由外眼角往內眼角緩慢沖洗。",
+   "options": [
+    "正確",
+    "錯誤"
+   ],
+   "answer": "錯誤",
+   "explain": "正確沖洗方向是「由內眼角往外眼角」，而非由外往內。",
+   "sources": [
+    "TB183"
+   ],
+   "model": "claude-sonnet-4-6",
+   "cand_id": "SN02"
+  },
+  {
+   "id": "q169",
+   "chapter": "ch4",
+   "type": "tf",
+   "difficulty": 1,
+   "kp": [
+    "S05"
+   ],
+   "variant_group": "S05",
+   "stem": "遇到高壓電觸電事故，電線尚未切斷時，若找不到任何工具，可以用雙手小心地將電線移開以拯救傷者。",
+   "options": [
+    "正確",
+    "錯誤"
+   ],
+   "answer": "錯誤",
+   "explain": "「未斷電前絕不要進入區域，也不要嘗試用任何東西移除電線或移動傷者，請專業人員斷電」。",
+   "sources": [
+    "TB370"
+   ],
+   "model": "claude-sonnet-4-6",
+   "cand_id": "SN15"
+  },
+  {
+   "id": "q170",
+   "chapter": "ch4",
+   "type": "tf",
+   "difficulty": 1,
+   "kp": [
+    "P10"
+   ],
+   "variant_group": "P10",
+   "stem": "使用AED時，依衛福部教材，操作順序是「開、貼、插、電」。",
+   "options": [
+    "正確",
+    "錯誤"
+   ],
+   "answer": "正確",
+   "explain": "衛福部民眾 CPR+AED 教材的 AED 步驟是「開、貼、插、電」：打開 AED 電源、依圖示貼上電擊貼片、把電擊插頭插入插孔（有些機器已經接好）、依語音指示電擊。",
+   "sources": [
+    "AEDEDU"
+   ],
+   "model": "claude-sonnet-4-6",
+   "cand_id": "SN28"
+  },
+  {
+   "id": "q171",
+   "chapter": "ch4",
+   "type": "scenario",
+   "difficulty": 1,
+   "kp": [
+    "R08",
+    "R10"
+   ],
+   "variant_group": "R08",
+   "stem": "依消防署教材的灼燙傷嚴重度分類，下列哪一種情形被列為「重度灼燙傷」？（都是成人，除了題目所寫之外沒有其他傷害）",
+   "options": [
+    "高壓電灼傷",
+    "背部二度灼燙傷，面積 10%",
+    "小腿二度灼燙傷，面積 20%",
+    "前臂二度灼燙傷，面積 5%"
+   ],
+   "answer": "高壓電灼傷",
+   "explain": "消防署教材表 8-1 把下列情形列為重度灼燙傷：臉、眼、耳、頸、手、足、會陰部灼燙傷；合併吸入性灼燙傷；化學灼傷；高壓電灼傷。成人二度灼燙傷要超過 25% 才屬重度，10%、20%、5% 都沒有超過。",
+   "sources": [
+    "TB263"
+   ],
+   "model": "gemini-3.8-flash-high",
+   "cand_id": "GF22"
+  },
+  {
+   "id": "q172",
+   "chapter": "ch4",
+   "type": "scenario",
+   "difficulty": 1,
+   "kp": [
+    "C03"
+   ],
+   "variant_group": "C03",
+   "stem": "同學的手指被虎鉗夾傷，局部紅腫疼痛、沒有出血也沒有明顯變形。依消防署教材，為減緩疼痛及軟組織腫脹，可以怎麼做？",
+   "options": [
+    "可視情況適度抬高患肢或冰敷",
+    "持續浸泡四十度以上熱水三十分鐘",
+    "在患部用力按壓並反覆揉捏腫脹處",
+    "立即在患處近心端打上止血帶"
+   ],
+   "answer": "可視情況適度抬高患肢或冰敷",
+   "explain": "消防署教材：「可視情況適度抬高患肢或冰敷，減緩疼痛及軟組織腫脹」。",
+   "sources": [
+    "TB287"
+   ],
+   "model": "gemini-3.8-flash-high",
+   "cand_id": "GF30"
+  },
+  {
+   "id": "q173",
+   "chapter": "ch4",
+   "type": "scenario",
+   "difficulty": 1,
+   "kp": [
+    "S02"
+   ],
+   "variant_group": "S02",
+   "stem": "工場課中，同學觸電後倒地、沒有反應也沒有呼吸，電源已切斷。你應該立即怎麼做？",
+   "options": [
+    "等老師來再處理",
+    "立即開始CPR，並儘早使用AED",
+    "先替傷者喝水補充電解質",
+    "量傷者的體溫再決定是否急救"
+   ],
+   "answer": "立即開始CPR，並儘早使用AED",
+   "explain": "「傷者沒有反應、沒有正常呼吸：立即CPR，並儘早使用AED」。交流電常導致心室纖維顫動，因此觸電後無反應無呼吸的傷者需要立即CPR並儘早去顫。",
+   "sources": [
+    "TB370",
+    "CPR21"
+   ],
+   "model": "claude-sonnet-4-6",
+   "cand_id": "SN11"
+  },
+  {
+   "id": "q174",
+   "chapter": "ch4",
+   "type": "scenario",
+   "difficulty": 1,
+   "kp": [
+    "Y09",
+    "Y08"
+   ],
+   "variant_group": "Y09",
+   "stem": "使用線鋸切割木板時，同學的眼睛被木屑打到，懷疑可能是開放型眼球傷害。等待就醫時應如何保護眼睛？",
+   "options": [
+    "用手掌緊壓眼睛",
+    "先以眼蓋或護目鏡保護眼睛，避免進一步傷害，並儘速就醫",
+    "用手指揉眼睛，把木屑揉出來",
+    "用手指撐開眼睛，把木屑挑出來"
+   ],
+   "answer": "先以眼蓋或護目鏡保護眼睛，避免進一步傷害，並儘速就醫",
+   "explain": "臺大醫院眼科部：「若是機械性的傷害，尤其懷疑可能是開放型眼球傷害時，最好先以眼蓋或護目鏡保護眼睛，以避免進一步傷害，並儘速就醫」；眼外傷發生時要「避免碰觸或壓迫眼球」，壓、揉、挑都會碰觸眼球。",
+   "sources": [
+    "NTUHEYE"
+   ],
+   "model": "claude-sonnet-4-6",
+   "cand_id": "SN37"
+  },
+  {
+   "id": "q175",
+   "chapter": "ch4",
+   "type": "scenario",
+   "difficulty": 1,
+   "kp": [
+    "P19"
+   ],
+   "variant_group": "P19",
+   "stem": "AED到達後，你拉開同學衣服準備貼上電擊貼片。成人AED的兩片貼片應分別貼在哪裡？",
+   "options": [
+    "一片在左鎖骨正下方，一片在右側乳頭側邊",
+    "一片在右鎖骨正下方，一片在左側乳頭側邊",
+    "兩片都貼在胸骨正中央",
+    "一片在前胸，一片在後背"
+   ],
+   "answer": "一片在右鎖骨正下方，一片在左側乳頭側邊",
+   "explain": "「一片在右鎖骨正下方，一片在左側乳頭側邊」，應依貼片上的圖示貼在裸露的胸壁上。",
+   "sources": [
+    "AEDEDU"
+   ],
+   "model": "claude-sonnet-4-6",
+   "cand_id": "SN45"
+  },
+  {
+   "id": "q176",
+   "chapter": "ch4",
+   "type": "single",
+   "difficulty": 2,
+   "kp": [
+    "R01"
+   ],
+   "variant_group": "R01",
+   "stem": "臺北市消防局燒燙傷處置口訣「沖、脫、泡、蓋、送」中，「送」指的是什麼？",
+   "options": [
+    "嚴重時打 119 求救",
+    "無論傷勢多輕微皆不可打 119",
+    "必須先找到所有脫落表皮後才可送醫",
+    "一律自行騎車送醫，不可呼叫救護車"
+   ],
+   "answer": "嚴重時打 119 求救",
+   "explain": "臺北市消防局：燙傷處置口訣中「送：嚴重時打 119 求救」。",
+   "sources": [
+    "TPBURN"
+   ],
+   "model": "gemini-3.8-flash-high",
+   "cand_id": "GF14"
+  },
+  {
+   "id": "q177",
+   "chapter": "ch4",
+   "type": "single",
+   "difficulty": 2,
+   "kp": [
+    "C08"
+   ],
+   "variant_group": "C08",
+   "stem": "同學被虎鉗夾傷而且出血。依臺北市消防局「包紮止血法」，下列哪一種情況應立即打 119 求救？",
+   "options": [
+    "危及生命的嚴重出血，或依直接加壓仍無法有效止血",
+    "患肢僅有輕微破皮且加壓五分鐘內已成功止血",
+    "受傷肢體脈搏完全正常且皮膚紅潤溫暖",
+    "僅為單純手指表皮輕微紅腫"
+   ],
+   "answer": "危及生命的嚴重出血，或依直接加壓仍無法有效止血",
+   "explain": "臺北市消防局「包紮止血法」：「如果是危及生命的嚴重出血，或依上述方法仍無法有效止血，應立即打 119 求救」。其餘選項是已經止血或沒有異常的情形。",
+   "sources": [
+    "TPBLEED"
+   ],
+   "model": "gemini-3.8-flash-high",
+   "cand_id": "GF33"
+  },
+  {
+   "id": "q178",
+   "chapter": "ch4",
+   "type": "single",
+   "difficulty": 2,
+   "kp": [
+    "Y03"
+   ],
+   "variant_group": "Y03",
+   "stem": "眼睛受傷後，施救者在沖洗或處置前，首先應確認的是什麼？",
+   "options": [
+    "進入眼睛的異物種類及性質",
+    "傷者的身高與體重",
+    "工場課程進度",
+    "傷者今天的上課節數"
+   ],
+   "answer": "進入眼睛的異物種類及性質",
+   "explain": "消防署教材的沖洗眼睛操作，第 1 步是「檢視並詢問異物種類及性質」，例如是木屑還是化學品。",
+   "sources": [
+    "TB183"
+   ],
+   "model": "claude-sonnet-4-6",
+   "cand_id": "SN04"
+  },
+  {
+   "id": "q179",
+   "chapter": "ch4",
+   "type": "single",
+   "difficulty": 2,
+   "kp": [
+    "P02"
+   ],
+   "variant_group": "P02",
+   "stem": "依成人CPR標準流程，確認意識後發現傷者沒有反應，緊接著應該做什麼？",
+   "options": [
+    "立即開始胸外按壓",
+    "大聲呼救並請旁人打119、取得AED",
+    "先確認呼吸再決定要不要叫救護車",
+    "直接貼上AED貼片"
+   ],
+   "answer": "大聲呼救並請旁人打119、取得AED",
+   "explain": "成人流程：確認意識（拍肩呼喚）→「叫：求救（打119、取得AED）」→確認呼吸→胸部按壓→AED電擊。確認沒有反應後，先求救再確認呼吸。",
+   "sources": [
+    "CPR21",
+    "TPCPR"
+   ],
+   "model": "claude-sonnet-4-6",
+   "cand_id": "SN17"
+  },
+  {
+   "id": "q180",
+   "chapter": "ch4",
+   "type": "single",
+   "difficulty": 2,
+   "kp": [
+    "P11"
+   ],
+   "variant_group": "P11",
+   "stem": "施行CPR時，以下哪個情況代表可以停止CPR？",
+   "options": [
+    "按壓超過5分鐘後",
+    "救護人員抵達，或患者開始有動作或有正常呼吸",
+    "AED分析完畢後",
+    "傷者臉色改變後"
+   ],
+   "answer": "救護人員抵達，或患者開始有動作或有正常呼吸",
+   "explain": "「持續高品質CPR，直到救護人員抵達，或患者開始有動作或有正常呼吸」。按壓時間長短和AED分析完畢不是停止CPR的依據。",
+   "sources": [
+    "CPR21"
+   ],
+   "model": "claude-sonnet-4-6",
+   "cand_id": "SN29"
+  },
+  {
+   "id": "q181",
+   "chapter": "ch4",
+   "type": "single",
+   "difficulty": 2,
+   "kp": [
+    "P17"
+   ],
+   "variant_group": "P17",
+   "stem": "進行胸外按壓時，下方手的手指應該怎麼擺放？",
+   "options": [
+    "手指完全伸直平貼胸口",
+    "手指往上翹起，只有掌根接觸胸部",
+    "手指捲曲緊握下方手",
+    "雙手交叉，手指向下壓"
+   ],
+   "answer": "手指往上翹起，只有掌根接觸胸部",
+   "explain": "「下方手的手指往上翹起、只有掌根接觸胸部」。手指平貼或向下壓均不符合正確手勢。",
+   "sources": [
+    "AEDEDU",
+    "TB117",
+    "CPR21"
+   ],
+   "model": "claude-sonnet-4-6",
+   "cand_id": "SN42"
+  },
+  {
+   "id": "q182",
+   "chapter": "ch4",
+   "type": "tf",
+   "difficulty": 2,
+   "kp": [
+    "B05"
+   ],
+   "variant_group": "B05",
+   "stem": "進行加壓止血時，若傷口處的第一層紗布已被血液浸透，施救者應先迅速將原有紗布完全移除，再換上新的乾燥紗布重新加壓。",
+   "options": [
+    "正確",
+    "錯誤"
+   ],
+   "answer": "錯誤",
+   "explain": "臺北市消防局「包紮止血法」：「紗布被血浸透時，絕不要移除原有紗布，直接在上面加上更多紗布，再次加壓包紮」。",
+   "sources": [
+    "TPBLEED",
+    "TB140"
+   ],
+   "model": "gemini-3.8-flash-high",
+   "cand_id": "GF08"
+  },
+  {
+   "id": "q183",
+   "chapter": "ch4",
+   "type": "tf",
+   "difficulty": 2,
+   "kp": [
+    "C02"
+   ],
+   "variant_group": "C02",
+   "stem": "依據消防署教材，現場遇到肢體受傷時，懷疑骨折的部位應先用力拉直扳正後再行固定，不可維持原來受傷姿勢。",
+   "options": [
+    "正確",
+    "錯誤"
+   ],
+   "answer": "錯誤",
+   "explain": "依消防署教材，「懷疑骨折的部位都當作骨折處理，以原來姿勢固定、儘量減少患處移動」。現場不需做脫臼或骨折復位。",
+   "sources": [
+    "TB287"
+   ],
+   "model": "gemini-3.8-flash-high",
+   "cand_id": "GF28"
+  },
+  {
+   "id": "q184",
+   "chapter": "ch4",
+   "type": "tf",
+   "difficulty": 2,
+   "kp": [
+    "Y04"
+   ],
+   "variant_group": "Y04",
+   "stem": "工場課中，有異物刺入同學眼睛組織時，應立即嘗試將異物取出，再送醫處理。",
+   "options": [
+    "正確",
+    "錯誤"
+   ],
+   "answer": "錯誤",
+   "explain": "「有異物插入組織時，不可強行移除，應固定後儘速送醫」。",
+   "sources": [
+    "TB274"
+   ],
+   "model": "claude-sonnet-4-6",
+   "cand_id": "SN05"
+  },
+  {
+   "id": "q185",
+   "chapter": "ch4",
+   "type": "tf",
+   "difficulty": 2,
+   "kp": [
+    "P14"
+   ],
+   "variant_group": "P14",
+   "stem": "使用手機撥打119時，為了確認傷者狀況，應先暫時離開病人，找到明顯地標後再回報位置。",
+   "options": [
+    "正確",
+    "錯誤"
+   ],
+   "answer": "錯誤",
+   "explain": "「用手機打119，儘量不要離開病人，開啟擴音，聽從119執勤人員指示」。應開擴音，不要離開病人。",
+   "sources": [
+    "CPR21"
+   ],
+   "model": "claude-sonnet-4-6",
+   "cand_id": "SN34"
+  },
+  {
+   "id": "q186",
+   "chapter": "ch4",
+   "type": "scenario",
+   "difficulty": 2,
+   "kp": [
+    "R04"
+   ],
+   "variant_group": "R04",
+   "stem": "同學在工場焊接時被烙鐵燙傷手背，已完成沖洗與脫除衣物步驟，進入「泡」的處置。依臺北市消防局燒燙傷處置說明，此步驟建議浸泡的時間為何？",
+   "options": [
+    "持續浸泡冷水 30 分鐘",
+    "浸泡冷水 5 分鐘即可",
+    "浸泡熱水 20 至 30 分鐘",
+    "浸泡冰水直至組織結凍"
+   ],
+   "answer": "持續浸泡冷水 30 分鐘",
+   "explain": "臺北市消防局：「泡：持續浸泡冷水 30 分鐘」。前一步「沖」是用乾淨的冷水輕輕沖洗或浸泡 20 至 30 分鐘。",
+   "sources": [
+    "TPBURN"
+   ],
+   "model": "gemini-3.8-flash-high",
+   "cand_id": "GF17"
+  },
+  {
+   "id": "q187",
+   "chapter": "ch4",
+   "type": "scenario",
+   "difficulty": 2,
+   "kp": [
+    "R10"
+   ],
+   "variant_group": "R10",
+   "stem": "工場發生意外導致一名成人助教受傷，經評估其二度灼燙傷面積達到全身體表面積的 28%。依消防署教材標準，此傷勢是否屬於重度灼燙傷？門檻為何？",
+   "options": [
+    "屬重度灼燙傷，因成人二度灼燙傷超過 25% 即屬重度",
+    "不屬重度灼燙傷，因成人二度灼燙傷必須超過 50% 才屬重度",
+    "屬重度灼燙傷，因只要有任何面積的二度灼燙傷即屬重度",
+    "不屬重度灼燙傷，因只有三度灼燙傷才有重度分類"
+   ],
+   "answer": "屬重度灼燙傷，因成人二度灼燙傷超過 25% 即屬重度",
+   "explain": "依消防署教材，「成人二度灼燙傷超過25%即屬重度」。該助教為28%，已超過25%，故屬重度。",
+   "sources": [
+    "TB263"
+   ],
+   "model": "gemini-3.8-flash-high",
+   "cand_id": "GF24"
+  },
+  {
+   "id": "q188",
+   "chapter": "ch4",
+   "type": "scenario",
+   "difficulty": 2,
+   "kp": [
+    "C04"
+   ],
+   "variant_group": "C04",
+   "stem": "工場操作圓鋸機發生意外，導致同學手指斷離。在將斷肢裝袋前，第一層直接包裹斷肢的材料與狀態應為何？",
+   "options": [
+    "用生理食鹽水潤濕的無菌紗布包好",
+    "用乾燥毛刷緊緊綑綁",
+    "直接浸泡於大量冰水中不加任何包覆",
+    "用乾淨保鮮膜塗抹酒精後直接包裹"
+   ],
+   "answer": "用生理食鹽水潤濕的無菌紗布包好",
+   "explain": "消防署教材：用生理食鹽水潤濕無菌紗布，將斷肢覆蓋包紮，放在乾淨的塑膠袋；再放進另一個裝冰敷包或冰塊的袋子，保持隔水保冰、不要直接冷凍，標記時間，連同傷者一起送醫。",
+   "sources": [
+    "TB287",
+    "TB288"
+   ],
+   "model": "gemini-3.8-flash-high",
+   "cand_id": "GF32"
+  },
+  {
+   "id": "q189",
+   "chapter": "ch4",
+   "type": "scenario",
+   "difficulty": 2,
+   "kp": [
+    "S06"
+   ],
+   "variant_group": "S06",
+   "stem": "關於電燒傷的傷口，下列哪一個描述符合消防署教材？",
+   "options": [
+    "電燒傷通常只有一處傷口，位於接觸點",
+    "電燒傷可能有兩個較明顯傷口，於入口及出口處最嚴重",
+    "高壓電灼傷列為輕度灼燙傷，傷口通常很小",
+    "電燒傷一定在手部，不會出現在腳部"
+   ],
+   "answer": "電燒傷可能有兩個較明顯傷口，於入口及出口處最嚴重",
+   "explain": "「電燒傷可能會有兩個較明顯傷口，一般於『入口』及『出口』處之燒傷最為嚴重」；高壓電灼傷列為重度灼燙傷，而非輕度。",
+   "sources": [
+    "TB370",
+    "TB263"
+   ],
+   "model": "claude-sonnet-4-6",
+   "cand_id": "SN16"
+  },
+  {
+   "id": "q190",
+   "chapter": "ch4",
+   "type": "scenario",
+   "difficulty": 2,
+   "kp": [
+    "P07"
+   ],
+   "variant_group": "P07",
+   "stem": "你在對失去意識的同學進行胸外按壓。依衛福部教材，每分鐘應按壓幾下？大約每秒幾下？",
+   "options": [
+    "每分鐘60下，每秒1下",
+    "每分鐘100至120下，約每秒2下",
+    "每分鐘150下，約每秒2.5下",
+    "每分鐘80下，約每秒1.5下"
+   ],
+   "answer": "每分鐘100至120下，約每秒2下",
+   "explain": "「快快壓：每分鐘100至120下（約一秒鐘2下）」。",
+   "sources": [
+    "CPR21"
+   ],
+   "model": "claude-sonnet-4-6",
+   "cand_id": "SN23"
+  },
+  {
+   "id": "q191",
+   "chapter": "ch4",
+   "type": "scenario",
+   "difficulty": 2,
+   "kp": [
+    "P12"
+   ],
+   "variant_group": "P12",
+   "stem": "走廊上有同學突然倒地，沒有反應、沒有呼吸，你趕緊上前，但你從未學過人工呼吸。你應該怎麼做？",
+   "options": [
+    "因為不會人工呼吸，等待他人來處理",
+    "持續進行胸部按壓，不做人工呼吸",
+    "先找人學人工呼吸再開始急救",
+    "等119到場再開始急救"
+   ],
+   "answer": "持續進行胸部按壓，不做人工呼吸",
+   "explain": "「施救者若不操作人工呼吸，就持續做胸部按壓」，不要因為不會人工呼吸就放棄急救。",
+   "sources": [
+    "CPR21"
+   ],
+   "model": "claude-sonnet-4-6",
+   "cand_id": "SN30"
+  },
+  {
+   "id": "q192",
+   "chapter": "ch4",
+   "type": "scenario",
+   "difficulty": 2,
+   "kp": [
+    "P16"
+   ],
+   "variant_group": "P16",
+   "stem": "AED正在分析同學的心律，語音提示「請勿碰觸病人」。此時你應該怎麼做？",
+   "options": [
+    "繼續按壓，確保不中斷CPR",
+    "立即暫停按壓，確保沒有人接觸病人",
+    "繼續按壓，同時確認貼片黏緊",
+    "加快按壓速度讓AED偵測更準確"
+   ],
+   "answer": "立即暫停按壓，確保沒有人接觸病人",
+   "explain": "「AED語音說不要碰觸病人（分析心律）時，暫停按壓」；「AED分析心律與電擊時，任何人都不要碰觸病人」。",
+   "sources": [
+    "TB123"
+   ],
+   "model": "claude-sonnet-4-6",
+   "cand_id": "SN39"
+  },
+  {
+   "id": "q193",
+   "chapter": "ch4",
+   "type": "order",
+   "difficulty": 2,
+   "kp": [
+    "Y02",
+    "Y03"
+   ],
+   "variant_group": "Y02",
+   "stem": "同學的眼睛被化學品噴到。依消防署教材的沖洗眼睛做法，下列步驟的先後順序是？",
+   "items": [
+    "確認進入眼睛的是什麼東西（異物種類及性質）",
+    "撐開上下眼瞼，由內眼角往外眼角緩慢沖洗",
+    "持續沖洗並儘速送醫"
+   ],
+   "explain": "消防署教材的沖洗眼睛操作：第 1 步是檢視並詢問異物種類及性質；沖洗時撐開患側的上下眼瞼，由內眼角往外眼角緩慢沖洗；持續沖洗並儘速送醫。",
+   "sources": [
+    "TB183"
+   ],
+   "model": "claude-sonnet-4-6",
+   "cand_id": "SN03"
+  },
+  {
+   "id": "q194",
+   "chapter": "ch4",
+   "type": "single",
+   "difficulty": 3,
+   "kp": [
+    "B07"
+   ],
+   "variant_group": "B07",
+   "stem": "依據消防署《救護技術員教科書》，關於使用止血帶處置危及生命的出血，下列敘述何者完全符合教材規範？",
+   "options": [
+    "將止血帶綁於出血處近心端 5 至 8 公分處，並標記止血時間",
+    "將止血帶綁於出血處遠心端 5 至 8 公分處，且不可標記時間",
+    "將止血帶直接綁在傷口正上方，且至少加壓五分鐘後解開",
+    "只要是任何輕微擦傷出血，皆應優先儘快使用止血帶"
+   ],
+   "answer": "將止血帶綁於出血處近心端 5 至 8 公分處，並標記止血時間",
+   "explain": "消防署《救護技術員教科書》：「當判斷為危及生命的出血（包含動脈性出血或大量出血等情況）可考慮儘快使用止血帶止血」，並寫明「將止血帶綁於出血處近心端 5 至 8 公分處」、「標記止血時間」。止血帶的操作列在初級救護技術員訓練課程（科目 4.2「含加壓止血及止血帶的操作」），需要在合格課程中練習。",
+   "sources": [
+    "TB140",
+    "T1"
+   ],
+   "model": "gemini-3.8-flash-high",
+   "cand_id": "GF10"
+  },
+  {
+   "id": "q195",
+   "chapter": "ch4",
+   "type": "single",
+   "difficulty": 3,
+   "kp": [
+    "R03"
+   ],
+   "variant_group": "R03",
+   "stem": "依據消防署教材與臺北市消防局指引，關於燒燙傷處理口訣中的「脫」字步驟，下列操作何者最正確？",
+   "options": [
+    "在冷水中用剪刀剪開患處衣物，沾黏在傷口上時勿強行剝除",
+    "在乾燥環境下用力將沾黏在傷口上的衣物迅速撕下剝除",
+    "不可使用剪刀，必須整件衣服由傷者頭部硬拉扯下",
+    "衣物若有沾黏應直接用毛刷用力刷除"
+   ],
+   "answer": "在冷水中用剪刀剪開患處衣物，沾黏在傷口上時勿強行剝除",
+   "explain": "臺北市消防局：「脫：在冷水中用剪刀剪開患處衣物。衣物沾黏在傷口上時，勿強行剝除」。",
+   "sources": [
+    "TPBURN",
+    "TB265"
+   ],
+   "model": "gemini-3.8-flash-high",
+   "cand_id": "GF16"
+  },
+  {
+   "id": "q196",
+   "chapter": "ch4",
+   "type": "single",
+   "difficulty": 3,
+   "kp": [
+    "C01"
+   ],
+   "variant_group": "C01",
+   "stem": "同學的手被機具夾傷而且出血。下列處置原則何者正確？",
+   "options": [
+    "先確認現場安全；若伴隨出血，照割傷出血直接加壓",
+    "不論現場機具是否仍在運轉，應立即徒手拉扯傷者",
+    "有出血時不可加壓，應立即持續沖冷水三十分鐘",
+    "有出血時一律直接拔除周圍所有零件與異物"
+   ],
+   "answer": "先確認現場安全；若伴隨出血，照割傷出血直接加壓",
+   "explain": "衛福部民眾版 CPR 摘要表的第一步是「確認環境不會危及施救者和患者的安全」；有出血時，臺北市消防局「包紮止血法」：用無菌紗布（或乾淨布料）放在出血處直接加壓止血。機具的停機、斷電程序依授課單位規定。",
+   "sources": [
+    "CPR21",
+    "TPBLEED"
+   ],
+   "model": "gemini-3.8-flash-high",
+   "cand_id": "GF26"
+  },
+  {
+   "id": "q197",
+   "chapter": "ch4",
+   "type": "single",
+   "difficulty": 3,
+   "kp": [
+    "Y06"
+   ],
+   "variant_group": "Y06",
+   "stem": "下列哪種眼睛受傷狀況，消防署教材將其列為重度灼燙傷？",
+   "options": [
+    "眼部被化學品灼傷",
+    "眼睛被木屑刺傷",
+    "眼睛被異物污染但已沖洗乾淨",
+    "眼睛遭輕微擦傷"
+   ],
+   "answer": "眼部被化學品灼傷",
+   "explain": "「消防署教材把化學灼傷與眼部灼燙傷列為重度灼燙傷」。木屑刺傷或污染物清除後的情況未被列入重度灼燙傷。",
+   "sources": [
+    "TB263"
+   ],
+   "model": "claude-sonnet-4-6",
+   "cand_id": "SN09"
+  },
+  {
+   "id": "q198",
+   "chapter": "ch4",
+   "type": "single",
+   "difficulty": 3,
+   "kp": [
+    "S03"
+   ],
+   "variant_group": "S03",
+   "stem": "評估觸電後從高處摔落的傷者時，除了確認意識與呼吸，還應特別注意什麼？",
+   "options": [
+    "是否有骨折，尤其是頸部",
+    "傷者的職業與年齡",
+    "傷者身上有無貴重物品",
+    "現場燈光是否足夠"
+   ],
+   "answer": "是否有骨折，尤其是頸部",
+   "explain": "「注意是否從高處摔落、合併骨折，尤其是頸部」。",
+   "sources": [
+    "TB370"
+   ],
+   "model": "claude-sonnet-4-6",
+   "cand_id": "SN13"
+  },
+  {
+   "id": "q199",
+   "chapter": "ch4",
+   "type": "single",
+   "difficulty": 3,
+   "kp": [
+    "Y09"
+   ],
+   "variant_group": "Y09",
+   "stem": "臺大醫院眼科部針對機械性眼傷，提到使用眼蓋或護目鏡保護的目的是什麼？",
+   "options": [
+    "幫助異物自行排出",
+    "避免進一步傷害",
+    "加速眼部組織癒合",
+    "替代就醫的必要性"
+   ],
+   "answer": "避免進一步傷害",
+   "explain": "「若是機械性的傷害，尤其懷疑可能是開放型眼球傷害時，最好先以眼蓋或護目鏡保護眼睛，以避免進一步傷害，並儘速就醫」。眼蓋的目的是避免進一步傷害，不能替代就醫。",
+   "sources": [
+    "NTUHEYE"
+   ],
+   "model": "claude-sonnet-4-6",
+   "cand_id": "SN38"
+  },
+  {
+   "id": "q200",
+   "chapter": "ch4",
+   "type": "tf",
+   "difficulty": 3,
+   "kp": [
+    "R08"
+   ],
+   "variant_group": "R08",
+   "stem": "依據消防署教材規定，若灼燙傷合併吸入性灼燙傷，或發生於會陰部、高壓電灼傷者，皆屬於重度灼燙傷。",
+   "options": [
+    "正確",
+    "錯誤"
+   ],
+   "answer": "正確",
+   "explain": "依消防署教材，「臉、眼、耳、頸、手、足、會陰部灼燙傷；合併吸入性灼燙傷；化學灼傷；高壓電灼傷」皆列為重度灼燙傷。",
+   "sources": [
+    "TB263"
+   ],
+   "model": "gemini-3.8-flash-high",
+   "cand_id": "GF23"
+  },
+  {
+   "id": "q201",
+   "chapter": "ch4",
+   "type": "tf",
+   "difficulty": 3,
+   "kp": [
+    "P09"
+   ],
+   "variant_group": "P09",
+   "stem": "依衛福部民眾版 CPR 摘要表，胸外按壓的中斷時間不要超過 30 秒。",
+   "options": [
+    "正確",
+    "錯誤"
+   ],
+   "answer": "錯誤",
+   "explain": "衛福部民眾版 CPR 摘要表：「莫中斷：儘量避免中斷，中斷時間不超過 10 秒」，不是 30 秒。",
+   "sources": [
+    "CPR21"
+   ],
+   "model": "claude-sonnet-4-6",
+   "cand_id": "SN26"
+  },
+  {
+   "id": "q202",
+   "chapter": "ch4",
+   "type": "scenario",
+   "difficulty": 3,
+   "kp": [
+    "B04"
+   ],
+   "variant_group": "B04",
+   "stem": "在工場實作中，同學的手臂被木材邊緣割傷，你已用無菌紗布直接加壓止血。若要進一步包紮固定以維持止血效果，依臺北市消防局「包紮止血法」，下列何種處置最正確？",
+   "options": [
+    "以彈性繃帶或三角巾包紮並持續加壓",
+    "以乾淨保鮮膜環繞包覆且不可加壓",
+    "移除原有紗布後直接用三角巾輕輕覆蓋",
+    "直接使用止血帶綁於傷口處替代所有包紮"
+   ],
+   "answer": "以彈性繃帶或三角巾包紮並持續加壓",
+   "explain": "臺北市消防局「包紮止血法」：直接加壓止血後「以彈性繃帶或三角巾包紮並持續加壓」。",
+   "sources": [
+    "TPBLEED"
+   ],
+   "model": "gemini-3.8-flash-high",
+   "cand_id": "GF05"
+  },
+  {
+   "id": "q203",
+   "chapter": "ch4",
+   "type": "scenario",
+   "difficulty": 3,
+   "kp": [
+    "B08"
+   ],
+   "variant_group": "B08",
+   "stem": "在工場課中，同學的手臂遭板材深層割傷，你已用無菌紗布直接加壓止血超過五分鐘，並加上更多紗布以彈性繃帶包紮持續加壓，但傷口仍持續大量滲血無法有效止血。此時最正確的下一步處置為何？",
+   "options": [
+    "立即打 119 求救",
+    "拆開所有紗布改用冷水持續沖洗三十分鐘",
+    "自行在現場進行骨折復位",
+    "換用乾淨毛刷用力刷洗傷口"
+   ],
+   "answer": "立即打 119 求救",
+   "explain": "臺北市消防局「包紮止血法」：「危及生命的嚴重出血，或依上述方法仍無法有效止血，應立即打119求救」。",
+   "sources": [
+    "TPBLEED"
+   ],
+   "model": "gemini-3.8-flash-high",
+   "cand_id": "GF11"
+  },
+  {
+   "id": "q204",
+   "chapter": "ch4",
+   "type": "scenario",
+   "difficulty": 3,
+   "kp": [
+    "R05"
+   ],
+   "variant_group": "R05",
+   "stem": "同學在生活科技工場實作時手臂燙傷，已完成冷水沖浸。在進行「蓋」的步驟時，下列哪一種敷料覆蓋方式完全符合臺北市消防局的處置指引？",
+   "options": [
+    "用乾淨或無菌紗布覆蓋患處，或以乾淨保鮮膜環繞包覆",
+    "用生理食鹽水潤濕的紗布包好後放進冰塊中直接冷凍",
+    "用彈性繃帶用力加壓包紮並打上止血帶",
+    "直接用乾淨毛刷覆蓋在患處上"
+   ],
+   "answer": "用乾淨或無菌紗布覆蓋患處，或以乾淨保鮮膜環繞包覆",
+   "explain": "臺北市消防局：「蓋：用乾淨或無菌紗布覆蓋患處，或以乾淨保鮮膜環繞包覆」。",
+   "sources": [
+    "TPBURN"
+   ],
+   "model": "gemini-3.8-flash-high",
+   "cand_id": "GF18"
+  },
+  {
+   "id": "q205",
+   "chapter": "ch4",
+   "type": "scenario",
+   "difficulty": 3,
+   "kp": [
+    "R07"
+   ],
+   "variant_group": "R07",
+   "stem": "寒流來襲的冬夜，工場發生熱水大量潑濺事故導致學生大面積灼燙傷。依消防署教材所述，此時傷者在生理調節上特別會面臨下列哪一種問題？",
+   "options": [
+    "大面積灼燙傷造成皮膚無法保持體溫，特別是夜晚或氣溫低時",
+    "皮膚會自發性異常發熱而完全不需要注意保暖",
+    "皮膚體溫調節完全不受影響，只需持續全身浸泡冰水",
+    "只有化學性粉末灼傷才會影響體溫調節"
+   ],
+   "answer": "大面積灼燙傷造成皮膚無法保持體溫，特別是夜晚或氣溫低時",
+   "explain": "依消防署教材，「大面積灼燙傷造成皮膚無法保持體溫，特別是夜晚或氣溫低時」。",
+   "sources": [
+    "TB264"
+   ],
+   "model": "gemini-3.8-flash-high",
+   "cand_id": "GF20"
+  },
+  {
+   "id": "q206",
+   "chapter": "ch4",
+   "type": "scenario",
+   "difficulty": 3,
+   "kp": [
+    "R11"
+   ],
+   "variant_group": "R11",
+   "stem": "工場實作時同學被高溫液體大面積燙傷，判斷屬於嚴重灼傷。依消防署教材，應送往哪一類醫院？",
+   "options": [
+    "有處置灼傷能力的醫院",
+    "距離最近、沒有灼傷處置能力的診所",
+    "先留在學校保健室，等傷口結痂再送醫",
+    "任何醫院都可以，不必考慮處置能力"
+   ],
+   "answer": "有處置灼傷能力的醫院",
+   "explain": "消防署教材：當灼傷病人為中度或嚴重灼傷時，應送往有處置灼傷能力的醫院。",
+   "sources": [
+    "TB265"
+   ],
+   "model": "gemini-3.8-flash-high",
+   "cand_id": "GF25"
+  },
+  {
+   "id": "q207",
+   "chapter": "ch4",
+   "type": "scenario",
+   "difficulty": 3,
+   "kp": [
+    "G04"
+   ],
+   "variant_group": "G04",
+   "stem": "生活科技工場內有同學因操作電動工具不慎倒地不起，周邊電線裸露且機具仍在高速運轉。施救者在衝上前急救之前，最首要的事項為何？",
+   "options": [
+    "進行現場環境安全評估",
+    "立刻直接徒手拔除同學身上的工具",
+    "直接將同學患肢抬高並進行冰敷",
+    "先在原地翻找三角巾與繃帶"
+   ],
+   "answer": "進行現場環境安全評估",
+   "explain": "依消防署教科書，「現場環境安全評估是每一趟救護最首要的事項」。",
+   "sources": [
+    "TB192"
+   ],
+   "model": "gemini-3.8-flash-high",
+   "cand_id": "GF34"
+  },
+  {
+   "id": "q208",
+   "chapter": "ch4",
+   "type": "scenario",
+   "difficulty": 3,
+   "kp": [
+    "B09"
+   ],
+   "variant_group": "B09",
+   "stem": "同學在工場削切木材時劃傷手腕，傷口長約五公分且不斷滲血。施救同學拿紗布覆蓋傷口加壓，但不久後紗布已被血液浸濕。此時下列處置何者最正確？",
+   "options": [
+    "敷料應完全覆蓋住傷口；紗布浸濕時不要拿掉，直接在上面再加紗布、再加壓",
+    "紗布浸濕時應立即將原本紗布撕掉扔棄，重新放上一片小於傷口的紗布",
+    "敷料只需蓋住傷口的三分之一，其餘部分暴露通風",
+    "浸濕後立即停止加壓，改以冷水沖洗三十分鐘"
+   ],
+   "answer": "敷料應完全覆蓋住傷口；紗布浸濕時不要拿掉，直接在上面再加紗布、再加壓",
+   "explain": "消防署教材：敷料「應完全覆蓋住傷口」，「若血滲透敷料時，不可拆掉原來的敷料」；臺北市消防局「包紮止血法」：紗布被血浸透時，絕不要移除原有紗布，直接在上面加上更多紗布，再次加壓包紮。",
+   "sources": [
+    "TB261",
+    "TPBLEED"
+   ],
+   "model": "gemini-3.8-flash-high",
+   "cand_id": "GF35"
+  },
+  {
+   "id": "q209",
+   "chapter": "ch4",
+   "type": "scenario",
+   "difficulty": 3,
+   "kp": [
+    "Y05"
+   ],
+   "variant_group": "Y05",
+   "stem": "工場課中，同學配戴隱形眼鏡，眼睛被強鹼藥劑噴到。關於隱形眼鏡的處置，下列何者正確？",
+   "options": [
+    "立即自行取出隱形眼鏡再沖洗",
+    "不應隨便拔除；化學品灼傷時，在醫療指導醫師指示下拔除",
+    "先沖洗 30 秒再自行取出隱形眼鏡",
+    "隱形眼鏡有保護作用，化學品灼傷時一律不可取出"
+   ],
+   "answer": "不應隨便拔除；化學品灼傷時，在醫療指導醫師指示下拔除",
+   "explain": "消防署教材：眼睛受傷時「不應隨便將隱形眼鏡拔除，但當眼睛被化學物品灼傷時，可在醫療指導醫師指示下，將隱形眼鏡拔除」。",
+   "sources": [
+    "TB274"
+   ],
+   "model": "claude-sonnet-4-6",
+   "cand_id": "SN07"
+  },
+  {
+   "id": "q210",
+   "chapter": "ch4",
+   "type": "scenario",
+   "difficulty": 3,
+   "kp": [
+    "Y06"
+   ],
+   "variant_group": "Y06",
+   "stem": "工場課中發生了三種眼睛意外：甲的眼睛被強酸噴到；乙的眼睛有異物插入組織且無法移除；丙的眼睛裡有污染物，持續沖洗後仍無法清除乾淨。以下哪個描述最符合正確處置原則？",
+   "options": [
+    "三人都只需要送醫，不必在現場做任何處置",
+    "甲持續沖洗並儘速送醫；乙固定後儘速送醫；丙持續沖洗同時儘速送醫",
+    "甲立即送醫不必沖洗；乙強行移除異物再送醫；丙靜待救護人員",
+    "三人都需要先用紙巾擦乾再送醫"
+   ],
+   "answer": "甲持續沖洗並儘速送醫；乙固定後儘速送醫；丙持續沖洗同時儘速送醫",
+   "explain": "化學品入眼應「持續沖洗並儘速送醫」；有異物插入眼睛或眼周組織，應「固定及止血後儘速送醫」；污染物無法移除時，「持續沖洗同時儘速送醫」。",
+   "sources": [
+    "TB263",
+    "TB183",
+    "TB274"
+   ],
+   "model": "claude-sonnet-4-6",
+   "cand_id": "SN08"
+  },
+  {
+   "id": "q211",
+   "chapter": "ch4",
+   "type": "scenario",
+   "difficulty": 3,
+   "kp": [
+    "P03"
+   ],
+   "variant_group": "P03",
+   "stem": "美工刀課中，同學突然倒地。你跑過去，看到他躺在地上，眼睛閉著。你應該先做什麼來確認他有沒有意識？",
+   "options": [
+    "立即開始胸外按壓",
+    "呼喊「你怎麼了！」並拍打肩膀，確認有無反應",
+    "先查看他身上有無傷口",
+    "對他做人工呼吸看他是否有反應"
+   ],
+   "answer": "呼喊「你怎麼了！」並拍打肩膀，確認有無反應",
+   "explain": "臺北市消防局：拍肩呼喚「你怎麼了！」，確認有無反應。流程上先確認現場安全，再確認意識；按壓、人工呼吸都在確認意識、求救、確認呼吸之後。",
+   "sources": [
+    "TPCPR"
+   ],
+   "model": "claude-sonnet-4-6",
+   "cand_id": "SN18"
+  },
+  {
+   "id": "q212",
+   "chapter": "ch4",
+   "type": "scenario",
+   "difficulty": 3,
+   "kp": [
+    "P05"
+   ],
+   "variant_group": "P05",
+   "stem": "體育課後，走廊上有同學突然倒地，你確認他沒有反應且沒有呼吸，準備進行胸外按壓。施救者的掌根應放在哪個位置？",
+   "options": [
+    "兩乳頭連線中央（胸骨下半段）",
+    "左側胸骨邊緣",
+    "肚臍正上方",
+    "鎖骨正下方"
+   ],
+   "answer": "兩乳頭連線中央（胸骨下半段）",
+   "explain": "「掌根放在兩乳頭連線中央（胸骨下半段）」。放在左側胸骨邊緣或鎖骨正下方均不正確。",
+   "sources": [
+    "CPR21"
+   ],
+   "model": "claude-sonnet-4-6",
+   "cand_id": "SN21"
+  },
+  {
+   "id": "q213",
+   "chapter": "ch4",
+   "type": "scenario",
+   "difficulty": 3,
+   "kp": [
+    "P08"
+   ],
+   "variant_group": "P08",
+   "stem": "你正在對同學進行胸外按壓。關於按壓方式，下列何者最符合衛福部教材的正確做法？",
+   "options": [
+    "每次按下後立刻施加更大的力往下壓",
+    "按壓後讓胸部完全回彈，再進行下一次按壓",
+    "按壓後保持手掌輕壓在胸口上等待",
+    "每隔5次放開手掌讓胸部充分休息"
+   ],
+   "answer": "按壓後讓胸部完全回彈，再進行下一次按壓",
+   "explain": "衛福部民眾版 CPR 摘要表：「胸回彈：每次按壓後讓胸部完全回彈」。",
+   "sources": [
+    "CPR21"
+   ],
+   "model": "claude-sonnet-4-6",
+   "cand_id": "SN24"
+  },
+  {
+   "id": "q214",
+   "chapter": "ch4",
+   "type": "scenario",
+   "difficulty": 3,
+   "kp": [
+    "P13"
+   ],
+   "variant_group": "P13",
+   "stem": "你受過急救訓練，有能力也有意願對倒地同學進行完整CPR。按壓與人工呼吸的比率應該是？",
+   "options": [
+    "每15次按壓配1次人工呼吸",
+    "每30次按壓配2次人工呼吸，每口氣1秒、可見胸部起伏",
+    "每20次按壓配1次人工呼吸",
+    "每10次按壓配2次人工呼吸"
+   ],
+   "answer": "每30次按壓配2次人工呼吸，每口氣1秒、可見胸部起伏",
+   "explain": "「按壓與吹氣30:2，每口氣1秒鐘、可見胸部起伏」。完整版人工呼吸適用於「受過訓練、有能力、且有意願」的施救者。",
+   "sources": [
+    "CPR21"
+   ],
+   "model": "claude-sonnet-4-6",
+   "cand_id": "SN31"
+  },
+  {
+   "id": "q215",
+   "chapter": "ch4",
+   "type": "scenario",
+   "difficulty": 3,
+   "kp": [
+    "Y08"
+   ],
+   "variant_group": "Y08",
+   "stem": "工場課中，同學的眼睛被飛出的木屑打到，疼痛、流淚。旁邊同學叫他用手用力揉眼睛，把木屑揉出來。依臺大醫院眼科部，這樣做對嗎？",
+   "options": [
+    "對，揉一揉可以把木屑揉出來",
+    "不對，眼外傷發生時應避免碰觸或壓迫眼球",
+    "對，只要手洗乾淨就可以揉",
+    "不對，應該改用嘴巴對著眼睛吹氣"
+   ],
+   "answer": "不對，眼外傷發生時應避免碰觸或壓迫眼球",
+   "explain": "臺大醫院眼科部：眼外傷發生時，「避免碰觸或壓迫眼球」。用手揉眼睛就是碰觸、壓迫眼球。",
+   "sources": [
+    "NTUHEYE"
+   ],
+   "model": "claude-sonnet-4-6",
+   "cand_id": "SN35"
+  },
+  {
+   "id": "q216",
+   "chapter": "ch4",
+   "type": "scenario",
+   "difficulty": 3,
+   "kp": [
+    "P17"
+   ],
+   "variant_group": "P17",
+   "stem": "體育課後走廊上有同學倒地，你跪在他身側準備胸外按壓。關於手部姿勢，下列何者正確？",
+   "options": [
+    "雙手手掌完全平貼胸口，十指打開施壓",
+    "掌根放在兩乳頭連線中央，另一手疊在下方手的手背上、十指交扣，下方手的手指往上翹起",
+    "雙手握拳交疊，用拳頭施壓",
+    "只用單手掌根按壓，另一手放在身側"
+   ],
+   "answer": "掌根放在兩乳頭連線中央，另一手疊在下方手的手背上、十指交扣，下方手的手指往上翹起",
+   "explain": "衛福部民眾 CPR+AED 教材：慣用手的掌根放在兩乳頭連線的正中間（胸骨下半段）；另外一手放在第一隻手的手背上，十指交扣；下方手的手指頭往上翹起，不要觸碰到病人。",
+   "sources": [
+    "AEDEDU",
+    "TB117",
+    "CPR21"
+   ],
+   "model": "claude-sonnet-4-6",
+   "cand_id": "SN41"
+  },
+  {
+   "id": "q217",
+   "chapter": "ch4",
+   "type": "scenario",
+   "difficulty": 3,
+   "kp": [
+    "P18"
+   ],
+   "variant_group": "P18",
+   "stem": "你要對倒地同學進行胸外按壓。關於施救者的姿勢，下列何者最符合衛福部及消防署教材的說明？",
+   "options": [
+    "兩腳併攏跪在傷者頭部正上方，手肘微彎，用手臂力量按壓",
+    "兩膝打開與肩同寬，跪在患者身側靠近，手肘打直，肩膀前傾位於雙手正上方，用上半身重量垂直往下壓",
+    "坐在傷者旁邊，將身體前傾，手肘打直按壓",
+    "站著彎腰，雙手伸直按壓"
+   ],
+   "answer": "兩膝打開與肩同寬，跪在患者身側靠近，手肘打直，肩膀前傾位於雙手正上方，用上半身重量垂直往下壓",
+   "explain": "正確姿勢：「兩膝打開與肩同寬，跪在患者身側、儘量靠近；手肘打直，肩膀前傾，位於雙手正上方，用上半身重量垂直往下壓」。手肘微彎或用手臂力量按壓均不符合正確姿勢。",
+   "sources": [
+    "AEDEDU",
+    "TB117"
+   ],
+   "model": "claude-sonnet-4-6",
+   "cand_id": "SN43"
   }
  ]
 }

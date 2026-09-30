@@ -6,7 +6,11 @@ ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT / "tools"))
 from sources import SOURCES  # noqa: E402
 
-KN = {k["id"]: k for k in json.loads((ROOT / "docs/quiz-bank-2026-09-29/knowledge.json").read_text(encoding="utf-8"))}
+# 09-30 版知識點（knowledge_0930.py 產生）是 09-29 版的超集；舊題的知識點 id 全部保留
+_KNP = ROOT / "docs/quiz-bank-2026-09-30/knowledge.json"
+if not _KNP.exists():
+    _KNP = ROOT / "docs/quiz-bank-2026-09-29/knowledge.json"
+KN = {k["id"]: k for k in json.loads(_KNP.read_text(encoding="utf-8"))}
 TYPES = {"single", "tf", "scenario", "order"}
 # 常見簡體字（繁體不使用），出現即判不合格
 SIMP = set("这们说时对应该发电伤压设备处员级证书医护术训练课报资为吗么这过还没从样问题开关节头脑脉将让给东车实习择项简动体经带热烫")
