@@ -1,0 +1,1338 @@
+[
+ {
+  "id": "E01",
+  "chapter": "ch1",
+  "topic": "救護人員定義",
+  "site_text": "《緊急醫療救護法》規定，緊急醫療救護人員（救護人員）是指醫師、護理人員、救護技術員。",
+  "sources": [
+   "EMSA4"
+  ],
+  "authority_note": "第4條：救護人員，指醫師、護理人員、救護技術員。",
+  "quiz_ok": true,
+  "not_ok_reason": ""
+ },
+ {
+  "id": "E02",
+  "chapter": "ch1",
+  "topic": "三個等級",
+  "site_text": "救護技術員分為初級、中級及高級三類。",
+  "sources": [
+   "EMSA24"
+  ],
+  "authority_note": "第24條第1項原文同。",
+  "quiz_ok": true,
+  "not_ok_reason": ""
+ },
+ {
+  "id": "E03",
+  "chapter": "ch1",
+  "topic": "野外救護訓練",
+  "site_text": "各級救護技術員的受訓資格、訓練、繼續教育、得施行的救護項目等細節，由中央衛生主管機關另定辦法，而且訓練課程應包括野外地區的救護訓練。",
+  "sources": [
+   "EMSA24"
+  ],
+  "authority_note": "第24條第2、3項。",
+  "quiz_ok": true,
+  "not_ok_reason": ""
+ },
+ {
+  "id": "E04",
+  "chapter": "ch1",
+  "topic": "現行辦法施行日",
+  "site_text": "《救護技術員管理辦法》現行版本修正日期為民國113年5月15日，自民國114年1月1日施行。",
+  "sources": [
+   "EMTR19"
+  ],
+  "authority_note": "第19條：本辦法自中華民國一百十四年一月一日施行。",
+  "quiz_ok": true,
+  "not_ok_reason": ""
+ },
+ {
+  "id": "E05",
+  "chapter": "ch1",
+  "topic": "執行救護的地點",
+  "site_text": "救護技術員執行救護的地點也有限制：緊急傷病或大量傷病患的現場、送醫或轉診途中、抵達醫院而醫護人員尚未處置前。",
+  "sources": [
+   "EMSA26"
+  ],
+  "authority_note": "第26條三款，以下列地點為限。",
+  "quiz_ok": true,
+  "not_ok_reason": ""
+ },
+ {
+  "id": "E06",
+  "chapter": "ch1",
+  "topic": "等級縮寫",
+  "site_text": "常見的縮寫：初級 EMT-1、中級 EMT-2、高級 EMTP（Paramedic）。",
+  "sources": [
+   "KHEMS"
+  ],
+  "authority_note": "高雄市消防局：初級（EMT1）、中級（EMT2）及高級（EMTP）三類。",
+  "quiz_ok": true,
+  "not_ok_reason": ""
+ },
+ {
+  "id": "E07",
+  "chapter": "ch1",
+  "topic": "初級報名資格",
+  "site_text": "法規對初級救護技術員訓練的報名資格只寫了學歷：國民中學以上學校畢業或具同等學力。法規沒有寫年齡下限、報名費用、體能或其他條件；這些依授課單位規定。",
+  "sources": [
+   "EMTR2"
+  ],
+  "authority_note": "第2條第1款。",
+  "quiz_ok": true,
+  "not_ok_reason": ""
+ },
+ {
+  "id": "E08",
+  "chapter": "ch1",
+  "topic": "中級報名資格",
+  "site_text": "中級：高級中等以上學校畢業或具同等學力，並領有效期內的初級證書。",
+  "sources": [
+   "EMTR2"
+  ],
+  "authority_note": "第2條第2款。",
+  "quiz_ok": true,
+  "not_ok_reason": ""
+ },
+ {
+  "id": "E09",
+  "chapter": "ch1",
+  "topic": "高級報名資格",
+  "site_text": "高級：從事中級救護技術員緊急救護連續四年以上；或專科以上學校畢業，並領有效期內中級證書一年以上。",
+  "sources": [
+   "EMTR2"
+  ],
+  "authority_note": "第2條第3款。",
+  "quiz_ok": true,
+  "not_ok_reason": ""
+ },
+ {
+  "id": "E10",
+  "chapter": "ch1",
+  "topic": "三級初訓總時數",
+  "site_text": "初級56小時；中級336小時（含醫院實習40小時、救護車出勤實習96小時）；高級1296小時（含醫院急診實習480小時、救護車實習240小時）。",
+  "sources": [
+   "T1",
+   "T2",
+   "T3"
+  ],
+  "authority_note": "附表一總時數56；附表二總時數336，8.1醫院實習40、8.2救護車出勤實習96；附表三總時數1296，醫院急診實習480、救護車實習240。",
+  "quiz_ok": true,
+  "not_ok_reason": ""
+ },
+ {
+  "id": "E11",
+  "chapter": "ch1",
+  "topic": "證書由誰發給",
+  "site_text": "初級、中級：辦理訓練的機關、機構、學校、法人或團體發給；高級：訓練完成後送指定的甄試機構，甄試通過才發證。",
+  "sources": [
+   "EMTR8"
+  ],
+  "authority_note": "第8條第1、2項。",
+  "quiz_ok": true,
+  "not_ok_reason": ""
+ },
+ {
+  "id": "E12",
+  "chapter": "ch1",
+  "topic": "證書效期",
+  "site_text": "各級救護技術員證書有效期間為3年。每次展延的有效期間也是3年。",
+  "sources": [
+   "EMTR9",
+   "EMTR10"
+  ],
+  "authority_note": "第9條：有效期間為三年；第10條第3項：展延之有效期間，每次為三年。",
+  "quiz_ok": true,
+  "not_ok_reason": ""
+ },
+ {
+  "id": "E13",
+  "chapter": "ch1",
+  "topic": "繼續教育時數",
+  "site_text": "初級：3年內完成附表一所列科目24小時以上，其中12小時以上為模組二（基本生命急救術）、模組四（基本救護技術）、模組六（綜合全情境流程演練）。中級72小時以上，其中36小時以上為模組二、四、五、七；高級96小時以上，其中48小時以上為模組二、四、五。",
+  "sources": [
+   "EMTR10"
+  ],
+  "authority_note": "第10條第1項三款。",
+  "quiz_ok": true,
+  "not_ok_reason": ""
+ },
+ {
+  "id": "E14",
+  "chapter": "ch1",
+  "topic": "降級發證",
+  "site_text": "沒有在期限內完成原級別的繼續教育、但達到較低級別的時數時，可以改發較低級別的證書。",
+  "sources": [
+   "EMTR10"
+  ],
+  "authority_note": "第10條第3項後段。",
+  "quiz_ok": true,
+  "not_ok_reason": ""
+ },
+ {
+  "id": "E15",
+  "chapter": "ch1",
+  "topic": "特殊事由展延",
+  "site_text": "因懷孕、重大疾病或服兵役來不及完成時數，可在證書效期屆滿3個月前申請展延，展延期間1年。",
+  "sources": [
+   "EMTR11"
+  ],
+  "authority_note": "第11條。",
+  "quiz_ok": true,
+  "not_ok_reason": ""
+ },
+ {
+  "id": "E16",
+  "chapter": "ch1",
+  "topic": "初級救護項目摘要",
+  "site_text": "初級可做20項基本救護，例如基本心肺復甦術、使用AED、傷口清洗止血包紮、骨折固定、給予氧氣、沖洗眼睛。",
+  "sources": [
+   "EMTR13"
+  ],
+  "authority_note": "第13條二十款。",
+  "quiz_ok": true,
+  "not_ok_reason": ""
+ },
+ {
+  "id": "E17",
+  "chapter": "ch1",
+  "topic": "中級增加項目",
+  "site_text": "中級：初級全部項目，再加上周邊輸液路徑、聲門上呼吸道、協助使用自備腎上腺素注射筆等。",
+  "sources": [
+   "EMTR14"
+  ],
+  "authority_note": "第14條。",
+  "quiz_ok": true,
+  "not_ok_reason": ""
+ },
+ {
+  "id": "E18",
+  "chapter": "ch1",
+  "topic": "高級增加項目",
+  "site_text": "高級：中級全部項目，再加上依預立醫療流程執行注射、給藥、氣管插管、電擊等。",
+  "sources": [
+   "EMTR15"
+  ],
+  "authority_note": "第15條第1項第2款。",
+  "quiz_ok": true,
+  "not_ok_reason": ""
+ },
+ {
+  "id": "E19",
+  "chapter": "ch1",
+  "topic": "考核方式",
+  "site_text": "初級課程基準的最後一個模組是「測試」，內容為筆試與技術測驗，時數4小時，已包含在56小時內。完成訓練課程合格的人員，由辦理訓練的單位發給證書。法規沒有寫出及格分數；及格標準依授課單位規定。",
+  "sources": [
+   "T1",
+   "EMTR8"
+  ],
+  "authority_note": "附表一模組七 7.1測試 筆試與技術測驗 4。",
+  "quiz_ok": true,
+  "not_ok_reason": ""
+ },
+ {
+  "id": "E20",
+  "chapter": "ch1",
+  "topic": "學校基本救命術",
+  "site_text": "學校應協助教職員工及學生定期接受基本救命術訓練課程至少四小時，以及緊急救護情境演習。基本救命術是每個人都該會的入門；EMT-1則是法規明定、有證書與效期的救護人員訓練，總時數56小時。",
+  "sources": [
+   "SCH5",
+   "T1"
+  ],
+  "authority_note": "學校緊急傷病處理準則第5條：至少四小時及緊急救護情境演習。",
+  "quiz_ok": true,
+  "not_ok_reason": ""
+ },
+ {
+  "id": "W01",
+  "chapter": "ch2",
+  "topic": "可辦訓單位",
+  "site_text": "辦理初級、中級救護技術員訓練或繼續教育課程的單位，以四類為限：各級衛生、消防主管機關；設有醫療、衛生、消防或其他相關科系所的專科以上學校；符合條件的急救責任醫院；其他經中央衛生主管機關認可的機關、機構、法人或團體。",
+  "sources": [
+   "EMTR4"
+  ],
+  "authority_note": "第4條第1項四款。",
+  "quiz_ok": true,
+  "not_ok_reason": ""
+ },
+ {
+  "id": "W02",
+  "chapter": "ch2",
+  "topic": "辦訓須核准",
+  "site_text": "除了衛生、消防主管機關和上述學校以外，開課單位每次辦訓前都要把計畫書送中央衛生主管機關，經審查核准後才能開課；計畫書內容包括師資、課程大綱與時數、場所、訓練器材與收費方式等。",
+  "sources": [
+   "EMTR6"
+  ],
+  "authority_note": "第6條：應於辦理一個月前…經審查核准後始得為之；但第一款機關及第二款學校辦理初、中級得免予申請。",
+  "quiz_ok": true,
+  "not_ok_reason": ""
+ },
+ {
+  "id": "W03",
+  "chapter": "ch2",
+  "topic": "衛福部緊急醫療管理系統",
+  "site_text": "衛福部緊急醫療管理系統首頁設有「救護技術員專區」，提供救護技術員課程報名、訓練機構查詢、受訓紀錄及效期查詢。適合用來確認開課單位是否為登錄的訓練機構、查課程、查自己的證書效期。",
+  "sources": [
+   "EMS"
+  ],
+  "authority_note": "系統首頁功能。",
+  "quiz_ok": true,
+  "not_ok_reason": ""
+ },
+ {
+  "id": "W04",
+  "chapter": "ch2",
+  "topic": "紅十字會",
+  "site_text": "紅十字會線上教育訓練系統的訓練項目包含「A08.初級救護技術員EMT1訓練」與「A13.初級救護技術員EMT1繼續教育訓練」，也列有CPR＋AED、基本救命術、急救員等非EMT課程。各梯次日期、名額、年齡限制與費用依授課單位規定。",
+  "sources": [
+   "RCCLASS"
+  ],
+  "authority_note": "開課資訊訓練項目。",
+  "quiz_ok": true,
+  "not_ok_reason": ""
+ },
+ {
+  "id": "W05",
+  "chapter": "ch2",
+  "topic": "消防機關",
+  "site_text": "消防主管機關是法規明列可以辦訓的單位。以臺北市政府消防局為例，救護人員主要由具中級以上資格的消防人員擔任，另由具初級以上資格的救護義消協助救護勤務。一般民眾能不能參加消防局開的班，依各消防局公告規定。",
+  "sources": [
+   "EMTR4",
+   "TPTRAIN"
+  ],
+  "authority_note": "臺北市消防局：救護人員主要由具備中級救護技術員(EMT-2)資格以上之消防人員至少2名擔任，另由具備初級(EMT-1)資格以上之救護義消協助。",
+  "quiz_ok": true,
+  "not_ok_reason": ""
+ },
+ {
+  "id": "W06",
+  "chapter": "ch2",
+  "topic": "消防署教科書",
+  "site_text": "內政部消防署也編印救護技術員教科書，公開在網站上，可以當作延伸閱讀。",
+  "sources": [
+   "NFA810"
+  ],
+  "authority_note": "消防署救護技術頁。",
+  "quiz_ok": true,
+  "not_ok_reason": ""
+ },
+ {
+  "id": "W07",
+  "chapter": "ch2",
+  "topic": "報名前確認三件事",
+  "site_text": "報名前確認：開課單位合不合法（用衛福部系統的訓練機構查詢核對）；課程是不是完整的56小時（包含筆試與技術測驗）；你符不符合條件（法規只規定國中以上畢業或同等學力，年齡、家長同意書等依授課單位規定）。",
+  "sources": [
+   "EMS",
+   "T1",
+   "EMTR2"
+  ],
+  "authority_note": "",
+  "quiz_ok": false,
+  "not_ok_reason": "網站自行整理的報名前建議"
+ },
+ {
+  "id": "W08",
+  "chapter": "ch2",
+  "topic": "學校與醫院",
+  "site_text": "設有醫療、衛生、消防相關科系所的專科以上學校，以及符合條件的急救責任醫院，也是法規允許的開課單位；常以校內學生或院內人員為主，是否對外招生依開課單位規定；可在衛福部系統的訓練機構查詢找到名單。",
+  "sources": [
+   "EMTR4",
+   "EMS"
+  ],
+  "authority_note": "",
+  "quiz_ok": false,
+  "not_ok_reason": "「常以校內學生或院內人員為主」為網站敘述；可開課的部分與 W01 重複"
+ },
+ {
+  "id": "U01",
+  "chapter": "ch3",
+  "topic": "課程依附表",
+  "site_text": "《救護技術員管理辦法》第3條規定，課程的模組、科目、內容與時數依附表一辦理（中級附表二、高級附表三）。",
+  "sources": [
+   "EMTR3"
+  ],
+  "authority_note": "第3條：如附表一至附表三。",
+  "quiz_ok": true,
+  "not_ok_reason": ""
+ },
+ {
+  "id": "U02",
+  "chapter": "ch3",
+  "topic": "七個模組與時數",
+  "site_text": "附表一：模組一基本概念7小時、模組二基本生命急救術6小時、模組三病人評估5小時、模組四基本救護技術12小時、模組五半情境流程演練6小時、模組六綜合（全情境流程）演練16小時、模組七測試4小時，總時數56小時。",
+  "sources": [
+   "T1"
+  ],
+  "authority_note": "附表一原表。",
+  "quiz_ok": true,
+  "not_ok_reason": ""
+ },
+ {
+  "id": "U03",
+  "chapter": "ch3",
+  "topic": "模組二科目",
+  "site_text": "模組二：2.1成人心肺復甦術（含胸部按壓及AED操作）4小時、2.2小兒心肺復甦術1小時、2.3清除呼吸道異物1小時。",
+  "sources": [
+   "T1"
+  ],
+  "authority_note": "",
+  "quiz_ok": true,
+  "not_ok_reason": ""
+ },
+ {
+  "id": "U04",
+  "chapter": "ch3",
+  "topic": "模組四科目",
+  "site_text": "模組四：4.1氧氣治療與抽吸2、4.2傷口清洗、止血、包紮與固定（含加壓止血及止血帶）5、4.3頸椎減移及固定、脫除安全帽及上頸圈2、4.4脊椎減移及固定（翻身）及上長背板2、4.5傷患搬運1。",
+  "sources": [
+   "T1"
+  ],
+  "authority_note": "",
+  "quiz_ok": true,
+  "not_ok_reason": ""
+ },
+ {
+  "id": "U05",
+  "chapter": "ch3",
+  "topic": "模組六科目",
+  "site_text": "模組六：6.1常見急症的處置7、6.2常見創傷的處置（車禍、溺水、灼燙傷、骨折、眼睛外傷含沖洗眼睛、低體溫等）4、6.3特殊病人與狀況（小兒、孕婦含急產接生、老人）2、6.4大量傷病患與檢傷分類1、6.5傳染病防治演練1、6.6行為急症1。",
+  "sources": [
+   "T1"
+  ],
+  "authority_note": "",
+  "quiz_ok": true,
+  "not_ok_reason": ""
+ },
+ {
+  "id": "U06",
+  "chapter": "ch3",
+  "topic": "模組一科目",
+  "site_text": "模組一：1.1緊急醫療救護體系概論2、1.2人體構造與生命徵象2、1.3緊急醫療救護職業安全2、1.4環境急症與野外地區緊急救護1。",
+  "sources": [
+   "T1"
+  ],
+  "authority_note": "",
+  "quiz_ok": true,
+  "not_ok_reason": ""
+ },
+ {
+  "id": "U07",
+  "chapter": "ch3",
+  "topic": "模組三、五科目",
+  "site_text": "模組三病人評估：3.1急症（非創傷）病人評估2、3.2創傷病人評估2、3.3通報與紀錄1。模組五半情境：5.1危急病人之現場救護2、5.2非危急病人之現場救護2、5.3轉送途中（救護車內）之救護1、5.4到達醫院（下救護車）之救護1。",
+  "sources": [
+   "T1"
+  ],
+  "authority_note": "",
+  "quiz_ok": true,
+  "not_ok_reason": ""
+ },
+ {
+  "id": "U08",
+  "chapter": "ch3",
+  "topic": "初級20項救護項目",
+  "site_text": "第13條列出初級救護技術員得施行的20項：傷病檢視及檢傷分類；生命徵象評估及血氧濃度監測；基本心肺復甦術；清除呼吸道異物；抽吸呼吸道分泌物；使用口咽、鼻咽人工呼吸道；給予氧氣；傷口清洗、止血及包紮；傷病患姿勢擺位及體溫維持；頸椎減移、脊椎減移及骨折固定；現場傷病患脫困及搬運；送醫照護；使用心電圖監視器或十二導程心電圖；使用自動體外心臟電擊去顫器；使用自動心肺復甦機；血糖監測及給予口服葡萄糖；心理支持；急產接生；燒燙傷口處置；沖洗眼睛。",
+  "sources": [
+   "EMTR13"
+  ],
+  "authority_note": "第13條。",
+  "quiz_ok": true,
+  "not_ok_reason": ""
+ },
+ {
+  "id": "U09",
+  "chapter": "ch3",
+  "topic": "中級課程規模",
+  "site_text": "中級課程基準共八個模組、336小時，其中「實習與測試」模組就有149小時（醫院實習40小時、救護車出勤實習96小時、測試13小時）。",
+  "sources": [
+   "T2"
+  ],
+  "authority_note": "附表二模組八149小時：40+96+測試5+8。",
+  "quiz_ok": true,
+  "not_ok_reason": ""
+ },
+ {
+  "id": "U10",
+  "chapter": "ch3",
+  "topic": "高級課程規模",
+  "site_text": "高級課程基準共1296小時，除了八個課程模組，還有醫院急診實習480小時、救護車實習240小時、救護指揮中心實習8小時，以及綜合演練及測試14小時。",
+  "sources": [
+   "T3"
+  ],
+  "authority_note": "",
+  "quiz_ok": true,
+  "not_ok_reason": ""
+ },
+ {
+  "id": "U11",
+  "chapter": "ch3",
+  "topic": "繼續教育範圍",
+  "site_text": "模組二、四、六也是日後繼續教育要求至少12小時的範圍。",
+  "sources": [
+   "EMTR10"
+  ],
+  "authority_note": "",
+  "quiz_ok": false,
+  "not_ok_reason": "與 E13 同一事實（第 10 條），併入 E13 出題"
+ },
+ {
+  "id": "G01",
+  "chapter": "ch4",
+  "topic": "確認現場安全",
+  "site_text": "確認現場安全：衛福部民眾版 CPR 指引的第一步是「確認環境不會危及施救者和患者的安全」。工場機具的停機、斷電程序，依授課單位規定。",
+  "sources": [
+   "CPR21"
+  ],
+  "authority_note": "摘要表流程第一格。",
+  "quiz_ok": true,
+  "not_ok_reason": ""
+ },
+ {
+  "id": "G02",
+  "chapter": "ch4",
+  "topic": "呼救分工",
+  "site_text": "求救：可以用手機打 119，開啟擴音，聽從 119 執勤人員指示；學校內的通報流程依授課單位規定。有旁人時大聲呼救並分工：你留在患者身旁，旁人甲打 119 並開擴音，旁人乙去拿 AED。",
+  "sources": [
+   "CPR21",
+   "AEDEDU",
+   "TPCPR"
+  ],
+  "authority_note": "AEDEDU PDF 第 14 頁：指定一人幫忙撥打119報案，同時指定另一人立刻將附近的AED拿過來。",
+  "quiz_ok": true,
+  "not_ok_reason": ""
+ },
+ {
+  "id": "G03",
+  "chapter": "ch4",
+  "topic": "緊急避難免責",
+  "site_text": "救護人員以外的人為免除他人生命之急迫危險，使用緊急救護設備或施予急救措施，適用民法、刑法緊急避難免責之規定。本章不能取代實際受訓。",
+  "sources": [
+   "EMSA142"
+  ],
+  "authority_note": "第14-2條。",
+  "quiz_ok": true,
+  "not_ok_reason": ""
+ },
+ {
+  "id": "B01",
+  "chapter": "ch4",
+  "topic": "直接加壓止血",
+  "site_text": "用無菌紗布（或乾淨的布料）放在出血處，直接加壓止血。",
+  "sources": [
+   "TPBLEED"
+  ],
+  "authority_note": "",
+  "quiz_ok": true,
+  "not_ok_reason": ""
+ },
+ {
+  "id": "B02",
+  "chapter": "ch4",
+  "topic": "加壓時間",
+  "site_text": "最有效的止血方式是加壓止血，至少五分鐘，讓傷口凝血達到止血效果。",
+  "sources": [
+   "TB259"
+  ],
+  "authority_note": "TB259：加壓止血至少五分鐘。",
+  "quiz_ok": true,
+  "not_ok_reason": ""
+ },
+ {
+  "id": "B03",
+  "chapter": "ch4",
+  "topic": "抬高患肢",
+  "site_text": "患肢如沒有骨折，可考慮抬高。",
+  "sources": [
+   "TPBLEED"
+  ],
+  "authority_note": "",
+  "quiz_ok": true,
+  "not_ok_reason": ""
+ },
+ {
+  "id": "B04",
+  "chapter": "ch4",
+  "topic": "包紮持續加壓",
+  "site_text": "以彈性繃帶或三角巾包紮並持續加壓。",
+  "sources": [
+   "TPBLEED"
+  ],
+  "authority_note": "",
+  "quiz_ok": true,
+  "not_ok_reason": ""
+ },
+ {
+  "id": "B05",
+  "chapter": "ch4",
+  "topic": "紗布浸透",
+  "site_text": "紗布被血浸透時，絕不要移除原有紗布，直接在上面加上更多紗布，再次加壓包紮。",
+  "sources": [
+   "TPBLEED",
+   "TB140"
+  ],
+  "authority_note": "",
+  "quiz_ok": true,
+  "not_ok_reason": ""
+ },
+ {
+  "id": "B06",
+  "chapter": "ch4",
+  "topic": "插入異物",
+  "site_text": "傷口有插入的異物（例如斷掉的鋸片）時，應先固定、避免拔除。",
+  "sources": [
+   "TB259"
+  ],
+  "authority_note": "TB259：對於穿刺傷異物應先固定，應避免拔除。",
+  "quiz_ok": true,
+  "not_ok_reason": ""
+ },
+ {
+  "id": "B07",
+  "chapter": "ch4",
+  "topic": "止血帶",
+  "site_text": "止血帶：消防署《救護技術員教科書》寫「當判斷為危及生命的出血（包含動脈性出血或大量出血等情況）可考慮儘快使用止血帶止血」，並寫明「將止血帶綁於出血處近心端 5 至 8 公分處」、「標記止血時間」等做法。止血帶的操作列在初級救護技術員訓練課程（科目 4.2「含加壓止血及止血帶的操作」）。",
+  "sources": [
+   "TB140",
+   "T1"
+  ],
+  "authority_note": "TB140 原文；附表一 4.2。",
+  "quiz_ok": true,
+  "not_ok_reason": ""
+ },
+ {
+  "id": "B08",
+  "chapter": "ch4",
+  "topic": "出血何時叫119",
+  "site_text": "危及生命的嚴重出血，或依上述方法仍無法有效止血，應立即打119求救。",
+  "sources": [
+   "TPBLEED"
+  ],
+  "authority_note": "",
+  "quiz_ok": true,
+  "not_ok_reason": ""
+ },
+ {
+  "id": "R01",
+  "chapter": "ch4",
+  "topic": "沖脫泡蓋送順序",
+  "site_text": "燙傷處置口訣：沖、脫、泡、蓋、送（送：嚴重時打 119 求救）。",
+  "sources": [
+   "TPBURN"
+  ],
+  "authority_note": "",
+  "quiz_ok": true,
+  "not_ok_reason": ""
+ },
+ {
+  "id": "R02",
+  "chapter": "ch4",
+  "topic": "沖的時間",
+  "site_text": "沖：用乾淨的冷水輕輕沖洗或浸泡20至30分鐘。",
+  "sources": [
+   "TPBURN"
+  ],
+  "authority_note": "",
+  "quiz_ok": true,
+  "not_ok_reason": ""
+ },
+ {
+  "id": "R03",
+  "chapter": "ch4",
+  "topic": "脫",
+  "site_text": "脫：在冷水中用剪刀剪開患處衣物。衣物沾黏在傷口上時，勿強行剝除。",
+  "sources": [
+   "TPBURN",
+   "TB265"
+  ],
+  "authority_note": "",
+  "quiz_ok": true,
+  "not_ok_reason": ""
+ },
+ {
+  "id": "R04",
+  "chapter": "ch4",
+  "topic": "泡",
+  "site_text": "泡：持續浸泡冷水30分鐘。",
+  "sources": [
+   "TPBURN"
+  ],
+  "authority_note": "",
+  "quiz_ok": true,
+  "not_ok_reason": ""
+ },
+ {
+  "id": "R05",
+  "chapter": "ch4",
+  "topic": "蓋",
+  "site_text": "蓋：用乾淨或無菌紗布覆蓋患處，或以乾淨保鮮膜環繞包覆。",
+  "sources": [
+   "TPBURN"
+  ],
+  "authority_note": "",
+  "quiz_ok": true,
+  "not_ok_reason": ""
+ },
+ {
+  "id": "R06",
+  "chapter": "ch4",
+  "topic": "化學粉末",
+  "site_text": "化學品造成的灼傷：消防署教材寫「因化學、輻射所造成灼傷，處置人員應該穿戴足夠的安全防護除汙」；「若傷口沾有化學性粉末時，應用乾淨毛刷先刷除污染物，再用大量清水沖洗」。",
+  "sources": [
+   "TB265"
+  ],
+  "authority_note": "",
+  "quiz_ok": true,
+  "not_ok_reason": ""
+ },
+ {
+  "id": "R07",
+  "chapter": "ch4",
+  "topic": "大面積保暖",
+  "site_text": "大面積燙傷：消防署教材指出「大面積灼燙傷造成皮膚無法保持體溫，特別是夜晚或氣溫低時」。",
+  "sources": [
+   "TB264"
+  ],
+  "authority_note": "",
+  "quiz_ok": true,
+  "not_ok_reason": ""
+ },
+ {
+  "id": "R08",
+  "chapter": "ch4",
+  "topic": "重度灼燙傷部位與種類",
+  "site_text": "消防署教材把下列情形列為重度灼燙傷：臉、眼、耳、頸、手、足、會陰部灼燙傷；合併吸入性灼燙傷；化學灼傷；高壓電灼傷。",
+  "sources": [
+   "TB263"
+  ],
+  "authority_note": "表8-1。",
+  "quiz_ok": true,
+  "not_ok_reason": ""
+ },
+ {
+  "id": "R09",
+  "chapter": "ch4",
+  "topic": "手掌原則",
+  "site_text": "估算面積可用手掌原則：傷者手掌（含五指）約占全身體表面積1%。",
+  "sources": [
+   "TB264"
+  ],
+  "authority_note": "TB264：手掌約0.5%，含五指合併部分則佔1%。",
+  "quiz_ok": true,
+  "not_ok_reason": ""
+ },
+ {
+  "id": "R10",
+  "chapter": "ch4",
+  "topic": "二度面積重度門檻",
+  "site_text": "成人二度灼燙傷超過25%即屬重度。",
+  "sources": [
+   "TB263"
+  ],
+  "authority_note": "表8-1：成人>25%重度；15~25%中度；<15%輕度。",
+  "quiz_ok": true,
+  "not_ok_reason": ""
+ },
+ {
+  "id": "R11",
+  "chapter": "ch4",
+  "topic": "送往哪裡",
+  "site_text": "中度或嚴重灼傷應送往有處置灼傷能力的醫院。",
+  "sources": [
+   "TB265"
+  ],
+  "authority_note": "（09-30 網站已刪除「拿不準嚴重程度就打 119」這句網站自行補充）",
+  "quiz_ok": true,
+  "not_ok_reason": ""
+ },
+ {
+  "id": "C01",
+  "chapter": "ch4",
+  "topic": "先停機",
+  "site_text": "夾傷／壓傷：先確認現場安全；機具的停機、斷電程序依授課單位規定。有出血，照「割傷出血」直接加壓。",
+  "sources": [
+   "CPR21",
+   "TPBLEED"
+  ],
+  "authority_note": "",
+  "quiz_ok": true,
+  "not_ok_reason": ""
+ },
+ {
+  "id": "C02",
+  "chapter": "ch4",
+  "topic": "骨折固定",
+  "site_text": "懷疑骨折的部位都當作骨折處理，以原來姿勢固定、儘量減少患處移動。",
+  "sources": [
+   "TB287"
+  ],
+  "authority_note": "",
+  "quiz_ok": true,
+  "not_ok_reason": ""
+ },
+ {
+  "id": "C03",
+  "chapter": "ch4",
+  "topic": "抬高與冰敷",
+  "site_text": "可視情況適度抬高患肢或冰敷，減緩疼痛及軟組織腫脹。",
+  "sources": [
+   "TB287"
+  ],
+  "authority_note": "（09-30 網站已刪除臺北市消防局扭傷的冰敷時間，只保留 TB287 原句）",
+  "quiz_ok": true,
+  "not_ok_reason": ""
+ },
+ {
+  "id": "C04",
+  "chapter": "ch4",
+  "topic": "斷肢保存",
+  "site_text": "手指等部位斷離時：斷肢用生理食鹽水潤濕的無菌紗布包好，放入乾淨塑膠袋；再放進另一個裝有冰塊或冰敷包的袋子，隔水保冰，標記時間，和傷者一起送醫。",
+  "sources": [
+   "TB287",
+   "TB288"
+  ],
+  "authority_note": "",
+  "quiz_ok": true,
+  "not_ok_reason": ""
+ },
+ {
+  "id": "C05",
+  "chapter": "ch4",
+  "topic": "不要復位",
+  "site_text": "不要自己把變形的關節或骨頭扳回去：現場不需做脫臼或骨折復位。",
+  "sources": [
+   "TB287"
+  ],
+  "authority_note": "",
+  "quiz_ok": true,
+  "not_ok_reason": ""
+ },
+ {
+  "id": "C06",
+  "chapter": "ch4",
+  "topic": "斷肢不直接冷凍",
+  "site_text": "斷肢不要直接冷凍；要用隔水保冰的方式，讓冰塊不直接碰到斷肢。",
+  "sources": [
+   "TB288"
+  ],
+  "authority_note": "",
+  "quiz_ok": true,
+  "not_ok_reason": ""
+ },
+ {
+  "id": "C07",
+  "chapter": "ch4",
+  "topic": "不延誤送醫",
+  "site_text": "不要為了找斷肢而延誤傷者送醫。",
+  "sources": [
+   "TB288"
+  ],
+  "authority_note": "",
+  "quiz_ok": true,
+  "not_ok_reason": ""
+ },
+ {
+  "id": "C08",
+  "chapter": "ch4",
+  "topic": "夾壓傷何時叫119",
+  "site_text": "消防署教材指出，受傷肢體出現「脈搏異常、冰冷、蒼白或感覺運動功能異常則可能為腔室症候群」。夾壓傷何時叫 119：危及生命的嚴重出血，或依直接加壓仍無法有效止血；斷肢要連同傷者一起送醫。",
+  "sources": [
+   "TB288",
+   "TPBLEED"
+  ],
+  "authority_note": "",
+  "quiz_ok": true,
+  "not_ok_reason": ""
+ },
+ {
+  "id": "Y01",
+  "chapter": "ch4",
+  "topic": "化學品入眼",
+  "site_text": "被強酸、強鹼等化學品噴到，必須立即以大量清水沖洗。",
+  "sources": [
+   "TB274"
+  ],
+  "authority_note": "",
+  "quiz_ok": true,
+  "not_ok_reason": ""
+ },
+ {
+  "id": "Y02",
+  "chapter": "ch4",
+  "topic": "沖洗方向",
+  "site_text": "沖洗時撐開上下眼瞼，由內眼角往外眼角緩慢沖洗，持續沖洗並儘速送醫。",
+  "sources": [
+   "TB183"
+  ],
+  "authority_note": "",
+  "quiz_ok": true,
+  "not_ok_reason": ""
+ },
+ {
+  "id": "Y03",
+  "chapter": "ch4",
+  "topic": "確認異物種類",
+  "site_text": "確認進入眼睛的是什麼東西（異物種類及性質），例如是木屑還是化學品。",
+  "sources": [
+   "TB183"
+  ],
+  "authority_note": "",
+  "quiz_ok": true,
+  "not_ok_reason": ""
+ },
+ {
+  "id": "Y04",
+  "chapter": "ch4",
+  "topic": "插入眼睛的異物",
+  "site_text": "有異物插入組織時，不可強行移除，應固定後儘速送醫。",
+  "sources": [
+   "TB274"
+  ],
+  "authority_note": "",
+  "quiz_ok": true,
+  "not_ok_reason": ""
+ },
+ {
+  "id": "Y05",
+  "chapter": "ch4",
+  "topic": "隱形眼鏡",
+  "site_text": "眼睛受傷時不應隨便拔除隱形眼鏡；化學品灼傷時才在醫療指導醫師指示下拔除。",
+  "sources": [
+   "TB274"
+  ],
+  "authority_note": "",
+  "quiz_ok": true,
+  "not_ok_reason": ""
+ },
+ {
+  "id": "Y06",
+  "chapter": "ch4",
+  "topic": "眼傷何時叫119",
+  "site_text": "何時送醫：化學品入眼（消防署教材把化學灼傷與眼部灼燙傷列為重度灼燙傷），原則是持續沖洗並儘速送醫；有異物插入眼睛或眼周組織，應於固定及止血後儘速送醫；眼睛內的異物或污染物無法移除、情況加劇無法改善，持續沖洗同時儘速送醫。",
+  "sources": [
+   "TB263",
+   "TB183",
+   "TB274"
+  ],
+  "authority_note": "",
+  "quiz_ok": true,
+  "not_ok_reason": ""
+ },
+ {
+  "id": "Y07",
+  "chapter": "ch4",
+  "topic": "預防",
+  "site_text": "工場裡的預防方法，是操作機具時依工場規定配戴護目鏡；沖洗時間的長短依授課單位規定與醫護人員指示。",
+  "sources": [
+   "TB183"
+  ],
+  "authority_note": "（網站本身敘述；沖洗時間無權威數字）",
+  "quiz_ok": false,
+  "not_ok_reason": "09-30 網站改為「護目鏡等防護具的配戴，依授課單位（工場）規定」，無權威數字"
+ },
+ {
+  "id": "S01",
+  "chapter": "ch4",
+  "topic": "斷電與絕緣撥離",
+  "site_text": "非高壓電：「儘可能用最迅速安全的方法將病人與電源隔開」；「如無法切開電源」，可站在木箱、塑膠管、橡皮墊或報紙等乾燥絕緣體上，用乾的掃把、竹竿或木椅將傷者的肢體拖離電源。拖離電源只限原文的條件：非高壓電，而且無法切開電源。",
+  "sources": [
+   "TB370"
+  ],
+  "authority_note": "TB370 原文。",
+  "quiz_ok": true,
+  "not_ok_reason": ""
+ },
+ {
+  "id": "S02",
+  "chapter": "ch4",
+  "topic": "觸電後CPR與AED",
+  "site_text": "傷者沒有反應、沒有正常呼吸：立即 CPR，並儘早使用 AED——交流電常導致心室纖維顫動，因觸電而呼吸停止的傷者除了心肺復甦術，還要儘早去顫。沒有反應、沒有呼吸時立刻叫 119，同時開始 CPR。",
+  "sources": [
+   "TB370",
+   "CPR21"
+  ],
+  "authority_note": "",
+  "quiz_ok": true,
+  "not_ok_reason": ""
+ },
+ {
+  "id": "S03",
+  "chapter": "ch4",
+  "topic": "摔落與頸部",
+  "site_text": "注意是否從高處摔落、合併骨折，尤其是頸部。",
+  "sources": [
+   "TB370"
+  ],
+  "authority_note": "",
+  "quiz_ok": true,
+  "not_ok_reason": ""
+ },
+ {
+  "id": "S04",
+  "chapter": "ch4",
+  "topic": "勿直接碰觸",
+  "site_text": "電源還沒隔開前，不要直接用手碰傷者。",
+  "sources": [
+   "TB370"
+  ],
+  "authority_note": "",
+  "quiz_ok": false,
+  "not_ok_reason": "09-30 網站已刪除此句"
+ },
+ {
+  "id": "S05",
+  "chapter": "ch4",
+  "topic": "高壓電10公尺",
+  "site_text": "高壓電：電線要移開至少 10 公尺才能接近傷者；未斷電前絕不要進入區域，也不要嘗試用任何東西移除電線或移動傷者，請專業人員斷電。",
+  "sources": [
+   "TB370"
+  ],
+  "authority_note": "",
+  "quiz_ok": true,
+  "not_ok_reason": ""
+ },
+ {
+  "id": "S06",
+  "chapter": "ch4",
+  "topic": "入口出口傷",
+  "site_text": "消防署教材：「電燒傷可能會有兩個較明顯傷口，一般於『入口』及『出口』處之燒傷最為嚴重」；高壓電灼傷列為重度灼燙傷。",
+  "sources": [
+   "TB370",
+   "TB263"
+  ],
+  "authority_note": "",
+  "quiz_ok": true,
+  "not_ok_reason": ""
+ },
+ {
+  "id": "S07",
+  "chapter": "ch4",
+  "topic": "觸電後送醫",
+  "site_text": "恢復心跳的傷者仍可能再次心跳停止，需要持續監測心電圖。觸電後即使看起來沒事，也應送醫評估。",
+  "sources": [
+   "TB371"
+  ],
+  "authority_note": "",
+  "quiz_ok": false,
+  "not_ok_reason": "09-30 網站已不引用 TB371"
+ },
+ {
+  "id": "P01",
+  "chapter": "ch4",
+  "topic": "黃金4分鐘",
+  "site_text": "心跳停止後，要儘快在黃金4分鐘內透過胸外按壓維持血液循環，避免腦部因缺氧而造成永久傷害。",
+  "sources": [
+   "TPCPR"
+  ],
+  "authority_note": "",
+  "quiz_ok": true,
+  "not_ok_reason": ""
+ },
+ {
+  "id": "P02",
+  "chapter": "ch4",
+  "topic": "成人流程順序",
+  "site_text": "成人流程：確認現場安全→叫：確認意識（拍肩呼喚）→叫：求救（打119、取得AED）→確認呼吸→C胸部按壓→D電擊（AED）→持續高品質CPR。",
+  "sources": [
+   "CPR21",
+   "TPCPR"
+  ],
+  "authority_note": "",
+  "quiz_ok": true,
+  "not_ok_reason": ""
+ },
+ {
+  "id": "P03",
+  "chapter": "ch4",
+  "topic": "確認意識",
+  "site_text": "拍肩呼喚「你怎麼了！」，確認有無反應。",
+  "sources": [
+   "TPCPR"
+  ],
+  "authority_note": "",
+  "quiz_ok": true,
+  "not_ok_reason": ""
+ },
+ {
+  "id": "P04",
+  "chapter": "ch4",
+  "topic": "確認呼吸",
+  "site_text": "沒有呼吸或幾乎沒有呼吸，就開始胸外按壓；若無法確定，也立即開始胸外按壓。呼吸正常則持續監測，等候救護人員到場。",
+  "sources": [
+   "CPR21"
+  ],
+  "authority_note": "",
+  "quiz_ok": true,
+  "not_ok_reason": ""
+ },
+ {
+  "id": "P05",
+  "chapter": "ch4",
+  "topic": "按壓位置",
+  "site_text": "掌根放在兩乳頭連線中央（胸骨下半段）。",
+  "sources": [
+   "CPR21"
+  ],
+  "authority_note": "",
+  "quiz_ok": true,
+  "not_ok_reason": ""
+ },
+ {
+  "id": "P06",
+  "chapter": "ch4",
+  "topic": "按壓深度",
+  "site_text": "用力壓：深度5至6公分。大部份的人壓不夠深、但壓太深會有傷害。",
+  "sources": [
+   "CPR21"
+  ],
+  "authority_note": "",
+  "quiz_ok": true,
+  "not_ok_reason": ""
+ },
+ {
+  "id": "P07",
+  "chapter": "ch4",
+  "topic": "按壓速率",
+  "site_text": "快快壓：每分鐘100至120下（約一秒鐘2下）。",
+  "sources": [
+   "CPR21"
+  ],
+  "authority_note": "",
+  "quiz_ok": true,
+  "not_ok_reason": ""
+ },
+ {
+  "id": "P08",
+  "chapter": "ch4",
+  "topic": "胸回彈",
+  "site_text": "胸回彈：每次按壓後讓胸部完全回彈。",
+  "sources": [
+   "CPR21"
+  ],
+  "authority_note": "",
+  "quiz_ok": true,
+  "not_ok_reason": ""
+ },
+ {
+  "id": "P09",
+  "chapter": "ch4",
+  "topic": "莫中斷",
+  "site_text": "莫中斷：儘量避免中斷，中斷時間不超過10秒。",
+  "sources": [
+   "CPR21"
+  ],
+  "authority_note": "",
+  "quiz_ok": true,
+  "not_ok_reason": ""
+ },
+ {
+  "id": "P10",
+  "chapter": "ch4",
+  "topic": "AED操作",
+  "site_text": "AED 到達後，打開機器、黏上貼片（衛福部教材「開、貼、插、電」的順序），聽從 AED 語音指示操作，之後立即恢復 CPR。",
+  "sources": [
+   "AEDEDU",
+   "CPR21",
+   "TB123"
+  ],
+  "authority_note": "AEDEDU PDF 第 27–28 頁。",
+  "quiz_ok": true,
+  "not_ok_reason": ""
+ },
+ {
+  "id": "P11",
+  "chapter": "ch4",
+  "topic": "何時停止",
+  "site_text": "持續高品質CPR，直到救護人員抵達，或患者開始有動作或有正常呼吸。",
+  "sources": [
+   "CPR21"
+  ],
+  "authority_note": "",
+  "quiz_ok": true,
+  "not_ok_reason": ""
+ },
+ {
+  "id": "P12",
+  "chapter": "ch4",
+  "topic": "不會人工呼吸",
+  "site_text": "不要因為不會人工呼吸就不救：施救者若不操作人工呼吸，就持續做胸部按壓。",
+  "sources": [
+   "CPR21"
+  ],
+  "authority_note": "",
+  "quiz_ok": true,
+  "not_ok_reason": ""
+ },
+ {
+  "id": "P13",
+  "chapter": "ch4",
+  "topic": "按壓吹氣比",
+  "site_text": "摘要表的比率是按壓與吹氣 30:2，每口氣 1 秒鐘、可見胸部起伏。完整版流程圖註明人工呼吸是「受過訓練、有能力、且有意願給予患者人工呼吸者適用」。",
+  "sources": [
+   "CPR21"
+  ],
+  "authority_note": "",
+  "quiz_ok": true,
+  "not_ok_reason": ""
+ },
+ {
+  "id": "P14",
+  "chapter": "ch4",
+  "topic": "成人先打119",
+  "site_text": "一確認沒有反應就叫，不要等。成人的流程是先打119求援。用手機打119，儘量不要離開病人，開啟擴音，聽從119執勤人員指示。",
+  "sources": [
+   "CPR21"
+  ],
+  "authority_note": "",
+  "quiz_ok": true,
+  "not_ok_reason": ""
+ },
+ {
+  "id": "P15",
+  "chapter": "ch4",
+  "topic": "AED設置與查詢",
+  "site_text": "《緊急醫療救護法》規定中央衛生主管機關公告的公共場所應設置 AED；可在衛福部 AED 急救資訊網查詢。",
+  "sources": [
+   "EMSA141",
+   "AEDNET"
+  ],
+  "authority_note": "",
+  "quiz_ok": true,
+  "not_ok_reason": ""
+ },
+ {
+  "id": "E21",
+  "chapter": "ch1",
+  "topic": "準則適用範圍",
+  "site_text": "《教育部主管各級學校緊急傷病處理準則》適用於教育部主管的各級學校。",
+  "sources": [
+   "SCH2"
+  ],
+  "authority_note": "第2條原文。",
+  "quiz_ok": true,
+  "not_ok_reason": "",
+  "new_0930": true
+ },
+ {
+  "id": "G04",
+  "chapter": "ch4",
+  "topic": "現場環境安全評估",
+  "site_text": "消防署教科書寫「現場環境安全評估是每一趟救護最首要的事項」。",
+  "sources": [
+   "TB192"
+  ],
+  "authority_note": "TB192 原文。",
+  "quiz_ok": true,
+  "not_ok_reason": "",
+  "new_0930": true
+ },
+ {
+  "id": "B09",
+  "chapter": "ch4",
+  "topic": "敷料完全覆蓋傷口",
+  "site_text": "紗布（或乾淨布料）放在出血處，敷料應完全覆蓋住傷口；紗布浸濕時不要拿掉，直接在上面再加紗布、再加壓。",
+  "sources": [
+   "TB261",
+   "TPBLEED"
+  ],
+  "authority_note": "TB261（四）3：敷料應完全覆蓋住傷口；4：若血滲透敷料時，不可拆掉原來的敷料。",
+  "quiz_ok": true,
+  "not_ok_reason": "",
+  "new_0930": true
+ },
+ {
+  "id": "C09",
+  "chapter": "ch4",
+  "topic": "斷肢出血與止血帶",
+  "site_text": "消防署《救護技術員教科書》寫「如發現四肢有斷肢情形，應優先考慮打上止血帶來控制出血」，「就算沒有大量出血，也應優先考量使用止血帶止血」。止血帶的操作列在初級救護技術員訓練課程（科目 4.2）。",
+  "sources": [
+   "TB287",
+   "T1"
+  ],
+  "authority_note": "TB287 原文。",
+  "quiz_ok": true,
+  "not_ok_reason": "",
+  "new_0930": true
+ },
+ {
+  "id": "Y08",
+  "chapter": "ch4",
+  "topic": "不碰觸壓迫眼球",
+  "site_text": "臺大醫院眼科部：眼外傷發生時，「避免碰觸或壓迫眼球」。",
+  "sources": [
+   "NTUHEYE"
+  ],
+  "authority_note": "NTUHEYE 原文。",
+  "quiz_ok": true,
+  "not_ok_reason": "",
+  "new_0930": true
+ },
+ {
+  "id": "Y09",
+  "chapter": "ch4",
+  "topic": "機械性眼傷保護",
+  "site_text": "臺大醫院眼科部：「若是機械性的傷害，尤其懷疑可能是開放型眼球傷害時，最好先以眼蓋或護目鏡保護眼睛，以避免進一步傷害，並儘速就醫」。",
+  "sources": [
+   "NTUHEYE"
+  ],
+  "authority_note": "NTUHEYE 原文。",
+  "quiz_ok": true,
+  "not_ok_reason": "",
+  "new_0930": true
+ },
+ {
+  "id": "P16",
+  "chapter": "ch4",
+  "topic": "AED 分析與電擊時勿碰觸",
+  "site_text": "AED 語音說不要碰觸病人（分析心律）時，暫停按壓；要電擊時口喊「離開」，確定沒有人接觸病人才按電擊鈕。AED 分析心律與電擊時，任何人都不要碰觸病人。",
+  "sources": [
+   "TB123"
+  ],
+  "authority_note": "TB123 第五點 3、4。",
+  "quiz_ok": true,
+  "not_ok_reason": "",
+  "new_0930": true
+ },
+ {
+  "id": "P17",
+  "chapter": "ch4",
+  "topic": "按壓手勢",
+  "site_text": "手勢：掌根放在兩乳頭連線中央（胸骨下半段）；另一手疊在下方手的手背上，十指交扣；下方手的手指往上翹起、只有掌根接觸胸部。",
+  "sources": [
+   "AEDEDU",
+   "TB117",
+   "CPR21"
+  ],
+  "authority_note": "AEDEDU PDF 第 18–19 頁；TB117。",
+  "quiz_ok": true,
+  "not_ok_reason": "",
+  "new_0930": true
+ },
+ {
+  "id": "P18",
+  "chapter": "ch4",
+  "topic": "按壓姿勢",
+  "site_text": "姿勢：兩膝打開與肩同寬，跪在患者身側、儘量靠近；手肘打直，肩膀前傾，位於雙手正上方，用上半身重量垂直往下壓。",
+  "sources": [
+   "AEDEDU",
+   "TB117"
+  ],
+  "authority_note": "AEDEDU PDF 第 17 頁；TB117。",
+  "quiz_ok": true,
+  "not_ok_reason": "",
+  "new_0930": true
+ },
+ {
+  "id": "P19",
+  "chapter": "ch4",
+  "topic": "AED 貼片位置",
+  "site_text": "成人 AED 電擊貼片：拉開衣服，依貼片上的圖示貼在裸露的胸壁上，一片在右鎖骨正下方，一片在左側乳頭側邊。",
+  "sources": [
+   "AEDEDU"
+  ],
+  "authority_note": "AEDEDU PDF 第 28 頁。",
+  "quiz_ok": true,
+  "not_ok_reason": "",
+  "new_0930": true
+ }
+]

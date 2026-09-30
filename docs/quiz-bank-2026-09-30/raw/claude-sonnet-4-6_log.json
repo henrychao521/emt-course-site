@@ -1,0 +1,116 @@
+{
+ "model": "claude-sonnet-4-6",
+ "slots": 46,
+ "rounds": [
+  {
+   "round": 1,
+   "status": "SUCCESS",
+   "secs": 201,
+   "resp_chars": 20350,
+   "usage": {
+    "input_tokens": 3,
+    "cache_creation_input_tokens": 15968,
+    "cache_read_input_tokens": 29048,
+    "output_tokens": 14658,
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 15968,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "",
+    "iterations": [
+     {
+      "input_tokens": 1,
+      "output_tokens": 14409,
+      "cache_read_input_tokens": 22341,
+      "cache_creation_input_tokens": 334,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 334
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard"
+   },
+   "cost_usd": 0.2884734,
+   "model_usage": {
+    "claude-sonnet-4-6": {
+     "inputTokens": 3,
+     "outputTokens": 14658,
+     "cacheReadInputTokens": 29048,
+     "cacheCreationInputTokens": 15968,
+     "webSearchRequests": 0,
+     "costUSD": 0.2884734,
+     "contextWindow": 200000,
+     "maxOutputTokens": 32000
+    }
+   },
+   "ok": false,
+   "n_items": 46,
+   "n_good": 45,
+   "errors": [
+    "第41題（體育課後在走廊，你跪在倒地同學身側準備按…）：answer 必須與某個選項文字完全相同"
+   ]
+  },
+  {
+   "round": 2,
+   "status": "SUCCESS",
+   "secs": 167,
+   "resp_chars": 14837,
+   "usage": {
+    "input_tokens": 5,
+    "cache_creation_input_tokens": 31641,
+    "cache_read_input_tokens": 33092,
+    "output_tokens": 11197,
+    "server_tool_use": {
+     "web_search_requests": 0,
+     "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 31641,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "",
+    "iterations": [
+     {
+      "input_tokens": 1,
+      "output_tokens": 10998,
+      "cache_read_input_tokens": 22205,
+      "cache_creation_input_tokens": 558,
+      "cache_creation": {
+       "ephemeral_5m_input_tokens": 0,
+       "ephemeral_1h_input_tokens": 558
+      },
+      "type": "message"
+     }
+    ],
+    "speed": "standard"
+   },
+   "cost_usd": 0.29655135,
+   "model_usage": {
+    "claude-sonnet-4-6": {
+     "inputTokens": 5,
+     "outputTokens": 11197,
+     "cacheReadInputTokens": 33092,
+     "cacheCreationInputTokens": 31641,
+     "webSearchRequests": 0,
+     "costUSD": 0.29655135,
+     "contextWindow": 200000,
+     "maxOutputTokens": 32000
+    }
+   },
+   "ok": true,
+   "n_items": 46,
+   "n_good": 46,
+   "errors": []
+  }
+ ],
+ "started": "2026-09-30T19:48:03.802317+08:00",
+ "n_final": 46
+}

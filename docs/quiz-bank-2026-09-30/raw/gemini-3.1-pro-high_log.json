@@ -1,0 +1,27 @@
+{
+ "model": "gemini-3.1-pro-high",
+ "slots": 37,
+ "rounds": [
+  {
+   "round": 1,
+   "status": "SUCCESS",
+   "secs": 128,
+   "resp_chars": 14491,
+   "usage": {
+    "input_tokens": 32456,
+    "output_tokens": 16860,
+    "thinking_tokens": 8892,
+    "cache_read_tokens": 0,
+    "total_tokens": 49316
+   },
+   "cost_usd": null,
+   "model_usage": null,
+   "ok": true,
+   "n_items": 37,
+   "n_good": 37,
+   "errors": []
+  }
+ ],
+ "started": "2026-09-30T18:53:44.189020+08:00",
+ "n_final": 37
+}

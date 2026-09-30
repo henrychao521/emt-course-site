@@ -1,0 +1,48 @@
+{
+ "model": "gemini-3.8-flash-high",
+ "slots": 38,
+ "rounds": [
+  {
+   "round": 1,
+   "status": "SUCCESS",
+   "secs": 201,
+   "resp_chars": 18876,
+   "usage": {
+    "input_tokens": 33303,
+    "output_tokens": 47081,
+    "thinking_tokens": 37045,
+    "cache_read_tokens": 0,
+    "total_tokens": 80384
+   },
+   "cost_usd": null,
+   "model_usage": null,
+   "ok": false,
+   "n_items": 38,
+   "n_good": 37,
+   "errors": [
+    "第21題（依據消防署教材說明，關於大面積灼燙傷對人…）：單選／情境題必須正好 4 個選項"
+   ]
+  },
+  {
+   "round": 2,
+   "status": "SUCCESS",
+   "secs": 140,
+   "resp_chars": 17265,
+   "usage": {
+    "input_tokens": 33369,
+    "output_tokens": 23675,
+    "thinking_tokens": 15005,
+    "cache_read_tokens": 0,
+    "total_tokens": 57044
+   },
+   "cost_usd": null,
+   "model_usage": null,
+   "ok": true,
+   "n_items": 38,
+   "n_good": 38,
+   "errors": []
+  }
+ ],
+ "started": "2026-09-30T18:53:44.189009+08:00",
+ "n_final": 38
+}
