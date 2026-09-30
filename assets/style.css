@@ -614,3 +614,6 @@ ol.refs .meta { display: block; color: var(--ink-3); font-size: .8rem; }
 .report-img{display:block;width:100%;max-width:540px;height:auto;border:1px solid var(--rule);margin-top:8px}
 @media print{.report-box{display:none}}
 .report-out a.btn, .report-out a.btn:visited { display: inline-block; color: var(--paper); text-decoration: none; }
+.data-note{font-size:.9rem;margin:0 0 12px;padding:8px 12px;border-left:3px solid var(--rule);color:var(--ink-3)}
+.bank-head .data-flow{color:var(--ink-3)}
+@media print{.data-note{display:none}}
